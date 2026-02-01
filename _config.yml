@@ -1,0 +1,11 @@
+title: arXiv AI Papers
+description: 検索・推薦・マッチング系のAI論文サマリー
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# 日本語対応
+lang: ja
+
+# GitHub Pages
+baseurl: "/arxiv-papers"
+url: ""

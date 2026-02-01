@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-02-02 注目論文：WWW/ICLR/ICASSP採択＆有名機関
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🛒 LRKD-ECom](papers/lrkd-ecom) | **WWW'26**: MPCoT＋LRKDで EC検索を低レイテンシ蒸留、数千万DAU運用 |
+| [🕸️ A2RAG](papers/a2rag-graph) | 適応型GraphRAGでRecall+10pt、コスト50%削減 |
+| [🦎 LEMUR](papers/lemur-multivec) | マルチベクトル検索を1桁高速化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🤝 Human-LLM FE](papers/human-llm-fe) | **ICLR'26**: 人間-LLM協調の特徴量エンジニアリング |
+| [🔄 Self-Improving Pretrain](papers/self-improving-pretrain) | 事前学習時RLで安全性+36%、事実性+18%（Jason Weston） |
+| [📈 Scaling Embeddings](papers/scaling-embeddings) | 埋め込みスケーリングがMoEを上回る条件を分析 |
+| [📊 MADI](papers/madi-timeseries) | 時系列×LLMのマルチモーダル理解 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 Thinking in Frames](papers/thinking-frames) | ビデオ生成でVisual Test-Time Scaling（Cambridge/Belongie） |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [⚖️ OTIS](papers/otis-ood) | **ICLR'26**: 最適輸送でOOD過信を解消 |
+| [🎥 Spava](papers/spava-video) | 長時間ビデオ推論を12.7倍高速化（THUNLP、GitHub公開） |
+| [📝 UEval](papers/ueval-unified) | 統一マルチモーダル生成ベンチマーク、GPT-5-Thinking: 66.4点 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ MAR](papers/mar-efficient-llm) | **ICASSP'26**: SSM+SNN融合で効率的LLM |
+| [🔍 RLVR分析](papers/reasoning-embedding) | 推論モデルは埋め込みを改善しない（Manifold Realignment） |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🏥 MoE-ACT](papers/moe-act-surgical) | 手術ロボットMoE模倣学習、in vivo豚実験成功 |
+| [🔊 Sound-Triggered](papers/sound-triggered-robot) | 音響イベント駆動型モバイル操作、Habitat-Echo |
+
+---
+
 ## 2026-02-02 RAG・推薦の最前線
 
 | 論文 | 一言 |

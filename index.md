@@ -9,6 +9,19 @@ title: Home
 
 ---
 
+## 2026-02-02 RAG・推薦の最前線
+
+| 論文 | 一言 |
+|------|------|
+| [🛒 LRKD](papers/lrkd) | WWW'26: EC検索にLLM推論を低レイテンシ蒸留 |
+| [⚖️ CDFA](papers/cdfa) | WWW'26: CDR推薦の公平性問題を理論分析＆解決 |
+| [🎯 ProRAG](papers/prorag) | ステップレベルRLでRAGのプロセス幻覚を解消 |
+| [🕸️ A2RAG](papers/a2rag) | 適応型GraphRAGでRecall+10pt、コスト半減 |
+| [🤖 JADE](papers/jade) | Agentic RAGの計画・実行を共同最適化 |
+| [🔍 ACQO](papers/acqo) | 複雑クエリのRL最適化で3ベンチマークSOTA |
+
+---
+
 ## 2026-01-30 検索・マッチング特集
 
 | 論文 | 一言 |

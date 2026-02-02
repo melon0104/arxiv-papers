@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-02-03 注目論文：ECIR/EACL/ICASSP採択＆プロダクション事例
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🔮 OrLog](papers/orlog-neuro-symbolic) | **ECIR'26**: ニューロシンボリック検索、OR/ANDクエリでtop精度向上 |
+| [🎯 BEAR](papers/bear-beam-search) | Beam Search認識型LLM推薦、訓練-推論ギャップを解消 |
+| [🏷️ TRM](papers/trm-semantic-tokens) | Semantic TokensでItem ID脱却、**大規模検索にデプロイ済み** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ FOCUS](papers/focus-dllm-inference) | Diffusion LLMのスループット3.5倍、GitHub公開 |
+| [🎨 ReGuLaR](papers/regular-latent-reasoning) | CoTを画像化して潜在推論、マルチモーダルでCoT超え |
+| [🔊 Audio Jailbreak](papers/audio-narrative-attack) | **EACL'26**: 音声ナラティブでGemini 2.0を98%突破 |
+| [🧠 DS-MCM](papers/ds-mcm-deep-search) | 認知神経科学着想のメタ認知でDeep Search改善 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [📐 TEON](papers/teon-llm-optimizer) | Muon超えのテンソル直交化、LLM事前学習を改善 |
+| [🌊 Particle-Guided Diffusion](papers/particle-guided-diffusion) | 物理ガイダンス＋SMCでPDEソルバーがSOTA |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 VideoGPA](papers/videogpa-3d-consistency) | 幾何学ファウンデーション＋DPOでVDM 3D整合性向上 |
+| [📊 TaTa](papers/tata-vision-language) | **ICASSP'26**: ブラウン距離共分散で訓練不要VLM適応 |
+| [🎥 Video-o3](papers/video-o3-long-video) | ネイティブツール呼び出しで長時間ビデオ多段階推論 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🛡️ ThinkSafe](papers/thinksafe-reasoning-safety) | 自己生成で推論モデルの安全性復元、GitHub公開 |
+| [👥 MAPPA](papers/mappa-multiagent) | アクション単位報酬でマルチエージェントをスケール |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🌀 LG-Flow](papers/lg-flow-robotic) | 潜在Flow Matchingで高速＋滑らかなロボット操作 |
+| [🚀 MOSAIC](papers/mosaic-multi-robot) | POIベース抽象化で5台異種ロボット探査、86%自律率 |
+
+---
+
 ## 2026-02-02 注目論文：WWW/ICLR/ICASSP採択＆有名機関
 
 ### 📚 cs.IR（情報検索）

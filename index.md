@@ -9,6 +9,37 @@ title: Home
 
 ---
 
+## 2026-02-04 注目論文：WWW/SIGIR採択＆SWE-bench 93.7%
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 PARSE](papers/parse-sigir2026) | **SIGIR'26**: パーソナライズド適応検索、リアルタイム意図推定 |
+| [🌐 Inferential QA](papers/inferential-qa-www2026) | **WWW'26**: 知識グラフ上のマルチホップ推論QA |
+| [🔬 GRAB](papers/grab-baidu-graph-rag) | **Baidu**: バイオメディカル向けGraph RAG |
+| [🍎 Query AutoComplete](papers/query-autocompletion-apple) | **Apple/Berkeley**: LLMによるクエリ自動補完 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🚀 Kimi K2.5](papers/kimi-k25-moonshot) | **Moonshot AI**: RLスケーリングの新テクニカルレポート |
+| [💻 RPG-Encoder](papers/rpg-encoder-swebench) | **SWE-bench 93.7%** 達成の検索拡張コード生成 |
+| [🔧 RE-TRAC](papers/re-trac-microsoft) | **Microsoft**: 検索拡張によるコード生成訓練 |
+| [🛒 D-CORE](papers/d-core-alibaba) | **Alibaba**: Dense対照学習で検索精度向上 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 World-Gymnast](papers/world-gymnast-rl) | World Modelでアジャイル学習、**SFT比18倍** |
+| [🤖 BTGenBot-2](papers/btgenbot2-gpt5) | Behavior Tree生成で**GPT-5超え** |
+| [🌊 Flow Policy](papers/flow-policy-gradients) | Flow-based連続制御で滑らか動作生成 |
+| [👤 HumanX](papers/humanx-generalization) | ヒューマノイド汎化性能**8倍向上** |
+
+---
+
 ## 2026-02-03 注目論文：ECIR/EACL/ICASSP採択＆プロダクション事例
 
 ### 📚 cs.IR（情報検索）

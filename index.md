@@ -9,6 +9,58 @@ title: Home
 
 ---
 
+## 2026-02-05 注目論文：Google Gemini科学研究＆マルチエージェントスケーリング
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 GRAB-CTR](papers/grab-ctr-baidu) | **Baidu**: LLM着想の生成的CTR予測、CamAアテンション |
+| [🔄 RecID Tokenizer](papers/rethinking-gen-rec-tokenizer) | Semantic IDを推薦ネイティブに再設計 |
+| [🧠 Reasoning GR](papers/reasoning-gen-rec) | 生成型推薦のバイアス増幅問題を解消 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🔬 Gemini Scientific](papers/gemini-scientific-research) | **Google**: Gemini Deep Thinkで科学研究加速事例集 |
+| [🚀 A-RAG](papers/a-rag-hierarchical) | エージェント型RAG、階層的検索インターフェース |
+| [⚡ V0 Value Model](papers/v0-generalist-value-model) | 汎用Value Modelで任意ポリシーに適用 |
+| [🌐 FactNet](papers/factnet-billion-kg) | 17億アサーションの多言語KG、ハルシネーション対策 |
+| [🛡️ Privasis](papers/privasis-synthetic-privacy) | 100万件合成プライバシーデータセット |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🔒 Antidistillation](papers/antidistillation-fingerprint) | LLM蒸留検出フィンガープリント |
+| [📱 MeKi](papers/meki-edge-llm) | エッジLLMのストレージベーススケーリング |
+| [🎨 R1-SyntheticVL](papers/r1-synthetic-mllm) | 敵対的合成データでMLLM強化（CADS） |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 LIVE](papers/live-video-world-model) | 長期インタラクティブビデオWorld Model |
+| [⚡ Fast-Slow VTP](papers/fast-slow-mllm-training) | Visual Token Pruningで訓練効率化 |
+| [🤖 RDT2](papers/rdt2-zero-shot-vla) | 1万時間データで**ゼロショットVLA**、7B |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [📊 Agent Scaling](papers/agent-scaling-mas) | MASスケーリング限界と**多様性の重要性** |
+| [🔧 AOrchestra](papers/aorchestra-subagent) | サブエージェント自動生成オーケストレーション |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🛹 HUSKY](papers/husky-humanoid-skateboard) | ヒューマノイドスケートボード、全身制御 |
+| [🌉 BridgeV2W](papers/bridgev2w-world-model) | ビデオ生成→エンボディドWorld Model変換 |
+
+---
+
 ## 2026-02-04 注目論文：WWW/SIGIR採択＆SWE-bench 93.7%
 
 ### 📚 cs.IR（情報検索）

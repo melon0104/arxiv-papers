@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-02-06 注目論文：WWW'26 2本採択＆ICLR'26＆SWE-bench 71%
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 VK-LSVD](papers/vk-lsvd-www2026) | **WWW'26**: ショート動画推薦、**400億インタラクション**の最大級データセット |
+| [🏪 DOS](papers/dos-meituan-www2026) | **WWW'26/Meituan**: Dual-Flow Semantic ID、**数億ユーザーにデプロイ済** |
+| [🛡️ SDAG](papers/sdag-rag-defense) | RAGのcorpus poisoning攻撃防御、Sparse Attention |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🤐 Abstention](papers/abstention-temporal-qa-iclr2026) | **ICLR'26**: LLMに「答えない」を教える、Qwen1.5BがGPT-4o超え |
+| [👁️ RAL](papers/ral-attention-mllm) | MLLM向けRL、**アテンション分布を直接最適化** |
+| [🧬 STM](papers/stm-biomedical-retrieval) | 生物医学リトリーバー、合成データ＋モデルマージで+23.5% |
+| [📝 SE-Bench](papers/se-bench-thunlp) | **THUNLP**: 自己進化ベンチマーク、Open-Book Paradox発見 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 DPPO](papers/dppo-llm-rl) | PPOのratio clippingがLLMに不適合→Divergence制約で改善 |
+| [🧪 PAR](papers/par-bytedance-protein) | **ByteDance**: マルチスケール自己回帰タンパク質生成 |
+| [⚡ MH-LatentMoE](papers/mhlmoe-head-parallel) | Head Parallelで**1.61倍高速**、O(1)通信コスト |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [📍 CoWTracker](papers/cowtracker-dense-tracking) | Cost volume不要の密点追跡、**TAP-Vid SOTA** |
+| [🎮 PerpetualWonder](papers/perpetualwonder-4d-scene) | 長期4Dシーン生成、初の真のクローズドループ |
+| [🎭 Mask-LLaVA](papers/mask-llava-efficient-vlm) | マルチレベル特徴でVLM効率化、推論時トークン動的調整 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [👥 GEA](papers/gea-group-evolving-agents) | Group進化エージェント、**SWE-bench 71%**達成 |
+| [🌊 Fluid Reasoning](papers/fluid-reasoning-qwq) | QwQ-32Bのメカニズム解析、推論中の表現変化を発見 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤸 PDF-HR](papers/pdf-hr-humanoid-pose) | Pose Distance Fieldsでヒューマノイド姿勢事前知識 |
+| [👓 Vision Exo](papers/vision-gated-exoskeleton) | 視覚ゲート外骨格制御、15名ユーザースタディで有効性実証 |
+
+---
+
 ## 2026-02-05 注目論文：Google Gemini科学研究＆マルチエージェントスケーリング
 
 ### 📚 cs.IR（情報検索）

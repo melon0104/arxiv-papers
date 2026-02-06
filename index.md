@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-02-07 注目論文：ICLR'26複数採択＆Google推薦＆Meta触覚World Model
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🏷️ AgenticTagger](papers/agentictagger-google-llm-rec) | **Google/UCSD**: LLMエージェントによる構造化アイテム表現生成 |
+| [⚡ CSRv2](papers/csrv2-ultrasparse-iclr2026) | **ICLR'26**: 超スパース埋め込み(k=2)でMRL同等性能、**300倍効率** |
+| [🔬 SAGE](papers/sage-deep-research-retrieval) | Deep Researchエージェント向けベンチマーク、**BM25がLLMリトリーバーを30%上回る** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ DFlash](papers/dflash-block-diffusion-decoding) | ブロック拡散で投機的デコーディング、**EAGLE-3比2.5倍高速** |
+| [🧠 BudgetMem](papers/budgetmem-agent-memory) | クエリ認識型エージェントメモリ、**RLルーターで予算-性能最適化** |
+| [🔧 Dr.Kernel](papers/dr-kernel-rl-triton) | **HKUST**: RLでTritonカーネル生成、**Claude-4.5-Sonnet超え** |
+| [🌍 EuroLLM-22B](papers/eurollm-22b-multilingual) | 35言語対応LLM、モデル・データ・コード全て公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🔄 Share LoRA](papers/share-lora-continual-learning) | **JHU (Yuille/Chellappa)**: 継続学習で**100倍パラメータ削減**、281倍メモリ節約 |
+| [🎯 AP-OOD](papers/ap-ood-iclr2026) | **ICLR'26 (Hochreiter)**: テキストOOD検出、FPR95を27%→4.7%に |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🦢 SwimBird](papers/swimbird-hybrid-mllm) | ハイブリッドMLLMで3推論モード切替（テキスト/視覚/混合） |
+| [🎬 Context Forcing](papers/context-forcing-long-video) | **Ming-Hsuan Yang**: 長動画生成で**20秒以上のコンテキスト**、SOTA超え |
+| [🧊 Splat and Distill](papers/splat-distill-iclr2026) | **ICLR'26**: 3D Gaussianで2D VFMに3D認識を注入 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🕸️ DyTopo](papers/dytopo-multiagent-routing) | 動的トポロジーでマルチエージェント推論、**+6.2pt改善** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🖐️ VT-WM](papers/vt-worldmodels-meta) | **Meta AI**: 触覚World Model、ゼロショット実機で**+35%成功率** |
+| [🤖 XHugWBC](papers/xhugwbc-crossembodiment) | 1回訓練で**12種のヒューマノイド**に汎化、7台の実機で検証 |
+
+---
+
 ## 2026-02-06 注目論文：WWW'26 2本採択＆ICLR'26＆SWE-bench 71%
 
 ### 📚 cs.IR（情報検索）

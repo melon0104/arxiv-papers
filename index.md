@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-02-09 注目論文：ICLR'26採択＆ICRA'26採択＆RAG新手法多数
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [📐 Scaling Laws Embedding](papers/scaling-laws-embedding-ir) | 埋め込み次元のスケーリング則発見、**べき乗則**に従う |
+| [🧠 ERM](papers/erm-evolving-retrieval-memory) | RAGの一時的適応を持続的改善に変換、**推論オーバーヘッドなし** |
+| [🔬 Atomic Info Flow](papers/atomic-info-flow-rag) | RAGのツール帰属をネットワークフローでモデル化、**+28pt精度** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 BudgetMem](papers/budgetmem-agent-memory-0209) | エージェントメモリの予算ティアルーティング、**RLポリシー** |
+| [📊 REAL](papers/real-rewards-as-labels) | RLVRを分類問題化、DAPO比**6.7%向上** |
+| [🔗 Structured Context](papers/structured-context-engineering) | 9,649実験でLLMエージェントの文脈構造を分析 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ CSRv2](papers/csrv2-ultrasparse-iclr2026) | **ICLR'26**: 超スパース埋め込み(k=2)、**300倍効率** |
+| [🌊 DFPO](papers/dfpo-distributional-flow-rl) | 分布型Value FlowでPPO超え、ノイズ耐性 |
+| [🔧 HGF](papers/hgf-158bit-llm) | 1.58bit LLMの品質を**55%回復**、12-15%オーバーヘッド |
+| [⚖️ SVC](papers/svc-model-merging) | モデルマージの過剰蓄積問題解決、**+13%改善** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ FlashBlock](papers/flashblock-attention-caching) | ブロック拡散のアテンションキャッシュ、**1.44倍高速** |
+| [🧭 MerNav](papers/mernav-zero-shot-navigation) | Memory-Execute-Reviewで**ZS/TF両立**、SFT超え |
+| [🤖 VISTA](papers/vista-vla-visual-conditioning) | VLAの視覚条件付け強化、データ追加不要 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🕸️ HugRAG](papers/hugrag-hierarchical-causal-kg) | 階層的因果KGでグラフRAG改善、スプリアス抑制 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤝 CommCP](papers/commcp-multiagent-icra2026) | **ICRA'26**: LLM通信＋Conformal Predictionでマルチエージェント協調 |
+| [🎯 DIG](papers/dig-zero-shot-grasping) | 微分可能逆グラフィクスでゼロショット把持 |
+
+---
+
 ## 2026-02-07 注目論文：ICLR'26複数採択＆Google推薦＆Meta触覚World Model
 
 ### 📚 cs.IR（情報検索）

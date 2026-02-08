@@ -1,39 +1,32 @@
----
-layout: paper
-title: "CSRv2: 超スパース埋め込みの実用化"
-date: 2026-02-07
-arxiv_id: "2602.05735"
-categories: [cs.LG, cs.IR, Embeddings]
----
-
 # CSRv2: Unlocking Ultra-Sparse Embeddings
 
-## 基本情報
-- **arXiv**: https://arxiv.org/abs/2602.05735
-- **著者**: Lixuan Guo, Yifei Wang, Tiansheng Wen, **Stefanie Jegelka** (MIT), Chenyu You 他
+- **arXiv**: [2602.05735](https://arxiv.org/abs/2602.05735)
+- **カテゴリ**: cs.LG, cs.AI, cs.IR, cs.IT
 - **採択**: **ICLR 2026**
+- **投稿日**: 2026-02-05
 
 ## 概要
-超スパース埋め込み（k=2〜4の活性ニューロン）を実用レベルに引き上げる訓練手法。密な埋め込みと比較して**最大300倍**の計算・メモリ効率を達成。
 
-## 技術的ポイント
-- **Progressive k-annealing**: スパース性学習の安定化
-- **Supervised contrastive objectives**: 表現品質の向上
-- **Full backbone finetuning**: エンドツーエンドの適応性確保
-- **Dead neuron問題の解決**: 80%→20%に削減
+超スパース埋め込み（k=2、つまり2つのアクティブ特徴のみ）を実用的にするための原理的なトレーニングアプローチ「CSRv2」を提案。
+
+## 主要な貢献
+
+- **Progressive k-annealing**: スパース性学習を段階的に安定化
+- **教師あり対照学習**: 表現品質を向上
+- **フルバックボーンファインチューニング**: エンドツーエンドの適応性を確保
 
 ## 実験結果
-| 設定 | CSRv2改善（vs CSR） |
-|------|---------------------|
-| k=4（テキスト） | +7% |
-| k=2（テキスト） | +14% |
-| k=4（ビジョン） | +4% |
-| k=2（ビジョン） | +6% |
 
-- **MRLと同等の性能**をわずか2活性特徴で達成
-- MRL比で**7倍の高速化**
+- Dead neuronを80%→20%に削減
+- k=2で**14%の精度向上**
+- k=2でCSR k=8やMRL 32次元と同等の性能
+- MRL比**7倍高速**
+- Dense埋め込み比**最大300倍効率改善**（計算・メモリ）
 
-## 注目ポイント
-- **ICLR'26採択**
-- エッジデバイスへのAIデプロイに直結する技術
-- テキスト・ビジョン両方で有効性を実証
+## 実用的意義
+
+エッジデバイスやリアルタイムAIシステムでの超スパース埋め込みの実用化を可能に。
+
+## リンク
+
+- [PDF](https://arxiv.org/pdf/2602.05735)

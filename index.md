@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-02-10 注目論文：ByteDance 15B推薦＆4BがClaude超え＆ImageNet FID 1.52
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🚀 TokenMixer-Large](papers/tokenmixer-large-bytedance-0210) | **ByteDance**: 15Bパラメータ推薦モデル、複数シナリオで**deployed** |
+| [🔄 MuCo](papers/muco-multiturn-contrastive-0210) | **NAVER AI**: マルチターン対比学習で埋め込み効率化、**GitHub公開** |
+| [🍜 Meituan Multimodal](papers/meituan-multimodal-retrieval-0210) | **Meituan**: フードデリバリー検索、オンラインA/Bで**+1.12%収益** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🎙️ PersonaPlex](papers/personaplex-nvidia-duplex-0210) | **NVIDIA**: フルデュプレックス音声でロール＆ボイス制御 |
+| [🧪 CauGym](papers/caugym-causal-reasoning-0210) | 因果推論で**o3を38pt上回る**（93.5% vs 55.4%）、**GitHub公開** |
+| [🏥 Baichuan-M3](papers/baichuan-m3-medical-llm-0210) | 医療LLMで**GPT-5.2超え**、**HuggingFace公開** |
+| [⚡ SHINE](papers/shine-hypernetwork-lora-0210) | 1パスでLoRA生成、SFT不要でパラメータ更新、**GitHub公開** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [📊 μA (LoRA LR Scaling)](papers/lora-lr-scaling-mua-0210) | LoRAランクと学習率のスケーリング則、**Full FT転移**可能 |
+| [⚡ 2:4 Sparsity](papers/24-sparsity-meta-0210) | **Meta**: ハードウェア加速スパース性で**1.4-1.7倍**高速化 |
+| [🔬 Condensate Theorem](papers/condensate-theorem-on-attention-0210) | TransformerはO(n)と証明、131Kトークンで**159倍高速** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🚗 Driving with DINO](papers/driving-with-dino-sim2real-0210) | DINOv3でSim2Real、一貫性とリアリズムを両立 |
+| [🎨 FlowConsist](papers/flowconsist-sota-imagenet-0210) | ImageNet 256×256で**FID 1.52**（1ステップSOTA） |
+| [🤖 M3](papers/m3-multiagent-t2i-0210) | マルチエージェントT2Iで**Imagen4/Seedream超え** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🔍 AgentCPM-Explore](papers/agentcpm-explore-4b-gaia-0210) | **清華大学**: 4BモデルがGAIA 97%、**Claude-4.5-Sonnet超え** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🚶 HiWET](papers/hiwet-humanoid-locomanip-0210) | 世界座標系でヒューマノイド操作、**Sim2Real転移**実証 |
+| [🌍 DreamDojo](papers/dreamdojo-world-model-44k-0210) | **NVIDIA/Berkeley**: 44K時間動画から汎用ロボットWorld Model |
+
+---
+
 ## 2026-02-09 注目論文：ICLR'26採択＆ICRA'26採択＆RAG新手法多数
 
 ### 📚 cs.IR（情報検索）

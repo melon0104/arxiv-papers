@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-02-11 注目論文：Meta推薦Scaling Law＆ICLR'26 VLA＆NVIDIA 3Dシーン生成
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🚀 Kunlun](papers/kunlun-meta-scaling-recsys-0211) | **Meta**: 推薦システムのスケーリング則、MFU 17%→37%、**deployed** |
+| [🔍 QP-OneModel](papers/qp-onemodel-xiaohongshu-0211) | **Xiaohongshu**: 統一LLMでクエリ理解、リテンション+0.044%、**deployed** |
+| [💎 Sparse Embeddings](papers/sparse-embeddings-www2026-0211) | **WWW 2026**: スパース埋め込みで**100倍圧縮**、精度損失2.5%、**GitHub公開** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🌍 Agent World Model](papers/agent-world-model-snowflake-0211) | **Snowflake**: 合成環境1,000生成、OOD汎化実証、**GitHub公開** |
+| [⚡ ATTNPO](papers/attnpo-baidu-reasoning-0211) | **Baidu**: アテンション信号で推論効率化、overthinking解消 |
+| [🔗 DRIFT](papers/drift-dual-model-longcontext-0211) | 知識と推論を分離、長文脈で同サイズモデル最高性能、**GitHub公開** |
+| [✏️ Steer2Edit](papers/steer2edit-weight-editing-0211) | 訓練なし重み編集、安全性+17.2%、真実性+9.8%向上 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 RLFR](papers/rlfr-features-as-rewards-0211) | 解釈可能性特徴を報酬に、幻覚**58%削減**しつつ性能維持 |
+| [🐱 WildCat](papers/wildcat-near-linear-attention-0211) | **Microsoft**: 準線形アテンション、理論保証付きO(n^(1+o(1))) |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🏗️ SAGE](papers/sage-nvidia-3d-scene-gen-0211) | **NVIDIA**: エージェント型3Dシーン生成、SAGE-10kデータセット公開 |
+| [🎬 VideoWorld 2](papers/videoworld2-realworld-video-0211) | 実世界動画から転移学習、成功率**最大70%向上**、**GitHub公開** |
+| [📱 Code2World](papers/code2world-gui-worldmodel-0211) | **AMAP**: GUI World Model、AndroidWorldでGemini-2.5-Flash+9.5%、**GitHub公開** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🧠 Chain of Mindset](papers/chain-of-mindset-reasoning-0211) | 4認知モードを適応切替、Qwen3-VL-32Bで+4.96%、**GitHub公開** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 ST4VLA](papers/st4vla-iclr2026-spatial-vla-0211) | **ICLR 2026**: 空間誘導VLA、Google Robot 66.1→**84.6**、新SOTA |
+| [🔮 VLA-JEPA](papers/vla-jepa-latent-worldmodel-0211) | JEPAスタイルVLA、汎化とロバスト性を両立 |
+
+---
+
 ## 2026-02-10 注目論文：ByteDance 15B推薦＆4BがClaude超え＆ImageNet FID 1.52
 
 ### 📚 cs.IR（情報検索）

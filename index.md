@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-02-12 注目論文：Taobao CTR Scaling＆ECIR'26 LLMバイアス＆AAAI'26 コールドスタート
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 EST (Taobao)](papers/est-taobao-ctr-scaling-0212) | **Alibaba**: CTRスケーリング則、RPM+3.27%、CTR+1.22%、**deployed** |
+| [🔍 Source Bias](papers/dense-retrieval-llm-bias-0212) | **ECIR 2026**: Dense RetrieverのLLMバイアスは訓練誘発、MS MARCOで発生 |
+| [💎 S-GRec](papers/sgrec-semantic-generative-rec-0212) | LLM意味Judge＋A2PO最適化、GMV+1.19%、リアルタイム推論なし、**deployed** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🎙️ Hibiki-Zero](papers/hibiki-zero-s2s-translation-0212) | アラインメント不要S2S翻訳、GRPO強化学習、5言語SOTA、**GitHub公開** |
+| [🍳 DataChef](papers/datachef-llm-data-recipe-0212) | データレシピ自動生成、AIME'25で66.7（Qwen3-1.7B超え） |
+| [🔎 SoftMatcha 2](papers/softmatcha2-trillion-search-0212) | 1兆トークン0.3秒検索、ベンチマーク汚染検出、**GitHub・デモ公開** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [📊 pplx-embed](papers/pplx-embed-diffusion-0212) | **Perplexity AI**: Diffusion事前訓練埋め込み、ConTEB**新記録** |
+| [❄️ MoToRec](papers/motorec-coldstart-aaai2026-0212) | **AAAI 2026**: スパースRQ-VAEでコールドスタート解決、3データセットSOTA |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎨 DiNa-LRM](papers/dina-lrm-diffusion-reward-0212) | Diffusionネイティブ報酬モデル、VLMの数分の1コストで同等性能、**GitHub公開** |
+| [🏗️ LaSSM](papers/lassm-3d-instance-seg-0212) | **IEEE-TCSVT**: SSMで3Dセグメント、ScanNet++ V2**1位**、1/3 FLOPs、**GitHub公開** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [⚖️ FormalJudge](papers/formaljudge-neuro-symbolic-0212) | LLM-as-Judgeに形式検証、7Bが72B欺瞞を90%超検出、Dafny+Z3 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 YOR](papers/yor-mobile-manipulator-0212) | **Soumith Chintala (Meta)**: $10K未満モバイルマニピュレータ、オープンソース |
+| [🎯 NF-HIQL](papers/nf-hiql-icra2026-0212) | **ICRA 2026**: Normalizing Flow階層RL、データ効率・汎化両立 |
+
+---
+
 ## 2026-02-11 注目論文：Meta推薦Scaling Law＆ICLR'26 VLA＆NVIDIA 3Dシーン生成
 
 ### 📚 cs.IR（情報検索）

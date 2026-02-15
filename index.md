@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-02-16 注目論文：LASER小紅書1億DAU運用＆LDA-1B北大×NVIDIAロボット基盤モデル＆ICLR2026教育的蒸留
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🏭 LASER (Xiaohongshu)](papers/2026-02-15/laser-xiaohongshu) | **小紅書(RedNote)**: 長系列推薦、1億DAUデプロイ、ADVV+2.36%、収益+2.08% |
+| [🏆 EpicCBR (WSDM 2026)](papers/2026-02-15/epiccbr-wsdm) | **WSDM 2026採択**: コールドスタートバンドル推薦、最大387%改善 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🏢 OPCD (Microsoft)](papers/2026-02-15/opcd-microsoft) | On-Policyコンテキスト蒸留、プロンプト内在化、クロスサイズ蒸留 |
+| [🏆 IOA (ICLR 2026)](papers/2026-02-15/ioa-iclr) | **ICLR 2026採択**: 教育原理でLLM蒸留、教師性能の94.7%達成（1/10パラメータ） |
+| [⚡ dVoting](papers/2026-02-15/dvoting-dllm) | Diffusion LLM高速投票、GSM8K +7.66%、**GitHub公開** |
+| [📐 T3D](papers/2026-02-15/t3d-dllm) | 少ステップDiffusion LLM、軌跡自己蒸留、**GitHub公開** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🏫 Olmix (Stanford/AI2)](papers/2026-02-15/olmix-stanford) | LMデータ混合フレームワーク、74%計算削減で同等性能、下流+11.6% |
+| [🧮 Categorical Flow Maps](papers/2026-02-15/categorical-flow-maps) | **Welling & Bronstein**: 少ステップ離散生成、画像/分子/テキストSOTA |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 MonarchRT (CMU)](papers/2026-02-15/monarchrt-video) | **史上初**: RTX 5090で16FPSリアルタイム動画生成、95%スパース化 |
+| [🧠 UniT (Meta/Stanford)](papers/2026-02-15/unit-meta) | マルチモーダルCoTテストタイムスケーリング、短軌跡→長推論汎化 |
+| [🏆 AssetFormer (ICLR 2026)](papers/2026-02-15/assetformer-iclr) | **ICLR 2026採択**: モジュラー3D生成、UGC向け、**GitHub公開** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🛠️ CM2](papers/2026-02-15/cm2-tool-agent) | チェックリスト報酬でツールエージェントRL、τ-Bench +8pt、**GitHub公開** |
+| [⚡ CATTS (Berkeley)](papers/2026-02-15/catts-berkeley) | Webエージェントテストタイムスケーリング、2.3倍トークン削減 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [✅ CoVer (Stanford)](papers/2026-02-15/cover-stanford) | **Finn & Pavone**: VLA検証、実世界+45%、テストタイムスケーリング |
+| [🏫 LDA-1B (PKU/NVIDIA)](papers/2026-02-15/lda-1b-pku) | **北大×NVIDIA**: 1Bロボット基盤モデル、30k時間データ、π₀.₅比+48% |
+
+---
+
 ## 2026-02-15 注目論文：Bilibili推薦本番運用＆MonarchRTリアルタイム動画生成＆VLA検証テストタイムスケーリング
 
 ### 📚 cs.IR（情報検索）

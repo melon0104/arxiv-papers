@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-02-18 注目論文：ByteDance抖音MixFormer本番＆MIT PhyScensis ICLR2026＆Google BPP実世界+70%
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🏭 MixFormer (ByteDance)](papers/2026-02-17/mixformer-bytedance) | **抖音/Douyin Lite**: Transformer統合アーキ、Dense+Sequence Co-Scaling、**本番A/Bテスト実施** |
+| [⚡ IDC Chunking](papers/2026-02-17/idc-chunking) | Intent駆動動的チャンキング、RAG検索精度5-67%向上、チャンク数40-60%削減、**GitHub公開** |
+| [🏢 DeepMTL2R (Amazon)](papers/2026-02-17/deepmtl2r-amazon) | **Amazon Science**: MTLランキングライブラリ、21種SOTAアルゴリズム、**GitHub公開** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🔬 BFS-PO](papers/2026-02-17/bfs-po-lrm) | LRM Overthinking解消、Best-First Search RL、**精度向上+回答短縮の両立** |
+| [📊 Scaling Diffusion LLM](papers/2026-02-17/scaling-diffusion-llm) | 離散拡散LMの初スケーリング則、Masked diffusion神話を覆す、GSM8Kで自己回帰超え、**GitHub公開** |
+| [🧠 Pep Cold-Start (Microsoft)](papers/2026-02-17/pep-cold-start) | **Microsoft Research**: Training-free嗜好推論、80.8%アライメント（RL 68.5%）、3-5倍少ない対話 |
+| [📈 LLM4TSF](papers/2026-02-17/llm4tsf) | 「LLMは時系列に効かない」を覆す80億観測実証、クロスドメイン汎化で大効果、**GitHub公開** |
+| [🔓 Overthinking MCP Attack](papers/2026-02-17/overthinking-mcp) | エージェントセキュリティ脆弱性、悪意あるMCPツールで最大142倍トークン増幅 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 Canonical Diffusion (MIT)](papers/2026-02-17/canonical-diffusion) | **Tommi Jaakkola**: 分子生成で正準化アプローチ、GEOM-DRUGでSOTA |
+| [📐 Discrete Diffusion Theory](papers/2026-02-17/discrete-diffusion-theory) | 離散拡散サンプリングのシャープな理論保証、低次元構造への適応的収束 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 EditCtrl](papers/2026-02-17/editctrl-video) | ビデオ編集10倍高速化、Local+Global制御分離、マルチリージョン編集 |
+| [🔮 Sphere Encoder (Maryland)](papers/2026-02-17/sphere-encoder) | **Tom Goldstein**: シングルパス画像生成、5ステップ未満で拡散モデル品質 |
+| [🏢 CAPA (NVIDIA)](papers/2026-02-17/capa-nvidia) | **NVIDIA**: テストタイム適応で深度補完、LoRA/VPTで3D基盤モデル活用 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 PhyScensis (MIT, ICLR 2026)](papers/2026-02-17/physcensis-iclr) | **ICLR 2026採択**: LLMエージェント×物理エンジン、複雑シーン自動配置 |
+| [🏆 MAC-AMP (ICLR 2026)](papers/2026-02-17/mac-amp-iclr) | **ICLR 2026採択**: マルチエージェント抗菌ペプチド設計、閉ループ最適化 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 BPP (Google/CMU)](papers/2026-02-17/bpp-google-imitation) | **Google DeepMind**: VLMキーフレーム選択、実世界で**成功率+70%** |
+| [🤖 DM0 VLA](papers/2026-02-17/dm0-vla) | Embodied-Native VLAフレームワーク、RoboChallengeでSOTA、**GitHub公開** |
+
+---
+
 ## 2026-02-17 注目論文：Kuaishou休眠ユーザー活性化+7.3%＆LinkedIn Feed-SR本番＆Berkeley VLA階層制御
 
 ### 📚 cs.IR（情報検索）

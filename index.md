@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-02-19 注目論文：清華GLM-5 Agentic Engineering＆Berkeley Humanoid Parkour＆ICLR2026リテンション最適化
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🔄 RSIR](papers/2602.15659-rsir) | 自己改善推薦フレームワーク、外部データ不要で累積改善、**GitHub公開** |
+| [🎬 Funny Scene Extraction (AAAI 2026)](papers/2602.15381-funny-scene-extraction) | **AAAI 2026採択**: 映画からユーモアシーン自動抽出、AP +18.3%、87%精度 |
+| [📄 IDC Chunking](papers/2602.14784-intent-driven-chunking) | Intent駆動動的チャンキング、Top-1検索5-67%向上、**GitHub公開** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🚀 GLM-5 (清華)](papers/2602.15763-glm5) | **清華大学**: Agentic Engineering、非同期RLインフラ、実世界コーディングSOTA、**GitHub公開** |
+| [⚡ STAPO](papers/2602.15620-stapo) | LLM RL安定化、Spurious Tokens（0.01%）を特定しマスク、GRPO比+7.13% |
+| [📊 SquRL Text-to-SQL](papers/2602.15564-dynamic-text2sql) | 動的ワークフロー構築RL、静的手法を一貫して上回る、**GitHub公開** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🏃 Humanoid Parkour (Berkeley)](papers/2602.15827-humanoid-parkour) | **Pieter Abbeel, C. Karen Liu**: Motion matchingでパルクール、1.25m障害物登攀、Unitree G1実機 |
+| [🏆 MRet Retention (ICLR 2026)](papers/2602.15752-retention-matching) | **ICLR 2026採択**: マッチングでリテンション最大化、従来のマッチ数/公平性最適化を超越 |
+| [🏆 FGE Reachability (MIT, ICLR 2026)](papers/2602.15817-fge-reachability) | **MIT Chuchu Fan, ICLR 2026**: 安全RL、実行可能性未知でもロバスト、カバレッジ+50% |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 R3 Multimodal (Microsoft, ICLR 2026)](papers/2602.15772-r3-multimodal) | **Microsoft Han Hu, ICLR 2026**: 理解vs生成のジレンマ解消、Reason-Reflect-Refine、**GitHub公開** |
+| [🎨 LoRWeB (NVIDIA)](papers/2602.15727-lorweb) | **NVIDIA Rinon Gal**: LoRA基底で視覚アナロジー、推論時動的合成、汎化大幅向上 |
+| [✏️ VideoSketcher (MIT)](papers/2602.15819-videosketcher) | **MIT Torralba**: Video diffusionで順次スケッチ生成、7つの手描きスケッチから学習 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🧠 RCE Reasoning](papers/2602.15725-rce-reasoning) | 推論中に表現幾何学を動的変更、ARC-AGI-2で12-18pt向上、GPQA/BBHで8-14pt向上 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 Dex4D (CMU)](papers/2602.15828-dex4d) | **CMU Fragkiadaki/Tulsiani**: タスク非依存巧緻操作、Sim-to-Realゼロショット転移 |
+
+---
+
 ## 2026-02-18 注目論文：ByteDance抖音MixFormer本番＆MIT PhyScensis ICLR2026＆Google BPP実世界+70%
 
 ### 📚 cs.IR（情報検索）

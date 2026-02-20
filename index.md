@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-02-21 注目論文：ICLR2026複数採択＆GUI-Owl-1.5（Alibaba）20+ベンチマークSOTA＆Eコマース検索本番A/Bテスト
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🧬 RankEvolve](papers/2602.16932) | AlphaEvolve手法で検索アルゴリズム自動発見、BM25を超える進化的探索、BEIR/BRIGHT評価 |
+| [🌐 WebFAQ 2.0](papers/2602.17327) | **1.98億QAペア、108言語**、ハードネガティブ公開、**GitHub/HuggingFace公開** |
+| [🛒 Mine and Refine](papers/2602.17654) | Eコマース検索の段階的関連性最適化、**本番A/Bテスト**で有意なビジネスインパクト |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [⚖️ References for Alignment (ICLR 2026)](papers/2602.16802) | **ICLR 2026採択**: 非検証可能ドメインへのRL拡張、参照ガイド型自己改善 |
+| [👤 Persona2Web](papers/2602.17003) | **初のパーソナライズWebエージェントベンチマーク**、ユーザー履歴から曖昧性解決、GitHub公開 |
+| [🔥 Arcee Trinity Large](papers/2602.17004) | **400B MoE、17兆トークン学習**、SMEBU新手法、ロススパイクなし、HuggingFace公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🔐 Sign Lock-In](papers/2602.17063) | サブビット圧縮の理論的基盤、符号ビットボトルネックを形式化、実用的正則化手法 |
+| [⚔️ M-Attack-V2](papers/2602.17645) | **GPT-5で100%、Claude-4.0で30%**成功率、フロンティアLVLM攻撃、GitHub公開 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [📡 Multimodal Gaussian Splatting](papers/2602.17124) | **RF+ビジョン融合**3DGS、悪天候・遮蔽に強い自動運転向け |
+| [🔍 SpectralGCD (ICLR 2026)](papers/2602.17395) | **ICLR 2026採択**: 効率的マルチモーダルGCD、計算コスト大幅削減、GitHub公開 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [📱 GUI-Owl-1.5 (Alibaba)](papers/2602.16855) | **Alibaba**: 2B-235Bモデル群、**20+ベンチマークSOTA**、OSWorld 56.5、GitHub公開 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 MALLVi](papers/2602.16898) | マルチエージェントLLM+VLMでクローズドループ制御、ゼロショット汎化、GitHub公開 |
+| [🚗 Deep-Flow](papers/2602.17586) | **Waymoデータセット**でL4 AV異常検出、フローマッチングで安全性検証 |
+
+---
+
 ## 2026-02-20 注目論文：WWW'26 Retrieval Collapse＆ICLR2026多数採択＆EgoScale人間→ロボットスケーリング則
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-02-22 注目論文：ULTRA-HSTU数十億ユーザー本番＆Taobao LTV Billion-Scale＆ICLR2026 ODESteer＆MIT Berkeley CV
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🛒 Mine and Refine](papers/2026-02-21-mine-and-refine) | Eコマース検索の段階的関連性最適化、**本番A/Bテストで有意な改善** |
+| [🚀 ULTRA-HSTU](papers/2026-02-21-ultra-hstu) | **数十億ユーザー本番デプロイ**、推薦Scaling Law、学習5倍・推論21倍高速 |
+| [📺 Taobao LTV](papers/2026-02-21-taobao-ltv) | **Alibaba**: Billion-scale動画ランキング、Long-term Value予測、4-8%改善 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [✂️ Sink-Aware Pruning](papers/2026-02-21-sink-aware-pruning) | Diffusion LMのpruning、再学習不要、**GitHub公開** |
+| [🚀 KLong](papers/2026-02-21-klong) | 極長ホライズンエージェント、**Kimi K2 Thinking (1T)を11%上回る** |
+| [⚖️ ODESteer (ICLR 2026)](papers/2026-02-21-odesteer) | **ICLR 2026**: ODE理論でLLM Alignment、TruthfulQA +5.7% |
+| [👥 Web Agent Intervention (CMU)](papers/2026-02-21-web-agent-intervention) | **CMU Neubig**: 人間介入モデル化、有用性26.5%向上 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [💧 Anytime Watermarking (Berkeley)](papers/2026-02-21-anytime-watermarking) | **Michael I. Jordan**: E-value-based検出、トークン13-15%削減 |
+| [⏰ Reverso (MIT)](papers/2026-02-21-reverso) | **Yoon Kim**: 100倍小さいTS Foundation Model、zero-shot SOTA |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 VLA Counterfactual](papers/2026-02-21-vla-counterfactual) | 初のVLA反事実ベンチマーク、実世界17.2%改善、**Website公開** |
+| [👁️ Human-level 3D (Berkeley)](papers/2026-02-21-human-3d-perception) | **Jitendra Malik**: Multi-view学習で人間レベル3D知覚達成 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🎮 AI Gamestore (MIT/Stanford)](papers/2026-02-21-ai-gamestore) | **Tenenbaum, Griffiths, Isola**: Human Gamesで汎用知能評価 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 GNN-MPC (Stanford)](papers/2026-02-21-gnn-mpc) | **Marco Pavone**: 1000ノード100Hz制御、実ソフトロボット検証 |
+| [🚗 Deep-Flow](papers/2026-02-21-deep-flow-av) | Waymoデータ、L4自動運転異常検出、安全性検証基盤 |
+
+---
+
 ## 2026-02-21 注目論文：ICLR2026複数採択＆GUI-Owl-1.5（Alibaba）20+ベンチマークSOTA＆Eコマース検索本番A/Bテスト
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-02-23 注目論文：IEEE TKDE採択＆LREC2026複数採択＆Agentic Search新データセット＆Bloom Filter発見
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🔍 Agentic Search (ASQ)](papers/2602.17518) | エージェント検索行動の初体系的データセット、HotpotQA/MS MARCO対応 |
+| [📊 Missing Modalities (IEEE TKDE)](papers/2602.17354) | **IEEE TKDE採択**: マルチモーダル推薦の欠損補完、訓練不要グラフベース手法 |
+| [🎯 ILRec](papers/2602.17410) | LLM推薦の中間層ハードネガティブ、選好学習を大幅改善 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🤝 Web Agent Intervention](papers/2602.17588) | 人間介入4パターン特定、有用性**26.5%向上**、400軌跡データセット |
+| [🏥 Small Medical LLMs (LREC 2026)](papers/2602.17475) | **LREC 2026採択**: 1.7Bが32Bを+9.2pt上回る、イタリア語医療データ公開 |
+| [🛡️ Learning to Stay Safe](papers/2602.17546) | ファインチューニング時のLLM安全性維持、適応的正則化フレームワーク |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [⚖️ MARS Reward Modeling](papers/2602.17658) | RLHF向けマージン認識報酬モデリング、理論的保証付きデータ拡張 |
+| [🔮 Bloom Filters in Attention](papers/2602.17526) | Transformerヘッドがメンバーシップテスト機能、**R²=1.0**で理論曲線一致、**GitHub公開** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🌍 OpenEarthAgent](papers/2602.17665) | 地理空間エージェント統合FW、14K訓練インスタンス、NDVI/NBR分析対応 |
+| [🔄 IntRec](papers/2602.17639) | 意図ベースインタラクティブ検索、LVIS +2.3AP、フィードバック1回で+7.9AP |
+| [👁️ Human-level 3D](papers/2602.17650) | Multi-view学習で人間レベル3D知覚、ゼロショット達成、コード公開 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🧮 AutoNumerics](papers/2602.17607) | 自然言語からPDEソルバー自動生成、マルチエージェントパイプライン |
+| [📜 CLEF HIPE-2026 (ECIR)](papers/2602.17663) | **ECIR 2026 Lab**: 歴史テキストから人物-場所関係抽出、登録締切4/23 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 GNN-MPC](papers/2602.17601) | 1000ノード100Hz制御、ソフトロボットでsub-cm精度、**ベースライン+63.6%** |
+| [🚗 Deep-Flow](papers/2602.17586) | L4自動運転異常検出、Waymoデータ、AUC-ROC 0.766達成 |
+
+---
+
 ## 2026-02-22 注目論文：ULTRA-HSTU数十億ユーザー本番＆Taobao LTV Billion-Scale＆ICLR2026 ODESteer＆MIT Berkeley CV
 
 ### 📚 cs.IR（情報検索）

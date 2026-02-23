@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-02-24 注目論文：ICLR2026複数採択＆EACL/ECIR/AAAI2026採択＆動画検索本番デプロイ＆ベイズ最適ICL理論
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 WeWrite](papers/2602.17667) | 動画検索クエリリライティング、**大規模プラットフォーム本番A/Bテスト**、VV+1.07% |
+| [📄 IRPAPERS](papers/2602.17687) | 科学論文の画像/テキスト検索ベンチマーク、マルチモーダル検索がSOTA、**コード公開** |
+| [⚙️ SuiteEval](papers/2602.18107) | **ECIR 2026 Demo採択**: IR評価統一フレームワーク、BEIR/MS MARCO等対応 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🧠 Neural Synchrony](papers/2602.17815) | **ICLR 2026採択**: LLM間の神経同期、社会的パフォーマンスと強相関を発見 |
+| [🔍 ELIA](papers/2602.18262) | **EACL 2026 Demo**: LLM内部分析を一般ユーザー向けに簡略化、**GitHub公開** |
+| [⚖️ Vichara](papers/2602.18346) | **AAAI 2026 (AI & Law)**: インド司法向け控訴審予測、GPT-4oでF1=81.5 |
+| [🔄 RVR](papers/2602.18425) | Retrieve-Verify-Retrieve、マルチアンサー検索でagentic search超え、+10%相対改善 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [📐 Bayesian ICL](papers/2602.17744) | **理論研究**: Selective SSMがベイズ最適予測器を実装、勾配降下からの統計的分離を証明 |
+| [🏭 NIMMGen](papers/2602.18008) | LLMでメカニスティックデジタルツイン自動構築、3科学ドメインで検証 |
+| [🔬 ADAPT](papers/2602.17867) | LLM特徴可視化、Gemma 2 SAE潜在表現で評価、**CNN手法のLLM拡張** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [✋ CLUTCH](papers/2602.17770) | **ICLR 2026採択**: テキスト→手モーション生成、32K 3Dシーケンスデータセット公開 |
+| [👁️ VLM Fine-Grained](papers/2602.17871) | VLMの細粒度知識能力分析、Vision Encoderが鍵、事前学習でLLM解凍が重要 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [⚠️ Epistemic Traps](papers/2602.17676) | AI安全性理論、Sycophancy/Hallucinationをモデル誤特定から説明、6モデルで検証 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤝 Nested Training](papers/2602.17737) | I-POMDPで人間-AIチーム相互適応、Overcookedで汎化性能実証 |
+| [🚲 HJ-RL Cyclist](papers/2602.18097) | **CMU**: Hamilton-Jacobi到達可能性+RL、自転車乗りとの安全相互作用 |
+
+---
+
 ## 2026-02-23 注目論文：IEEE TKDE採択＆LREC2026複数採択＆Agentic Search新データセット＆Bloom Filter発見
 
 ### 📚 cs.IR（情報検索）

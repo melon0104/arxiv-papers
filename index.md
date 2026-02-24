@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-02-25 注目論文：CVPR2026複数採択＆ICLR/AAAI/EACL2026採択＆WWW2026推薦＆MIT/CMU/Penn著名研究者
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [⚖️ FairFS](papers/2602.20001) | **WWW 2026採択**: 推薦システムの深層特徴量選択バイアス解決、Huawei |
+| [🎯 ManCAR](papers/2602.20093) | Sequential推薦の多段階潜在推論、**NDCG@10で46.88%改善**、GitHub公開 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [📚 NanoKnow](papers/2602.20122) | LLMが何を知っているか解明するベンチマーク、**Jimmy Lin (Waterloo)**、GitHub公開 |
+| [🔍 ReAttn](papers/2602.19969) | **EACL 2026採択**: attention-based re-rankingの改善、Jian-Yun Nie |
+| [🧠 RAG Internal](papers/2602.20091) | RAGにおける検索コンテキストの内部表現への影響分析、Sharon Li |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [📐 Behavior Learning](papers/2602.20152) | **ICLR 2026採択**: 行動科学発想の解釈可能ML、階層最適化構造学習、GitHub公開 |
+| [🛡️ BarrierSteer](papers/2602.20102) | **MIT Daniela Rus**: 制御バリア関数でLLM安全性を推論時に強制 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🔄 tttLRM](papers/2602.20160) | **CVPR 2026採択**: Test-Time Trainingで長コンテキスト3D再構築 |
+| [🌊 Flow3r](papers/2602.20157) | **CVPR 2026採択**: ファクタライズドフロー予測、**CMU Tulsiani**、800K動画訓練 |
+| [🖼️ StructXLIP](papers/2602.20089) | **CVPR 2026採択**: エッジベースvision-languageアライメント、GitHub公開 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🤝 Human-AI Ensemble](papers/2602.20104) | **AAAI 2026採択**: 適応的人間-AI協働、**Ming Yin (Purdue)**、補完/アライメント切替 |
+| [🔬 ReSyn](papers/2602.20117) | 推論環境自動生成でRLVRスケーリング、**BBEHで27%改善** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 NovaPlan](papers/2602.20119) | ゼロショット長期視野操作、**CMU Kitani & Brown Konidaris**、閉ループVLM計画 |
+| [🛡️ CORE](papers/2602.19983) | オープンワールド安全推論、**UPenn Vijay Kumar & Pappas**、VLM+CBF統合 |
+
+---
+
 ## 2026-02-24 注目論文：ICLR2026複数採択＆EACL/ECIR/AAAI2026採択＆動画検索本番デプロイ＆ベイズ最適ICL理論
 
 ### 📚 cs.IR（情報検索）

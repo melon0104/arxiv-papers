@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-02-26 注目論文：ICLR2026/NeurIPS2025 Spotlight/CVPR2026採択＆Microsoft/RMIT＆効率的推論・RAG・VLM解釈
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🔬 DEEPSYNTH](papers/2602.21143) | **ICLR 2026採択**: 深層情報統合ベンチマーク、120タスク・7ドメイン・67カ国 |
+| [🗣️ MIMIC](papers/2602.20517) | **NeurIPS 2025 Spotlight**: 内的言語で行動をガイド、Human-AI協調 |
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 R2RAG](papers/2602.20735) | **NeurIPS 2025 MMU-RAG優勝**: 動的検索戦略適応RAG、RMIT |
+| [📦 Multi-Vector Compression](papers/2602.21202) | マルチモーダル検索インデックス圧縮、Attention-Guided Clustering、GitHub公開 |
+| [🎯 PRECTR-V2](papers/2602.20676) | 検索関連性・CTR統合フレームワーク、コールドスタート対応、LLM蒸留 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🔒 PI Parroting](papers/2602.20580) | **EACL 2026採択**: LLMの個人情報記憶リスク定量化、Pythia全スケール分析 |
+| [⚡ Efficient Reasoning](papers/2602.20945) | 0.2M GPU時間の大規模研究、CoT効率化ガイドライン、Qwen3シリーズ検証 |
+| [🎰 QueryBandits](papers/2602.20332) | Contextual banditでハルシネーション緩和、クローズドソースLLM対応 |
+| [📝 SibylSense](papers/2602.20751) | **Microsoft Research**: 適応的ルーブリック学習、RL post-training報酬設計 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🔢 MoBiQuant](papers/2602.20191) | Mixture-of-Bits量子化、弾性LLMデプロイメント、Duke/Panasonic |
+| [🔄 LoDADA](papers/2602.21072) | 局所ダイナミクス適応オフラインRL、ソースデータ効率的再利用 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🔍 Circuit Tracing](papers/2602.20330) | **CVPR 2026 Findings採択**: VLM内部回路追跡、マルチモーダル推論解明 |
+| [🎨 COMiT](papers/2602.20731) | コミュニケーション着想のトークン化、オブジェクト中心表現、プロジェクト公開 |
+| [🌐 IPOW](papers/2602.20616) | 解釈可能オープンワールド物体検出、概念分解モデル |
+
+### 🤖 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [💪 OptimusVLA](papers/2602.20200) | デュアルメモリVLA、LIBERO成功率98.6%、実ロボット2.9倍高速化 |
+| [⚡ Squint](papers/2602.21203) | 15分Sim-to-Real訓練、単一RTX 3090、GitHub公開 |
+
+---
+
 ## 2026-02-25 注目論文：CVPR2026複数採択＆ICLR/AAAI/EACL2026採択＆WWW2026推薦＆MIT/CMU/Penn著名研究者
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,47 @@ title: Home
 
 ---
 
+## 2026-02-27 注目論文：CVPR2026/ICLR2026/EACL2026採択＆RAG情報理論分析＆VLA長期ホライズン操作
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🔬 Text Ranking in Deep Research](papers/2602.21456) | Deep Researchでのテキストランキング再評価、BrowseComp-Plus、5リトリーバー×3リランカー |
+| [📊 MIGRASCOPE](papers/2602.21553) | RAGリトリーバー情報理論分析、相互情報量ベース、アンサンブル設計指針 |
+| [🌳 TrieRec](papers/2602.21677) | Trie構造認識型生成推薦、位置エンコーディング2種、**平均8.83%改善** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🌊 Field-Theoretic Memory](papers/2602.21220) | 場の理論でAIエージェントメモリ、LongMemEval +116% F1、**GitHub公開** |
+| [📦 Latent Context Compilation](papers/2602.21221) | 長文脈→コンパクトメモリ蒸留、**16倍圧縮**、合成QA不要 |
+| [⚡ Hidden State Speculative Decoding](papers/2602.21224) | ドラフトトークン再利用、隠れ状態自己回帰、**3.3倍高速化** |
+| [✅ Distill and Align](papers/2602.21857) | **EACL 2026 Findings**: クレーム検証分解、GRPO最適化、71.75% F1 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🛡️ Reliability Certification](papers/2602.21368) | AIエージェント信頼性認証、Conformal Calibration、**分布非依存保証** |
+| [🎯 PF-DAG](papers/2602.21684) | **ICLR 2026**: アクション生成2段階分離、56タスクSOTA、実世界触覚操作 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [📈 DynamicGTR](papers/2602.21864) | **CVPR 2026**: VLMグラフQA、動的トポロジー表現選択、追加訓練なし転移 |
+
+### 🤖 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🔗 LiLo-VLA](papers/2602.21531) | 長期ホライズン操作、オブジェクト中心VLA、Pi0.5比**41%改善**、実世界85% |
+| [🔄 SC-VLA](papers/2602.21633) | 自己修正VLA、Sparse World Imagination、**16%少ないステップで9%高い成功率**、**GitHub公開** |
+
+---
+
 ## 2026-02-26 注目論文：ICLR2026/NeurIPS2025 Spotlight/CVPR2026採択＆Microsoft/RMIT＆効率的推論・RAG・VLM解釈
 
 ### 🤖 cs.AI（AI全般）

@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-03-01 注目論文：CVPR2026/ICLR2026/SIGMOD2026/TACL2026/ICRA2026採択＆YouTube本番948倍高速化＆Kuaishou4億ユーザーデプロイ
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ STATIC](papers/2602.22647-static) | **YouTube/Google**: Trie→CSR行列変換、**948倍高速化**、billion users本番デプロイ、**GitHub公開** |
+| [📢 GR4AD](papers/2602.22732-gr4ad) | **Kuaishou**: 生成的広告推薦、**4億ユーザー本番**、広告収益**4.2%向上** |
+| [📄 MoDora](papers/2602.23061-modora) | **SIGMOD 2026**: 半構造化文書LLM分析、CCTree階層表現、**61%精度改善**、**GitHub公開** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 SPARTA](papers/2602.23286-sparta) | **ICLR 2026**: マルチホップQAベンチマーク自動生成、SOTAモデル**30 F1低下**、**GitHub公開** |
+| [🧠 Scale & Pragmatics](papers/2602.23351-scale-pragmatics) | **TACL 2026**: VLM推論欠如の報告バイアス原因、スケーリングでは解決しない |
+| [🌀 Diffusion Stitching](papers/2602.22871-diffusion-stitching) | 拡散LM+報酬ガイドスティッチング、訓練不要**23.8%精度向上**・**1.8倍高速化**、**GitHub公開** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [⚡ FlashOptim](papers/2602.23349-flashoptim) | **Databricks**: メモリ効率訓練、AdamW **16→7 bytes/param**、品質劣化なし、**GitHub公開** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 VGG-T³](papers/2602.23361-vgg-ttt) | **NVIDIA/CVPR 2026**: 3D再構成線形スケーリング、1000画像54秒、**11.6倍高速化** |
+| [🌐 ThinkOmni](papers/2602.23306-thinkomni) | **ICLR 2026**: オムニモーダル推論、訓練不要LRM誘導デコーディング、MathVista **70.2** |
+| [🔮 GeoWorld](papers/2602.23058-geoworld) | **CVPR 2026**: 双曲幾何ワールドモデル、4ステップ計画**2% SR改善** (V-JEPA 2比) |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🧩 AgentDropoutV2](papers/2602.23258-agentdropoutv2) | MASテスト時プルーニング、再訓練不要、数学ベンチ**+6.3ポイント**、**GitHub公開** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🔧 SPARR](papers/2602.23253-sparr) | **NVIDIA**: Sim+実世界残差ハイブリッド、アセンブリ成功率**+38.4%**、サイクルタイム**29.7%短縮** |
+| [✋ Grasp/Slide/Roll](papers/2602.23206-grasp-slide-roll) | **ICRA 2026**: 触覚接触モード比較、**34%少ないインタラクション**で**55%精度改善** |
+
+---
+
 ## 2026-02-28 注目論文：ICLR2026 Oral/KDD2026/SIGMOD2026/WWW2026/CVPR2026採択＆YouTube実運用＆自動運転200km実車テスト
 
 ### 📚 cs.IR（情報検索）

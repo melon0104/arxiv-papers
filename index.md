@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-03-02 注目論文：ICLR2026 Oral/ICLR2026/ECIR2026/CIKM2025採択＆Stanford-NVIDIA長動画生成＆産業検索システム実運用
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🧠 Beyond the Click](papers/2026-03-02-beyond-the-click) | **ECIR 2026**: 認知トレース推論、IFTベースマルチエージェント、ユーザーシミュレータ高度化 |
+| [🔗 UXSim](papers/2026-03-02-uxsim) | **CIKM 2025**: ハイブリッドユーザー検索シミュレーション、従来シミュレータ+LLMエージェント統合 |
+| [⚡ SA²CRQ](papers/2026-03-02-sarq) | **産業検索システム**: セマンティックID適応量子化、**コールドスタート検索改善**、エントロピーベースコード長動的割り当て |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🏆 LoRA-Pre](papers/2026-03-02-lora-pre) | **ICLR 2026 Oral**: 低ランクオプティマイザ、**ベースラインの1/8ランク**で同等以上、Llama-3.1-8B **+3.14pt**、**GitHub公開** |
+| [🔒 Controllable Reasoning](papers/2026-03-02-controllable-reasoning) | 推論トレースのプライバシー保護、指示追従**+20.9pt**、プライバシー**+51.9%pt**、**GitHub公開** |
+| [⚡ Preference Packing](papers/2026-03-02-preference-packing) | DPO効率化、訓練時間**37%以上削減**、バッチソート併用で**3.22倍高速化** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🚀 CUDA Agent](papers/2026-03-02-cuda-agent) | エージェント強化学習でCUDAカーネル生成、torch.compile比**100%高速**、**Claude Opus 4.5/Gemini 3 Pro比+40%** |
+| [🎯 RewardUQ](papers/2026-03-02-rewarduq) | 報酬モデル不確実性定量化統一フレームワーク、**GitHub公開** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🎬 UFO-4D](papers/2026-03-02-ufo-4d) | **ICLR 2026**: 2画像から4D再構成、Dynamic 3D Gaussian Splats、従来手法**3倍改善** |
+| [🎥 Mode Seeking meets Mean Seeking](papers/2026-03-02-mmm-video) | **Stanford/NVIDIA**: 分スケール長動画生成、短動画品質継承+長期一貫性、Decoupled Diffusion Transformer |
+| [📄 AgenticOCR](papers/2026-03-02-agenticocr) | クエリ駆動OCR、視覚RAG効率化、**エキスパートレベル**文書理解、**GitHub公開** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [📊 DARE-bench](papers/2026-03-02-dare-bench) | **ICLR 2026**: データサイエンス指示追従ベンチマーク、6,300 Kaggleタスク、RL訓練で**8倍精度向上** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🔧 SafeGen-LLM](papers/2026-03-02-safegen-llm) | 安全性汎化LLM、PDDL3+形式検証、新規安全制約への汎化、Info-DPO |
+| [🔍 VLA Grounding診断](papers/2026-03-02-vla-grounding) | VLAポリシーの汎化限界分析、SmolVLA/π₀.₅評価、**操作スキルと言語グラウンディングの分離**発見 |
+
+---
+
 ## 2026-03-01 注目論文：CVPR2026/ICLR2026/SIGMOD2026/TACL2026/ICRA2026採択＆YouTube本番948倍高速化＆Kuaishou4億ユーザーデプロイ
 
 ### 📚 cs.IR（情報検索）

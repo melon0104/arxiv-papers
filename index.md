@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-03-03 注目論文：CVPR2026/ICLR2026/WWW2026/ICAPS2026採択＆Meta本番15世代反復改善＆Xiaohongshu/Kuaishouコールドスタート解決
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🌐 OmniRet](papers/2026-03-03-omniret) | **CVPR 2026**: 初の3モダリティ（テキスト・ビジョン・オーディオ）統合検索、Attention Sliced Wasserstein Poolingで高忠実度表現、**GitHub公開** |
+| [🆕 IDProxy](papers/2026-03-03-idproxy) | **Xiaohongshu本番**: MLLMでアイテムコールドスタート解決、マルチモーダルProxy埋め込み生成、ID埋め込み空間にアラインメント |
+| [📊 HPGR](papers/2026-03-03-hpgr) | **WWW 2026**: 生成型推薦の階層構造活用、セッションベースMIM事前学習、Preference-Guided Sparse Attention、**Huawei APPGallery本番検証** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🔄 CharacterFlywheel](papers/2026-03-03-characterflywheel) | **Meta本番**: Instagram/WhatsApp/Messenger向けLLM反復改善、15世代でエンゲージメント**+19.4%**、指示追従**59.2%→84.8%** |
+| [📏 LongRLVR](papers/2026-03-03-longrlvr) | **ICLR 2026**: 長コンテキストRLVR失敗原因を特定、**Verifiable Context Rewards**でコンテキストグラウンディング改善、**GitHub公開** |
+| [🗄️ GenDB](papers/2026-03-03-gendb) | **Claude Code Agent**活用：クエリエンジンを「設計」ではなく「合成」、DuckDB/Umbra/ClickHouse等を上回る性能 |
+| [🧠 AMemGym](papers/2026-03-03-amemgym) | **ICLR 2026**: 長期会話メモリ管理のインタラクティブベンチマーク、RAG/長コンテキストLLM/エージェント型メモリの性能ギャップ分析 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 ACR](papers/2026-03-03-acr-multimodal) | **CVPR 2026**: マルチモーダル故障検出のAdaptive Confidence Regularization、自動運転・医療診断向け、**GitHub公開** |
+| [⚡ Multi-Head Low-Rank Attention](papers/2026-03-03-multi-head-low-rank) | **ICLR 2026**: 長コンテキストKVキャッシュボトルネック解決、MLAのTPシャーディング問題克服、**GitHub公開** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🖼️ HiFi-Inpaint](papers/2026-03-03-hifi-inpaint) | **CVPR 2026**: 広告・EC向け高忠実度リファレンスInpainting、製品ディテール完全保持の人物×製品画像生成 |
+| [✏️ Sketch2Colab](papers/2026-03-03-sketch2colab) | **CVPR 2026**: ストーリーボード2Dスケッチから一貫した3Dマルチヒューマンモーション生成、Controllable Flow Distillation |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🎲 CB-MCTS](papers/2026-03-03-cb-mcts) | **ICAPS 2026**: 分散マルチエージェント計画向けBoltzmannベース探索、スパース/歪み報酬環境での堅牢性向上 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [📷 Fisheye Camera Study](papers/2026-03-03-fisheye-robot) | **CVPR 2026**: ロボットマニピュレーションにおけるフィッシュアイカメラ特性の初の包括的実証研究、広FoV vs 歪みのトレードオフ分析 |
+| [📚 ACDC](papers/2026-03-03-acdc-robot) | **ICAPS 2026**: 目標条件付きRL向け適応的カリキュラム計画+動的コントラスト制御、人間の学習行動に着想、**GitHub公開** |
+
+---
+
 ## 2026-03-02 注目論文：ICLR2026 Oral/ICLR2026/ECIR2026/CIKM2025採択＆Stanford-NVIDIA長動画生成＆産業検索システム実運用
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-03-04 注目論文：ICLR2026 Oral/CVPR2026/WWW2026採択＆Yann LeCunマルチモーダル＆Tri Dao 5x推論高速化＆Microsoft/Kuaishouエージェント安全性
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🔧 DOME](papers/2026-03-04-dome) | **WWW 2026 / Baidu**: 生成的検索のモデル編集、新規文書追加を再訓練なしで効率化、**訓練時間60%削減** |
+| [🔄 S2CDR](papers/2026-03-04-s2cdr) | **WWW 2026**: 拡散モデル×クロスドメイン推薦、ノイズフリーSmoothing-Sharpeningアーキテクチャ、Training-freeでSOTA |
+| [⚡ FlashEvaluator](papers/2026-03-04-flashevaluator) | **Kuaishou本番**: 評価器並列化でサブリニア計算量、**オンライン推薦システム稼働中**、実収益向上 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🛡️ MOSAIC](papers/2026-03-04-mosaic) | **Microsoft**: マルチステップツール使用の安全性、Plan-Check-Act/Refuseループ、有害行動**-50%**＆インジェクション耐性**+20%** |
+| [🏥 ExpGuard](papers/2026-03-04-expguard) | **ICLR 2026**: 金融・医療・法律ドメイン向けLLMガードレール、WildGuard比**+8.9%/+15.3%**、データ・モデル公開 |
+| [🔗 ACE-Merging](papers/2026-03-04-ace-merging) | **CVPR 2026**: データフリーモデルマージング、パラメータ差分から入力共分散推定可能を理論証明、GPT-2で**+4%** |
+| [👁️ VC-STaR](papers/2026-03-04-vc-star) | **ICLR 2026 Oral**: VLM視覚推論の自己改善、視覚コントラストでハルシネーション軽減、55Kデータセット公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🌵 Saguaro](papers/2026-03-04-saguaro) | **Tri Dao（FlashAttention作者）**: Speculative Decodingの投機と検証を並列化、**自己回帰比5倍高速** |
+| [📊 Adam vs SGD](papers/2026-03-04-adam-sgd) | 「なぜAdamがSGDに勝てるか」の初の理論的分離、二次モーメント正規化が鍵、59ページの詳細解析 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🌐 Beyond LLM](papers/2026-03-04-beyond-llm) | **Yann LeCun / Meta AI**: ネイティブマルチモーダル設計空間、RAE（表現オートエンコーダ）＆MoEでスケーリング非対称性解決 |
+| [🎨 CFG-Ctrl](papers/2026-03-04-cfg-ctrl) | **CVPR 2026**: CFGを制御理論で再解釈、SMC（スライディングモード制御）でStable Diffusion 3.5/Flux改善 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🎯 Inherited Goal Drift](papers/2026-03-04-goal-drift) | **ICLR 2026 Workshop**: エージェントLMの目標ドリフト、**GPT-5.1含む最新モデルで評価**、弱エージェント軌跡からのドリフト継承問題 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🤖 ULTRA](papers/2026-03-04-ultra) | **UIUC**: ヒューマノイド全身歩行操作、物理駆動リターゲット＆マルチモーダル制御、**Unitree G1実機検証** |
+| [🔪 How to Peel](papers/2026-03-04-peel) | **Berkeley (Abbeel/Malik) / ICLR 2026**: ナイフ剥き操作、嗜好ベースRL、50-200軌跡で**90%成功率**、異カテゴリ汎化 |
+
+---
+
 ## 2026-03-03 注目論文：CVPR2026/ICLR2026/WWW2026/ICAPS2026採択＆Meta本番15世代反復改善＆Xiaohongshu/Kuaishouコールドスタート解決
 
 ### 📚 cs.IR（情報検索）

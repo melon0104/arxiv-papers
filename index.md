@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-03-05 注目論文：ICLR2026/CVPR2026/WWW2026/ICRA2026採択＆Google 3D再構成20x高速化＆ByteDance/Kuaishou本番運用＆Deep Researchエージェント検索
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🏭 SORT](papers/2026-03-05-sort) | **大規模Eコマース本番**: Transformer産業規模ランキング、**GMV +5.47%、注文数 +6.35%**、レイテンシ44%削減 |
+| [📊 HAP](papers/2026-03-05-hap) | **WWW 2026 / ByteDance**: 異質サンプル勾配衝突解決、**Toutiao 9ヶ月運用**、産業データセット公開 |
+| [⚡ SOLAR](papers/2026-03-05-solar) | **Kuaishou本番**: SVD-Attentionで計算量O(N²d)→O(Ndr)、万スケール行動シーケンス対応、**Video Views +0.68%** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🔍 AgentIR](papers/2026-03-05-agentir) | **Deep Research向け**: 推論トレース×クエリ共同埋め込み、BrowseComp-Plusで**68%精度**（従来50%）、コード公開 |
+| [🔤 ByteFlow](papers/2026-03-05-byteflow) | **ICLR 2026 / Amazon**: トークナイザー完全排除、圧縮駆動セグメンテーション、BPE Transformerを上回る |
+| [🧠 Memex(RL)](papers/2026-03-05-memex) | 長期間LLMエージェント向けインデックス付きメモリ、要約のみ手法より低損失、理論保証付き |
+| [✅ V₁](papers/2026-03-05-v1) | **UC Berkeley**: ペアワイズ自己検証でテストタイム推論効率化、コード生成Pass@1 **最大+10%** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🛡️ DMAST](papers/2026-03-05-dmast) | GRPOベースマルチモーダルWebエージェント安全学習、タスク完了効率**2倍**、OODリスク大幅軽減 |
+| [🌊 Flow Matching for TD](papers/2026-03-05-flow-td) | TD学習にFlow Matching適用、分布RLでなく**テストタイム回復**が鍵、性能2倍・サンプル効率5倍 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [🗺️ ZipMap](papers/2026-03-05-zipmap) | **Google DeepMind**: 線形時間3D再構成、700フレーム10秒未満、**VGGT 20倍以上高速** |
+| [✏️ Pointer-CAD](papers/2026-03-05-pointer-cad) | **CVPR 2026**: LLMベースCAD生成でエンティティ選択実現、575Kモデルデータセット公開 |
+| [🌐 EmbodiedSplat](papers/2026-03-05-embodiedsplat) | **CVPR 2026**: オンラインOpen-Vocabulary 3DGS、CLIP Codebookで効率的セマンティック理解 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🏦 τ-Knowledge](papers/2026-03-05-tau-knowledge) | **Princeton**: 非構造化知識上エージェント評価、700文書ナビゲーション、フロンティアモデルでも**25.5%**の厳しい結果 |
+| [⚙️ Agentics 2.0](papers/2026-03-05-agentics2) | **IBM**: 論理変換代数でエージェントワークフロー形式化、DiscoveryBench/ArcherでSOTA |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🏠 RoboCasa365](papers/2026-03-05-robocasa365) | **ICLR 2026**: 365タスク×2500環境、2200時間デモデータ、汎用ロボット研究の包括的ベンチマーク |
+| [👕 GarmentPile++](papers/2026-03-05-garmentpile) | **ICRA 2026**: VLM×視覚アフォーダンスで衣類パイルから安全取り出し、SAM2+双腕協調 |
+
+---
+
 ## 2026-03-04 注目論文：ICLR2026 Oral/CVPR2026/WWW2026採択＆Yann LeCunマルチモーダル＆Tri Dao 5x推論高速化＆Microsoft/Kuaishouエージェント安全性
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,48 @@ title: Home
 
 ---
 
+## 2026-03-06 注目論文：Baidu MoUE新スケーリング次元＆Alibaba SkillNet 20万スキル＆DeepSeek-R1推論分析＆GraphRAGのLeiden限界証明＆RLHF浅さの理論解明
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [🔧 SearchGym](papers/2026-03-06-searchgym) | RAGモジュラーインフラ、Compositional Config Algebraで再現性保証、**Top-100検索率70%**、コード公開 |
+| [💰 FinRetrieval](papers/2026-03-06-finretrieval) | 金融検索ベンチマーク、Claude Opus API有り**90.8%** vs Web検索のみ**19.8%**、71ppギャップ |
+| [📈 Reranking Scaling](papers/2026-03-06-reranking-scaling) | リランカーのスケーリング則初研究、400Mで1B性能予測可能、NDCG/MAPは信頼性あり |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [🎭 Reasoning Theater](papers/2026-03-06-reasoning-theater) | **DeepSeek-R1 671B/GPT分析**: パフォーマティブCoT検出、プローブでMMLUトークン**80%削減** |
+| [🔓 Censored LLMs](papers/2026-03-06-censored-llm) | Qwen3検閲モデルで誠実性引き出し評価、**DeepSeek R1に転移可能**、プロンプト・コード公開 |
+| [🔬 RLHF Shallow](papers/2026-03-06-rlhf-shallow) | **RLHFアラインメントが浅い理由を理論証明**: 害地平線以降で勾配ゼロ、回復ペナルティ目的関数を導出 |
+| [🔗 Core-GraphRAG](papers/2026-03-06-core-graphrag) | **Leidenの非再現性を数学的証明**、k-core分解で決定論的階層、トークン削減＆包括性向上 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [🔀 MoUE](papers/2026-03-06-moue) | **Baidu**: MoEの新次元「Virtual Width」、層間ユニバーサルエキスパート再利用、既存MoE変換で**+4.2%** |
+| [💾 POET-X](papers/2026-03-06-poetx) | 直交変換でメモリ効率化LLM訓練、**単一H100で10億パラメータ事前訓練**（AdamWはOOM） |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [🛠️ SkillNet](papers/2026-03-06-skillnet) | **Alibaba/浙江大学**: 20万スキルのAIエージェントインフラ、平均報酬**+40%**、実行ステップ**-30%** |
+| [🏥 Model Medicine](papers/2026-03-06-model-medicine) | AIモデルを生物学的に診断・治療、Neural MRI診断ツール、15サブ分野の学問分類を提案 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [🧠 VPWEM](papers/2026-03-06-vpwem) | 作業記憶＋エピソード記憶visuomotorポリシー、VLA/拡散ポリシーを**20%以上**上回る、コード公開 |
+| [📱 RoboPocket](papers/2026-03-06-robopocket) | **スマホでロボット即時改善**: AR Visual Foresight、データ効率**2倍**、分散収集対応 |
+
+---
+
 ## 2026-03-05 注目論文：ICLR2026/CVPR2026/WWW2026/ICRA2026採択＆Google 3D再構成20x高速化＆ByteDance/Kuaishou本番運用＆Deep Researchエージェント検索
 
 ### 📚 cs.IR（情報検索）

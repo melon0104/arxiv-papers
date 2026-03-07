@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-03-07 注目論文：ICLR2026/CVPR2026/ICRA2026採択＆MIT多数＆Meta/NVIDIA重要研究＆医療LLM＆安全性ベンチマーク
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [OmniRet](papers/2026-03-07-omniret-efficient-and-highfidelity) | **CVPR 2026 / MIT**: オムニモダリティ検索、AV・3D・マルチモーダル統一、**高忠実度合成強化** |
+| [Model](papers/2026-03-07-model-editing-for-new) | **WWW 2026 / MIT**: 生成IR向け動的文書統合、LLMパラメータ変更不要 |
+| [CAMMSR](papers/2026-03-07-cammsr-categoryguided-attentive-mixture) | **ICDE 2026**: マルチソースレコメンデーション、MoE×カテゴリ誘導、**実世界データで検証** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ThaiSafetyBench](papers/2026-03-07-thaisafetybench-assessing-language-model) | **ICLR 2026**: タイ文化特化LLM安全性評価、**8,000テストケース**、GPT-4oで54%精度 |
+| [LBM](papers/2026-03-07-lbm-hierarchical-large-autobidding) | **MIT**: 大規模自動入札モデル、階層推論でLTV予測＆入札決定、**本番運用想定** |
+| [Med-V1](papers/2026-03-07-medv1-small-language-models) | **NCBI/NLM**: 医療エンティティ抽出、**ゼロショット45言語対応**、24B→4Bパラメータで効率化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [SurvHTE-Bench](papers/2026-03-07-survhtebench-a-benchmark-for) | **ICLR 2026 / Meta**: 異質因果効果推定ベンチマーク、**25データセット×50手法**包括評価 |
+| [FairFinGAN](papers/2026-03-07-fairfingan-fairnessaware-synthetic-finan) | **KDD 2026 / MIT**: 公平性保証合成金融データ生成、**人種・性別バイアス軽減** |
+| [SlideSparse](papers/2026-03-07-slidesparse-fast-and-flexible) | **NVIDIA**: (2N-2):2N構造的スパース性、**柔軟なN:M比率**、ハードウェア親和性高 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [FaceCam](papers/2026-03-07-facecam-portrait-video-camera) | **CVPR 2026 / MIT**: ポートレート動画カメラ制御、スケール認識条件付け、**顔クロップ・ボケ制御** |
+| [MoRe](papers/2026-03-07-more-motionaware-feedforward-4d) | **CVPR 2026 / MIT**: モーション認識4D再構成、**フィードフォワード12fps**、Transformer |
+| [CoIn3D](papers/2026-03-07-coin3d-revisiting-configurationinvariant) | **CVPR 2026 / Meta**: マルチカメラ3D物体検出、**カメラ構成不変**、再キャリブ不要 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Survive at All Costs](papers/2026-03-07-survive-at-all-costs) | Survive at All Costs: Exploring LLM's Risky Behaviors under Survival Pressure... |
+| [Judge Reliability Harness](papers/2026-03-07-judge-reliability-harness-stress) | **ICLR 2026**: LLMジャッジの信頼性ストレステスト、**デプロイ済みシステム診断** |
+| [AI+HW 2035](papers/2026-03-07-aihw-2035-shaping-the) | **MIT**: 次の10年のAI×ハードウェア未来予測、**産業界向けロードマップ** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [UltraDexGrasp](papers/2026-03-07-ultradexgrasp-learning-universal-dextero) | **ICRA 2026 / MIT**: ユニバーサル巧緻把持、**両手協調**、実世界転移成功 |
+| [GaussTwin](papers/2026-03-07-gausstwin-unified-simulation-and) | **ICRA 2026 / MIT**: Gaussian Splatting×シミュレーション統合、**Sim2Real補正** |
+
 ## 2026-03-06 注目論文：Baidu MoUE新スケーリング次元＆Alibaba SkillNet 20万スキル＆DeepSeek-R1推論分析＆GraphRAGのLeiden限界証明＆RLHF浅さの理論解明
 
 ### 📚 cs.IR（情報検索）

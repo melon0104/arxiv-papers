@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-03-08 注目論文：ICLR2026/CVPR2026採択多数＆DeepSeek-R1推論分析＆GraphRAGのk-core改善＆VLA解釈可能性＆スマホでロボット改善
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Core-GraphRAG](papers/2026-03-08-core-graphrag-kcore-hierarchies) | **Leidenの非再現性を証明**、k-core分解で決定論的階層、トークン削減＆包括性向上 |
+| [TIPS](papers/2026-03-08-tips-debiasing-sequential-recommendation) | 逐次推薦のバイアス補正、**Time-aware IPS**、プラグイン方式で既存モデル改善 |
+| [Reranking Scaling Laws](papers/2026-03-08-scaling-laws-reranking) | リランカーのスケーリング則初研究、**400Mで1B性能予測可能**、産業応用に示唆 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Reasoning Theater](papers/2026-03-08-reasoning-theater-cot-analysis) | **DeepSeek-R1 671B/GPT分析**: パフォーマティブCoT検出、プローブでMMLU**80%トークン削減** |
+| [POET-X](papers/2026-03-08-poetx-memory-efficient-llm-training) | 直交変換でメモリ効率化、**単一H100で10億パラメータ事前訓練**（AdamWはOOM） |
+| [Censored LLMs](papers/2026-03-08-censored-llms-knowledge-elicitation) | Qwen3検閲モデルで誠実性引き出し評価、**DeepSeek R1に転移可能**、コード公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [SurvHTE-Bench](papers/2026-03-08-survhte-bench-survival-hte) | **ICLR 2026**: 生存分析HTE推定初ベンチマーク、合成・半合成・実データで評価 |
+| [LWAIL](papers/2026-03-08-lwail-wasserstein-imitation) | **ICLR 2026**: 動力学認識潜在空間でワッサースタインIL、少数エピソードで高性能 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [FaceCam](papers/2026-03-08-facecam-portrait-video-control) | **CVPR 2026**: ポートレート動画カメラ制御、スケール認識条件付け |
+| [CalibAtt](papers/2026-03-08-calibatt-video-generation-acceleration) | 動画生成の高速化、キャリブレートスパースアテンション、**最大1.58倍高速化** |
+| [CompACT](papers/2026-03-08-compact-tokenizer-world-model) | **CVPR 2026**: ワールドモデル用**8トークン**圧縮、桁違いの高速プランニング |
+| [MM-Lifelong](papers/2026-03-08-mm-lifelong-multimodal-understanding) | **NVIDIA共著**: 181時間の生涯理解データセット、ReMAエージェント提案 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Attention Sinks Anatomy](papers/2026-03-08-attention-sinks-massive-activations) | Massive Activations＆Attention Sinks分析、**Pre-norm構成がキー** |
+| [Bias-Bounded LLM Judges](papers/2026-03-08-bias-bounded-llm-judges) | LLM-as-a-Judgeの**理論的バイアス保証**、61-99%相関維持、コード公開 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [RoboPocket](papers/2026-03-08-robopocket-phone-robot-improvement) | **スマホでロボット即時改善**: ARビジュアルフォーサイト、データ効率**2倍** |
+| [Safe-SAGE](papers/2026-03-08-safe-sage-semantic-robot-safety) | セマンティクス認識安全制御、Poisson Safety Function、**四足歩行ロボで実証** |
+| [VLA Features](papers/2026-03-08-vla-feature-observation-control) | **π₀.₅/OpenVLA**: 特徴可観測性・制御可能性分析、ファインチューニングなしで適応 |
+
+---
+
 ## 2026-03-07 注目論文：ICLR2026/CVPR2026/ICRA2026採択＆MIT多数＆Meta/NVIDIA重要研究＆医療LLM＆安全性ベンチマーク
 
 ### 📚 cs.IR（情報検索）

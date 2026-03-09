@@ -9,6 +9,58 @@ title: Home
 
 ---
 
+## 2026-03-09 注目論文：ReflexiCoderがGPT-5.1超え＆SWE-benchで行動木が73.6%達成＆会話型ショッピングRL＆DreamCADの100万キャプション＆CoT制御可能性分析
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [ChatShopBuddy](papers/2026-03-09-chatshopbuddy-conversational-shopping-rl) | 会話型ショッピングエージェントのRL最適化、**階層報酬モデリング**で安定性向上 |
+| [MLLMRec-R1](papers/2026-03-09-mlllmrec-r1-grpo-multimodal-recommendation) | マルチモーダル逐次推薦向けGRPO、**視覚トークン支配問題を解決**、GitHub公開 |
+| [R4T](papers/2026-03-09-r4t-rl-diffusion-fan-out-retrieval) | **Google**: RLで拡散検索器を訓練、セットレベル検索で**桁違いのレイテンシ削減** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ReflexiCoder](papers/2026-03-09-reflexicoder-self-reflection-code-generation) | 自己反省・自己修正をRL内部化、**8BモデルでGPT-5.1超え**、HumanEval 94.51% |
+| [MAPO](papers/2026-03-09-mapo-multi-turn-dialogue-rl) | マルチターン対話のRL最適化、**Mixed Advantage Estimator**、EMPA+43.2向上 |
+| [MASFactory](papers/2026-03-09-masfactory-llm-multi-agent-orchestration) | マルチエージェント設計を**Vibe Graphing**で自動化、GitHub・動画公開 |
+| [CodeScout](papers/2026-03-09-codescout-software-agent-problem-enhancement) | 問題文の自動強化でSWE-bench**+20%解決率向上**、事前探索でエージェント改善 |
+| [CRIMSON](papers/2026-03-09-crimson-radiology-report-evaluation) | 放射線レポートの臨床的評価メトリクス、**MedGemmaファインチューンモデル公開** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Traversal-as-Policy](papers/2026-03-09-traversal-as-policy-gated-behavior-trees) | 行動木で安全なLLMエージェント、SWE-bench**73.6%**達成、違反率2.8%→0.2% |
+| [EvoESAP](papers/2026-03-09-evoesap-moe-expert-pruning) | MoEの非均一エキスパートプルーニング、MATH-500で**+19.6%**、既存手法と互換 |
+| [SGPP](papers/2026-03-09-sgpp-rectified-flow-editing) | Rectified Flowの統一幾何学フレームワーク、**RF-inversionを一般化**、理論的保証あり |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [DreamCAD](papers/2026-03-09-dreamcad-multimodal-cad-generation) | 微分可能パラメトリック表面でCAD生成、**CADCap-1M**（GPT-5生成）データセット公開 |
+| [Thinking with Spatial Code](papers/2026-03-09-thinking-spatial-code-3d-reasoning) | 3D空間推論、明示的空間コードで**VSI-BenchでSOTA**、GitHub公開 |
+| [MultiHaystack](papers/2026-03-09-multihaystack-multimodal-retrieval-benchmark) | **46K件**のマルチモーダル検索ベンチマーク、GPT-5すら80.86%→51.4%に低下 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [CoT Controllability](papers/2026-03-09-cot-controllability-reasoning-models) | 推論モデルのCoT制御可能性分析、**Claude 4.5でCoT制御2.7%のみ**、安全性示唆 |
+| [DeepFact](papers/2026-03-09-deepfact-factuality-benchmark-agents) | 深層調査レポートの事実性ベンチマーク、**AtS手法で専門家精度60.8%→90.9%** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [RACAS](papers/2026-03-09-racas-robot-agnostic-agentic-control) | **単一エージェントシステム**で多様なロボット制御、地上・リム・水中で検証 |
+| [OpenHEART](papers/2026-03-09-openheart-articulated-object-manipulation) | 脚ロボットで異種関節オブジェクト操作、**SAFE特徴抽出**でクロスドメイン汎化 |
+
+---
+
 ## 2026-03-08 注目論文：ICLR2026/CVPR2026採択多数＆DeepSeek-R1推論分析＆GraphRAGのk-core改善＆VLA解釈可能性＆スマホでロボット改善
 
 ### 📚 cs.IR（情報検索）

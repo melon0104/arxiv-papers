@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-03-10 注目論文：ICLR2026教師なしRLVR＆VRecで検証可能LLM推薦＆CVPR2026協調3D会話合成＆CoRL2025 VFMでロングテール3D検出＆RecPilotで推薦がレポート化
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [VRec](papers/2026-03-10-vrec-verifiable-reasoning-llm-recommendation) | LLM推薦の**reason-verify-recommend**パラダイム、検証器で推論劣化を防止、**GitHub公開** |
+| [RecPilot](papers/2026-03-10-recpilot-deep-research-recommender) | 推薦を「リストからレポートへ」転換、マルチエージェントで**自律探索・統合** |
+| [ERASE](papers/2026-03-10-erase-unlearning-benchmark-recsys) | 推薦のMachine Unlearning初の大規模ベンチマーク、**GDPR対応**、600GB以上アーティファクト公開 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [CODA](papers/2026-03-10-coda-difficulty-aware-compute-allocation) | 難易度認識コンピュート割り当て、簡単タスクで**60%+トークン削減**しつつ精度維持 |
+| [SmartThinker](papers/2026-03-10-smartthinker-cot-length-calibration) | CoT長をプログレッシブにキャリブレート、**52.5%圧縮で精度向上**、AIME25で+16.6%、GitHub公開 |
+| [SPD-RAG](papers/2026-03-10-spd-rag-subagent-per-document) | ドキュメント毎にサブエージェント配置、LOONGで**58.1達成**（通常RAG 33.0）、APIコスト38% |
+| [UIS-Digger](papers/2026-03-10-uis-digger-unindexed-information-seeking) | **ICLR 2026**: 非インデックス情報検索、~30BモデルがO3/GPT-4.1超え、デュアルモードブラウジング |
+| [EvoScientist](papers/2026-03-10-evoscientist-multi-agent-ai-scientist) | 永続メモリ+自己進化でAIサイエンティスト、過去失敗から学習、7つのSOTA超え |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Unsupervised RLVR](papers/2026-03-10-unsupervised-rlvr-scaling-llm) | **ICLR 2026**: Webデータのみで教師なしRLVR、**AIME24で7%向上**、アノテーション不要 |
+| [ACT](papers/2026-03-10-agentic-critical-training-llm-rl) | Agentic Critical Training、RLエージェントに**クリティカル分析**を訓練、テストタイム適応 |
+| [PostTrainBench](papers/2026-03-10-posttrainbench-llm-post-training-automation) | ポストトレーニング自動化ベンチ、GPT-5.1で**24.6%のみ成功**、Opus 4.6は22.0% |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Talk Together](papers/2026-03-10-talking-together-3d-conversations) | **CVPR 2026**: 複数人同期3D会話合成、**27,000クリップ**データセット、TalkDiff生成モデル |
+| [CARE-Edit](papers/2026-03-10-care-edit-expert-routing-image-editing) | **CVPR 2026**: 条件認識MoEルーティングで異質な画像編集を統一、特化+汎用の両立 |
+| [FOMO-3D](papers/2026-03-10-fomo-3d-vision-foundation-3d-detection) | **CoRL 2025/Waabi**: VFM特徴→LiDAR 3D検出、ロングテールで**6倍AP向上**、ゼロショット対応 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [OfficeQA Pro](papers/2026-03-10-officeqa-pro-enterprise-grounded-reasoning) | **Databricks**: エンタープライズグラウンディングベンチ、Claude Opus/GPT-5.4でも引用精度が課題 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Interactive World Simulator](papers/2026-03-10-interactive-world-simulator-robot-policy) | ワールドシミュレータの統一ベンチマーク、**3レベルのインタラクティブ性**評価 |
+| [MetaWorld-X](papers/2026-03-10-metaworld-x-humanoid-world-model) | VLMオーケストレーション型エキスパートでヒューマノイドloco-manipulation、階層的ワールドモデリング |
+
+---
+
 ## 2026-03-09 注目論文：ReflexiCoderがGPT-5.1超え＆SWE-benchで行動木が73.6%達成＆会話型ショッピングRL＆DreamCADの100万キャプション＆CoT制御可能性分析
 
 ### 📚 cs.IR（情報検索）

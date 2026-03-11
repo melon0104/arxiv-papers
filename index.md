@@ -9,6 +9,58 @@ title: Home
 
 ---
 
+## 2026-03-11 注目論文：RecThinkerでエージェント推薦＆Google「推論が知識想起を解放」＆MoE推論ペナルティ定量化＆Meissa4B医療エージェント＆PlayWorldでロボット自己遊び学習
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [RecThinker](papers/2026-03-11-recthinker-agentic-tool-reasoning-recommendation) | **Analyze-Plan-Act**パラダイムで推薦エージェント、ツール拡張で情報ギャップを能動的に埋める |
+| [TREC 2025 RAG Track](papers/2026-03-11-trec-2025-rag-track-overview) | **TREC公式**: マルチセンテンスナラティブクエリでRAG評価、MS MARCO V2.1コーパス、150+提出 |
+| [RF-Mem](papers/2026-03-11-rf-mem-recollection-familiarity-memory-retrieval) | 認知科学の**二重プロセス**をLLMパーソナライズに応用、Familiarity/Recollection適応検索 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Thinking to Recall](papers/2026-03-11-thinking-to-recall-reasoning-parametric-knowledge) | **Google**: 推論がパラメトリック知識想起を解放、計算バッファ＋事実プライミングの2メカニズム |
+| [Model Merging Survey](papers/2026-03-11-model-merging-llm-survey) | LLM時代のモデルマージ包括的サーベイ、**FUSEタクソノミー**で設計空間を体系化 |
+| [ALARM](papers/2026-03-11-alarm-audio-language-alignment-reasoning) | **4Bで最高性能**: Self-rephrasingでRLMと互換、MMAU-speech/MMSU最高 |
+| [Chow-Liu Chain-of-Agents](papers/2026-03-11-chow-liu-ordering-chain-of-agents) | **Microsoft**: 情報理論でチャンク順序最適化、長文コンテキストの情報損失削減 |
+| [ConFu](papers/2026-03-11-confu-speculative-sampling-future) | 将来予測でスペキュラティブデコーディング改善、EAGLE-3比**8-11%向上** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [HCAPO](papers/2026-03-11-hcapo-hindsight-credit-assignment-llm-agents) | **ByteDance共著**: 後知恵クレジット割り当てでLLMエージェントRL、WebShop+7.7%/ALFWorld+13.8% |
+| [Latent-DARM](papers/2026-03-11-latent-darm-discrete-diffusion-autoregressive) | DDLMとARMを潜在空間で橋渡し、AIME2024で0%→14%、トークン**2.2%で**最先端に迫る |
+| [qs Inequality](papers/2026-03-11-qs-inequality-moe-inference-penalty) | MoE推論の**二重ペナルティ**定量化、DeepSeek-V3で密モデルが4.5xスループット優位 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Granulon](papers/2026-03-11-granulon-pixel-level-mllm-encoders) | DINOv3に適応的粒度拡張、精度**30%↑**・ハルシネーション**20%↓** |
+| [VisionCreator-R1](papers/2026-03-11-visioncreator-r1-reflection-visual-generation) | リフレクション付き視覚生成エージェント、RPCOでGemini2.5Pro超え |
+| [RubiCap](papers/2026-03-11-rubicap-rubric-guided-rl-captioning) | ルーブリック駆動RLで密キャプション、**CapArena最高勝率**、人間専門家超え |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Meissa](papers/2026-03-11-meissa-medical-agentic-intelligence) | **4Bパラメータ**医療MM-LLMエージェント、オフラインで22xレイテンシ削減、GitHub公開 |
+| [Social-R1](papers/2026-03-11-social-r1-human-like-social-reasoning) | **Microsoft Research Asia**: ToMBench-Hardで社会的推論、4Bで大規模モデル超え |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Scale-Plan](papers/2026-03-11-scale-plan-multi-robot-task-planning) | **Honda**: LLM+PDDLハイブリッドでマルチロボット計画、MAT2-THORベンチマーク導入 |
+| [PlayWorld](papers/2026-03-11-playworld-robot-world-models-autonomous-play) | **Princeton**: ロボット自己遊びからワールドモデル学習、実世界で**65%成功率向上** |
+
+---
+
 ## 2026-03-10 注目論文：ICLR2026教師なしRLVR＆VRecで検証可能LLM推薦＆CVPR2026協調3D会話合成＆CoRL2025 VFMでロングテール3D検出＆RecPilotで推薦がレポート化
 
 ### 📚 cs.IR（情報検索）

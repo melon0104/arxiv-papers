@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-03-12 注目論文：TriRecで三者エージェント推薦＆GLM-OCR 0.9BでOCR産業向け＆ICLR2026 LiTo表面ライトフィールド＆CVPR2026色忠実度＆ICRA2026拡散ポリシー改善
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [TriRec](papers/2026-03-12-trirec-tri-party-llm-agent-recommendation) | ユーザー・アイテム・プラットフォーム**三者最適化**の初LLMエージェント推薦、GitHub公開 |
+| [Structured Linked Data RAG](papers/2026-03-12-structured-linked-data-rag) | Schema.org + Google ADKでRAG精度**+29.6%**、llms.txt形式エンティティページ |
+| [Stage-wise News Rec](papers/2026-03-12-stage-wise-news-recommendation) | **WWW 2026**: ユーザー興味の段階的進化をLSTM+Self-attentionでモデル化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [GLM-OCR](papers/2026-03-12-glm-ocr) | **Tsinghua (Jie Tang)**: 0.9B OCRモデル、Multi-Token Predictionでスループット大幅改善 |
+| [LLM2Vec-Gen](papers/2026-03-12-llm2vec-gen) | **MTEB最先端**: LLM応答を表現する埋め込み、有害コンテンツ**43%削減**、解釈可能 |
+| [Evaluation Illusion](papers/2026-03-12-evaluation-illusion-llm-judge) | 105K評価インスタンスでLLM-as-a-Judgeの**表面ヒューリスティック依存**を発見、RLAIF示唆 |
+| [Multilingual Reasoning Gym](papers/2026-03-12-multilingual-reasoning-gym) | **14言語**で検証可能推論問題を手続き生成、RLVR対応、実装公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [LLVQ](papers/2026-03-12-llvq-leech-lattice-quantization) | **Leech格子**でLLM量子化、Quip#/QTIP/PVQ超えの**最先端**、コードブック不要 |
+| [RAD](papers/2026-03-12-rad-safe-rlhf-stochastic-dominance) | **確率優位**でSafe RLHF、テールリスク制御、Spectral Risk Measures普遍保証 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [LiTo](papers/2026-03-12-lito-surface-light-field) | **ICLR 2026 / Apple**: 表面ライトフィールドトークン化、ジオメトリ+視点依存外観を統一3D表現 |
+| [Color Fidelity](papers/2026-03-12-color-fidelity-t2i) | **CVPR 2026**: T2Iの「鮮やかすぎ」問題、130万画像データセット+訓練不要改善、GitHub公開 |
+| [V2M-Zero](papers/2026-03-12-v2m-zero-video-to-music) | **ゼロペア**動画→音楽生成、時間同期**+21-52%**、モダリティ内特徴で達成 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [DxEvolve](papers/2026-03-12-dxevolve-self-evolving-diagnosis) | 自己進化型診断エージェント、MIMIC-CDM **90.4%**（臨床医88.8%）、**Ji-Rong Wen**共著 |
+| [Trajectory Memory](papers/2026-03-12-trajectory-memory-self-improving-agent) | 軌跡から行動可能な学習を抽出、AppWorld複雑タスクで**+28.5pp**（149%相対改善） |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [PPGuide](papers/2026-03-12-ppguide-diffusion-policy) | **ICRA 2026**: 拡散ポリシーを推論時にパフォーマンス予測器で誘導、MILで自己ラベリング |
+| [CCGE](papers/2026-03-12-ccge-dexterous-manipulation) | **接触カバレッジ探索**で汎用巧緻操作、両手/インハンドで検証、**実ロボット転移成功** |
+
+---
+
 ## 2026-03-11 注目論文：RecThinkerでエージェント推薦＆Google「推論が知識想起を解放」＆MoE推論ペナルティ定量化＆Meissa4B医療エージェント＆PlayWorldでロボット自己遊び学習
 
 ### 📚 cs.IR（情報検索）

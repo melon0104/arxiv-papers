@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-03-13 注目論文：OneRec-V2でFP8量子化推薦＆IndexCacheでDeepSeek Sparse Attention高速化＆CVPR2026 EVATok/AutoGaze動画理解＆Ψ₀ヒューマノイド基盤モデル
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [OneRec-V2 FP8](papers/2026-03-13-onerec-v2-fp8-quantization) | 📊 **実運用A/B test**: FP8量子化で推薦システム**49%レイテンシ削減**・92%スループット向上 |
+| [OpenSanctions Pairs](papers/2026-03-13-opensanctions-pairs-entity-matching) | 755K対エンティティマッチング、GPT-4o **98.95% F1**、GitHub公開 |
+| [FedShare](papers/2026-03-13-fedshare-federated-recommendation-unlearning) | 連合推薦＋unlearning対応、パーソナライズされたデータ共有とコントラスティブ忘却 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [IndexCache](papers/2026-03-13-indexcache-sparse-attention-acceleration) | **Tsinghua/GLM-5**: DeepSeek Sparse Attention**75%計算削減**、1.82x prefill高速化 |
+| [BTZSC](papers/2026-03-13-btzsc-zero-shot-classification-benchmark) | **ICLR 2026**: ゼロショット分類ベンチ、Qwen3-Reranker-8Bが**F1=0.72で新SOTA** |
+| [SciMDR](papers/2026-03-13-scimdr-scientific-multimodal-reasoning) | 科学論文マルチモーダル推論、**300K QAペア**+明示的推論チェーン |
+| [MADQA](papers/2026-03-13-madqa-document-agentic-qa) | **HuggingFace共著**: エージェントの戦略的推論 vs 試行錯誤を評価、2250問800PDF |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [AI Agent Security](papers/2026-03-13-ai-agent-security-perplexity) | **Perplexity**: エージェントセキュリティ包括分析、間接プロンプトインジェクション等 |
+| [EBFT](papers/2026-03-13-ebft-energy-based-fine-tuning) | シーケンスレベル特徴マッチングで微調整、RLVRと同等・SFT超え |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [EVATok](papers/2026-03-13-evatok-video-adaptive-tokenization) | **CVPR 2026**: 適応長動画トークン化、**24.4%トークン削減**でUCF-101 SOTA |
+| [AutoGaze](papers/2026-03-13-autogaze-video-understanding) | **CVPR 2026 / NVIDIA/Berkeley**: 視覚トークン**4-100x削減**、1Kフレーム4K動画対応 |
+| [VST](papers/2026-03-13-vst-video-streaming-thinking) | Thinking-while-watching、Video-R1比**15.7x高速**でStreamingBench 79.5% |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Reasoning LLM Judges](papers/2026-03-13-reasoning-llm-judges) | 推論審判で訓練したポリシーが**敵対的出力**で他審判を欺く現象を発見 |
+| [TopoBench](papers/2026-03-13-topobench-topological-reasoning) | **ICLR 2026 WS**: トポロジカル推論、フロンティアモデルでも困難インスタンス**25%未満** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Ψ₀ Psi-Zero](papers/2026-03-13-psi-zero-humanoid-foundation-model) | **Stanford / オープンソース**: 800h人間動画+30h実ロボで**+40%成功率**、基盤モデル公開 |
+| [HumDex](papers/2026-03-13-humdex-humanoid-teleoperation) | IMUテレオペ+学習リターゲティング、**完全再現可能**GitHub公開 |
+
+---
+
 ## 2026-03-12 注目論文：TriRecで三者エージェント推薦＆GLM-OCR 0.9BでOCR産業向け＆ICLR2026 LiTo表面ライトフィールド＆CVPR2026色忠実度＆ICRA2026拡散ポリシー改善
 
 ### 📚 cs.IR（情報検索）

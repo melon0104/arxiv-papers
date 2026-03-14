@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-03-15 注目論文：MDER-DRでマルチホップRAG 66%改善＆ACL2026 QAQで合成データ品質フィルタリング＆CVPR2026 BiGain/EVATok/AutoGaze＆MIT Neural Thickets＆Stanford HandelBotピアノ演奏ロボ
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [MDER-DR](papers/2026-03-15-mder-dr) | マルチホップRAG、KGベースQAで標準RAG比**66%改善**、GitHub公開 |
+| [RAGPerf](papers/2026-03-15-ragperf) | **RAGベンチマーク**: embedding/indexing/retrieval/reranking/generation全コンポーネント対応、GitHub公開 |
+| [TriRec](papers/2026-03-15-trirec) | LLMエージェント三者（ユーザー・アイテム・プラットフォーム）推薦、公平性と精度の両立 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [QAQ](papers/2026-03-15-qaq) | **ACL 2026投稿中**: 双方向セマンティック一貫性で合成コードデータのノイズ・幻覚検出 |
+| [Linking Perception](papers/2026-03-15-linking-perception) | **CVPR 2026**: MLLMの信頼度キャリブレーション、CDRLで「知らないときに知らない」を学習 |
+| [TopoBench](papers/2026-03-15-topobench) | **ICLR 2026 WS**: トポロジカル推論ベンチ、フロンティアモデルでも困難問題**25%未満** |
+| [IndexCache](papers/2026-03-15-indexcache) | DeepSeek Sparse Attentionの層間インデックス再利用で効率化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [BiGain](papers/2026-03-15-bigain) | **CVPR 2026**: 周波数分離でトークン圧縮、生成品質と分類精度の両立、GitHub公開 |
+| [Spatial-TTT](papers/2026-03-15-spatial-ttt) | Test-Time Trainingで無制限長動画からストリーミング空間知能 |
+| [Neural Thickets](papers/2026-03-15-neural-thickets) | **MIT (Phillip Isola)**: 大規模事前学習モデルでは重み近傍にタスク専門家が密集 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [EVATok](papers/2026-03-15-evatok) | **CVPR 2026**: 適応長動画トークン化、コンテンツ複雑度に応じたトークン割当 |
+| [AutoGaze](papers/2026-03-15-autogaze) | **CVPR 2026**: 自己回帰的パッチ選択で長時間高解像度動画理解を高速化 |
+| [GRADE](papers/2026-03-15-grade) | 学術分野の専門知識を要する画像編集ベンチ、10ドメイン520サンプル、HuggingFace公開 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Neural Thickets](papers/2026-03-15-neural-thickets) | **MIT**: 事前学習の新解釈—タスク専門家のランダム探索可能性とモデルマージの理論的裏付け |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Ψ₀ Psi-Zero](papers/2026-03-15-psi-zero) | **オープン基盤モデル**: ヒューマノイド全身ロコマニピュレーション、人間-ロボ動作の分離学習 |
+| [SaPaVe](papers/2026-03-15-sapave) | **CVPR 2026**: VLAモデルでのアクティブ知覚と操作の統合、カメラ・操作アクション分離 |
+| [HandelBot](papers/2026-03-15-handelbot) | **Stanford**: 二腕ロボットによる**ミリ精度ピアノ演奏**、高速sim-to-real適応 |
+
+---
+
 ## 2026-03-13 注目論文：OneRec-V2でFP8量子化推薦＆IndexCacheでDeepSeek Sparse Attention高速化＆CVPR2026 EVATok/AutoGaze動画理解＆Ψ₀ヒューマノイド基盤モデル
 
 ### 📚 cs.IR（情報検索）

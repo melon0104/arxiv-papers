@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-03-16 注目論文：CVPR2026 RC-NF/Shape-of-You＆OneRec-V2 FP8で49%レイテンシ削減＆OpenSanctions LLMマッチング98.95% F1＆MDER-DR RAG 66%改善＆Stanford PhD Robot Reliability＆会話税でLLM診断劣化発見
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [OpenSanctions LLM](papers/2026-03-16-opensanctions-llm) | 755Kペア国際制裁エンティティマッチング、**GPT-4o 98.95% F1**、GitHub公開 |
+| [OneRec-V2 FP8](papers/2026-03-16-onerec-v2-fp8) | 📊 **実運用A/Bテスト**: FP8量子化で推薦**49%レイテンシ削減**・92%スループット向上 |
+| [FedShare](papers/2026-03-16-fedshare) | 連合推薦＋アンラーニング、プライバシー制御とパフォーマンスの柔軟なトレードオフ |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [MDER-DR](papers/2026-03-16-mder-dr) | マルチホップRAG、KGベースQAで標準RAG比**66%改善**、GitHub公開 |
+| [REOPOLD](papers/2026-03-16-reopold) | オンポリシー蒸留緩和、7Bが32B教師と同等視覚推論（**3.32x高速**） |
+| [ARACH](papers/2026-03-16-arach) | **学習不要**推論時プラグイン、アテンション再配分でLLM強化 |
+| [Conversation Tax](papers/2026-03-16-conversation-tax) | マルチターン会話で診断推論劣化、17 LLM・3臨床データで実証 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Continual VLA RL](papers/2026-03-16-continual-vla-rl) | **UT Austin**: LoRA+Sequential FTでVLAの継続学習が意外とうまくいく、GitHub公開 |
+| [HAPO](papers/2026-03-16-hapo) | スパース報酬でのRLVR、後知恵アンカーで安定化、教師信号を自然にアニーリング |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [RC-NF](papers/2026-03-16-rc-nf) | **CVPR 2026**: VLA異常検出、pi0にプラグ可能、**100ms未満**で介入 |
+| [Shape-of-You](papers/2026-03-16-shape-of-you) | **CVPR 2026**: Fused Gromov-Wassersteinでセマンティック対応、SPair-71k SOTA |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [FinRule-Bench](papers/2026-03-16-finrule-bench) | 財務諸表ルールベース推論ベンチ、マルチ違反診断で急激に性能低下 |
+| [GPT4o-Receipt](papers/2026-03-16-gpt4o-receipt) | AI生成領収書検出、人間は視覚アーティファクト得意だが算術エラーはLLMが上 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Stanford Robot Reliability](papers/2026-03-16-stanford-robot-reliability) | **Stanford PhD**: 展開時信頼性の3メカニズム、ランタイム監視・解釈可能性・長期タスク |
+| [RoboClaw](papers/2026-03-16-roboclaw) | VLMエージェント的フレームワーク、長期タスク**25%改善**・人間労力**53.7%削減** |
+
+---
+
 ## 2026-03-15 注目論文：MDER-DRでマルチホップRAG 66%改善＆ACL2026 QAQで合成データ品質フィルタリング＆CVPR2026 BiGain/EVATok/AutoGaze＆MIT Neural Thickets＆Stanford HandelBotピアノ演奏ロボ
 
 ### 📚 cs.IR（情報検索）

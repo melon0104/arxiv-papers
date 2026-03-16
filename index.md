@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-03-17 注目論文：ICLR2026 ReBalance推論バランス化＆NanoVDR 32x蒸留＆EISAM LRS ロングテール解決＆TERMINATOR CoT 55%削減＆VLA CoT脆弱性発見
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [NanoVDR](papers/2026-03-17-nanovdr-distillation) | 2B VLM→70M Text Encoder蒸留、**32xパラメータ削減**・50x CPUレイテンシ削減、教師品質95.1%維持 |
+| [EISAM](papers/2026-03-17-eisam-longtail-lrs) | LLM推薦のロングテール問題初体系化、**アイテム単位SAM**で理論保証付き改善 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ReBalance](papers/2026-03-17-rebalance-iclr2026) | **ICLR 2026**: 推論のoverthinking/underthinking解決、信頼度ベース動的制御、**訓練不要** |
+| [TERMINATOR](papers/2026-03-17-terminator-cot-early-exit) | CoT最適早期終了学習、**14-55%トークン削減**でSOTA、AIME2025/MATH-500対応 |
+| [RL for Diffusion LLMs](papers/2026-03-17-rl-diffusion-llm) | 拡散言語モデルRL、エントロピーガイドステップ選択、コーディング・論理推論でSOTA |
+| [Aligning from Interactions](papers/2026-03-17-aligning-user-interactions) | WildChatから自己蒸留、明示的フィードバック不要でアラインメント・パーソナライズ |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [NeuroLoRA](papers/2026-03-17-neurolora-moe-peft) | 神経調節に着想のMoE-LoRA、コンテキスト依存ルーティング、継続学習能力向上 |
+| [TERMINATOR](papers/2026-03-17-terminator-cot-early-exit) | LRM早期終了戦略、最適推論長データセット構築、4ベンチマークでSOTA |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [VQQA](papers/2026-03-17-vqqa-video-quality) | マルチエージェント動画品質評価、VLM critiquesでT2V-CompBench **+11.57%**、I2V対応 |
+| [Show Don't Tell](papers/2026-03-17-show-dont-tell-robot) | 人間デモから新規物体検出学習、言語プロンプト不要、**実ロボット検証** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [ReBalance](papers/2026-03-17-rebalance-iclr2026) | **ICLR 2026**: 0.5B〜32Bモデル×9ベンチ、plug-and-playで推論効率化 |
+| [Structured Distillation](papers/2026-03-17-structured-distillation-agent-memory) | エージェントメモリ**11x圧縮**、検索品質96%維持、214K評価ペア、GitHub公開 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [VLA CoT Vulnerabilities](papers/2026-03-17-vla-cot-vulnerabilities) | **VLA推論トレースの脆弱性発見**: オブジェクト名置換で**-45pp**、入力検証では防げない新脅威 |
+| [Q-DIG](papers/2026-03-17-qdig-vla-redteaming) | VLAのQuality Diversity red-teaming、多様な失敗モード発見、ファインチューニングで改善 |
+
+---
+
 ## 2026-03-16 注目論文：CVPR2026 RC-NF/Shape-of-You＆OneRec-V2 FP8で49%レイテンシ削減＆OpenSanctions LLMマッチング98.95% F1＆MDER-DR RAG 66%改善＆Stanford PhD Robot Reliability＆会話税でLLM診断劣化発見
 
 ### 📚 cs.IR（情報検索）

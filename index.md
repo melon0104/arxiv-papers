@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-03-18 注目論文：MoDA 深層注意＆Code-A1 敵対共進化＆DOMINO 動的マニピュレーション＆OpenSeeker 検索エージェント完全公開
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Graph-RAG Reasoning Bottleneck](papers/2026-03-18-graphrag-reasoning-bottleneck) | 検索は当たるが推論が落ちる問題を定量化、SPARQL CoT＋グラフ圧縮で**最大+14pp**、小型モデルで大型超え |
+| [C2RAG](papers/2026-03-18-c2rag-robust-graphrag) | KGノイズ/欠損に強い制約チェック型GraphRAG、EM+3.4/F1+3.9 |
+| [FinTRACE](papers/2026-03-18-fintrace-transaction-retrieval) | 金融トランザクション検索ファーストでゼロショットMCC **0.19→0.38** |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [MoDA](papers/2026-03-18-moda-attention) | 深層LLMの信号劣化を深度アテンションで解決、FlashAttention級効率、GitHub公開 |
+| [Code-A1](papers/2026-03-18-code-a1-adversarial) | Code/Test LLMの敵対共進化、自己共謀を回避、GitHub公開 |
+| [Moral Indifference](papers/2026-03-18-moral-indifference-llm) | LLMの道徳的無関心を表現レベルで修正、Flamesで**75% win** |
+| [OrgForge](papers/2026-03-18-orgforge-multiagent) | RAG評価用の一貫性付き合成企業コーパス、マルチエージェント生成 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [HorizonMath](papers/2026-03-18-horizonmath-benchmark) | 未解決問題100+の数学発見ベンチ、GPT 5.4 Proが既知最良を改善候補 |
+| [SmartSearch](papers/2026-03-18-smartsearch-memory) | 構造化不要、ランキング重視で会話メモリ検索SOTA |
+| [xLSTM Distillation](papers/2026-03-18-xlstm-distillation) | Transformer→xLSTM蒸留で性能維持/超え、効率化に有望 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [DOMINO](papers/2026-03-18-domino-dynamic-manipulation) | 動的マニピュレーション用110K軌跡データ＋PUMA、成功率+6.3%、GitHub公開 |
+| [DeepVision-VLA](papers/2026-03-18-deepvision-vla) | VLAの深層視覚感度低下を補正、実機+7.5% |
+| [GlyphPrinter](papers/2026-03-18-glyphprinter-cvpr2026) | **CVPR 2026**、領域DPOでグリフ精度改善 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [OpenSeeker](papers/2026-03-18-openseeker-search-agent) | 検索エージェントのモデル＋データ完全公開、11.7KでSOTA級 |
+| [Counterfactual Metrics](papers/2026-03-18-counterfactual-metrics-xai2026) | **XAI 2026**、反事実指標が人間評価と弱相関を実証 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [PRIMO R1](papers/2026-03-18-primo-r1-process-reasoning) | 7Bで72B級を超えるプロセス監視、RoboFail 67% | 
+| [EAAE](papers/2026-03-18-eaae-uav-exploration) | UAV探索でエネルギー最適化、消費削減 |
+
+---
+
 ## 2026-03-17 注目論文：ICLR2026 ReBalance推論バランス化＆NanoVDR 32x蒸留＆EISAM LRS ロングテール解決＆TERMINATOR CoT 55%削減＆VLA CoT脆弱性発見
 
 ### 📚 cs.IR（情報検索）

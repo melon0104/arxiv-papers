@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-03-19 注目論文：CVPR 2026 3本（EchoSafe安全性・ATV-Pruning LVLM剪定・Parallel-ICL）＆MiroThinker検証型エージェント＆Golden Ticket実機60%改善
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [RecBundle](papers/2026-03-19-recbundle-geometric-recsys) | ファイバーバンドル理論で推薦システムを幾何学的に分析、情報繭問題への新アプローチ |
+| [Answer Bubbles](papers/2026-03-19-answer-bubbles-search) | GPT vs Google 11K実クエリ比較、生成検索の**ソースバイアス**とヘッジング60%減を定量化 |
+| [CRAG Open-Source](papers/2026-03-19-crag-opensource-reproduction) | CRAGの完全オープンソース再現＋SHAP説明可能性分析、**固有表現アライメント依存**を発見 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [MiroThinker](papers/2026-03-19-mirothinker-research-agent) | 検証機構統合のリサーチエージェント、ローカル/グローバル検証で信頼性確保、**オープンソース公開** |
+| [SRLM](papers/2026-03-19-srlm-long-context) | 自己反省型プログラム探索で長文脈処理、RLMを**最大+22%**改善 |
+| [Efficient Reasoning on Edge](papers/2026-03-19-efficient-reasoning-edge) | **Qualcomm AI Research**、LoRA＋RL バジェット強制でモバイル推論実現、実機デモ公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [EHR Tokenization](papers/2026-03-19-ehr-tokenization) | 医療EHR基盤モデルのトークン化調査、Joint encoding＋Positional時間で**73/74タスク勝利・39.5%FLOPs削減** |
+| [CGC](papers/2026-03-19-capability-guided-compression) | SAE由来capability densityでLLM圧縮、既存指標と**直交する新信号**を発見 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [EchoSafe](papers/2026-03-19-echosafe-mllm-safety) | **CVPR 2026**、自己反省メモリでMLLMのコンテキスト安全性を進化的に強化 |
+| [ATV-Pruning](papers/2026-03-19-atv-pruning-lvlm) | **CVPR 2026**、テキスト・視覚の非対称性を活用したLVLM剪定、コード公開 |
+| [Parallel-ICL](papers/2026-03-19-parallel-icl-vlm) | **CVPR 2026 Findings**、デモを並列処理してMM-ICL高速化、精度維持でレイテンシ改善 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Memory Store Routing](papers/2026-03-19-cost-sensitive-memory-routing) | **ICLR 2026 Workshop**、メモリストア選択的ルーティングでコスト削減＋精度向上 |
+| [AsgardBench](papers/2026-03-19-asgard-bench-vlm) | インタラクティブプランニング評価ベンチ、VLMの視覚グラウンディング弱点を特定 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Golden Ticket](papers/2026-03-19-golden-ticket-diffusion) | 単一ノイズベクトル最適化で拡散ポリシー改善、実機で**60%改善**、訓練不要 |
+| [SimDist](papers/2026-03-19-simdist-sim2real) | シミュレーション蒸留でワールドモデル事前学習、短期システム同定で高速Sim2Real適応 |
+
+---
+
 ## 2026-03-18 注目論文：MoDA 深層注意＆Code-A1 敵対共進化＆DOMINO 動的マニピュレーション＆OpenSeeker 検索エージェント完全公開
 
 ### 📚 cs.IR（情報検索）

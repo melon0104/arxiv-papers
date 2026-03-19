@@ -9,6 +9,58 @@ title: Home
 
 ---
 
+## 2026-03-20 注目論文：Spotify GLIDE本番デプロイ（新番組発見+14%）＆NEO統合検索推薦＆ARAM RAG拡散＆動機付け推論検出＆PIER海上ルーティング燃料浪費9分の1
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [GLIDE (Spotify)](papers/2026-03-20-glide-spotify-podcast) | **Spotify本番デプロイ**、数百万ユーザーA/Bテストで非習慣的視聴**+5.4%**、新番組発見**+14.3%** |
+| [NEO (Spotify)](papers/2026-03-20-neo-unified-lm-search-rec) | 検索・推薦・推論を**単一言語ステアラブルモデル**で統合、1000万アイテム以上で検証 |
+| [OPERA](papers/2026-03-20-opera-retrieval-pruning) | 検索モデル適応のデータ剪定、**NDCG+1.9%**を**50%未満の訓練時間**で達成 |
+| [CRE-T1](papers/2026-03-20-cre-t1-reasoning-retrieval) | 対照学習超え**生成型検索**、GRPOで動的推論、BRIGHTで大型対照学習モデル超え |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ARAM](papers/2026-03-20-aram-rag-diffusion) | 拡散言語モデル向けRAG、**SNRベース適応ガイダンス**で検索コンフリクト解決 |
+| [MoE Knowledge Localization](papers/2026-03-20-moe-knowledge-localization) | 多言語不整合でMoE知識局在化、**20/6000エキスパート無効化で40%正答不能** |
+| [NL2SQL Robustness](papers/2026-03-20-nl2sql-robustness) | GPT-5.2/Claude-Opus-4.6等評価、表面ノイズvs言語変動の脆弱性分析 |
+| [Anonymous-by-Construction](papers/2026-03-20-anonymous-by-construction) | オンプレミスLLMでPII匿名化、**Presidio/Google DLP超え**、Q&Aエージェント対応 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [MHPO](papers/2026-03-20-mhpo-stable-rl) | GRPO安定化、**ハザード認識ポリシー最適化**でモード崩壊・ポリシー侵食を同時緩和 |
+| [AAT](papers/2026-03-20-aat-continual-learning) | 構造的抽象化で継続学習、**リプレイバッファ完全不要**でER同等以上 |
+| [Motivated Reasoning Detection](papers/2026-03-20-motivated-reasoning-detection) | LLMの動機付け推論を内部活性化から検出、**CoT生成前でも予測可能** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [DesertFormer](papers/2026-03-20-desertformer-terrain-segmentation) | 砂漠地形セグメンテーション、DeepLabV3比**+24.2% mIoU**、GitHub公開 |
+| [Pixel Counterfactual](papers/2026-03-20-pixel-counterfactual-medical) | **ISBI-2026口頭**、反事実×密対照学習で医療画像**~94% DSC** |
+| [Flash Fingerprint](papers/2026-03-20-fingerprint-spoof-flash) | **IWBF 2026**、フラッシュペア撮像で非接触指紋スプーフ検出 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [PIER](papers/2026-03-20-pier-maritime-routing) | 物理情報オフラインRLで海上ルーティング、壊滅的燃料浪費を**9分の1に削減** |
+| [Cascade-Aware Routing](papers/2026-03-20-cascade-multiagent-routing) | マルチエージェント幾何学認識、**133パラメータで勝率+36.8pp** |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [KineVLA](papers/2026-03-20-kinevla-robot-manipulation) | 運動学認識VLA、方向・軌跡・姿勢を言語に密エンコード、LIBERO+実機検証 |
+| [EVA](papers/2026-03-20-eva-video-world-model) | ビデオワールドモデルの実行可能性ギャップをRL解消、逆動力学報酬で制約適合 |
+
+---
+
 ## 2026-03-19 注目論文：CVPR 2026 3本（EchoSafe安全性・ATV-Pruning LVLM剪定・Parallel-ICL）＆MiroThinker検証型エージェント＆Golden Ticket実機60%改善
 
 ### 📚 cs.IR（情報検索）

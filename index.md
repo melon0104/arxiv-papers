@@ -9,6 +9,46 @@ title: Home
 
 ---
 
+## 2026-03-21 注目論文：Spotify GLIDEポッドキャスト発見＆NVIDIA Nemotron-Cascade 2 IMO金メダル＆F2LLM-v2 MTEB 11部門1位＆CubiD/EffectErase CVPR採択＆OmniViTac大規模触覚データセット
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [GLIDE (Spotify)](papers/2603.17540) | **Spotify本番デプロイ**、Semantic IDベース生成推薦、非習慣的視聴**+5.4%**、新番組発見**+14.3%** |
+| [NEO (Spotify)](papers/2603.17533) | 検索・推薦・推論を**単一LLM**で統合、1000万+アイテムでタスク特化ベースライン超え |
+| [Interplay](papers/2603.18573) | **ECIR 2026採択**、参照不要シミュレーションで対話型推薦訓練データ生成 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Nemotron-Cascade 2 (NVIDIA)](papers/2603.19220) | 30B MoE/3B活性化で**IMO金メダル・IOI・ICPC世界決勝**レベル、モデル＆データ公開 |
+| [F2LLM-v2](papers/2603.19223) | **MTEB 11ベンチマーク1位**、200言語対応、80M〜14Bの8サイズ展開、全コード公開 |
+| [DaPT](papers/2603.19097) | **ICASSP 2026採択**、多言語マルチホップQAのデュアルパスRAG、MuSiQue EM+18.3% |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [CubiD](papers/2603.19232) | **CVPR 2026採択**、初の高次元離散生成モデル、ImageNet-256でSOTA、コード公開 |
+| [EffectErase](papers/2603.19224) | **CVPR 2026採択**、60Kビデオペアでオブジェクト＆エフェクト除去、相互学習 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [OS-Themis](papers/2603.19191) | マルチエージェント批評家でGUI報酬設計、AndroidWorld RL**+10.3%**改善 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [OmniViTac](papers/2603.19201) | **21,000軌跡・86タスク**の大規模視覚触覚データセット、60Hzリフレキシブ制御 |
+| [FASTER](papers/2603.19199) | VLAリアルタイム化、Horizon-Aware Scheduleで反応10倍高速化、**卓球タスク実証** |
+
+---
+
 ## 2026-03-20 注目論文：Spotify GLIDE本番デプロイ（新番組発見+14%）＆NEO統合検索推薦＆ARAM RAG拡散＆動機付け推論検出＆PIER海上ルーティング燃料浪費9分の1
 
 ### 📚 cs.IR（情報検索）

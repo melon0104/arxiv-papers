@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-03-22 注目論文：NVIDIA Nemotron-Cascade 2 IMO金メダル＆F2LLM-v2 MTEB 11部門1位＆SOL-ExecBench GPUカーネル最適化＆VEGA-3D ビデオ事前分布3D理解＆VLA内部メカニズム解明
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Total Recall QA](papers/2603.18516) | TREC着想の深層リサーチエージェント評価、**完全想起型QAタスク**でデータ汚染対策 |
+| [HypeMed](papers/2603.18459) | **TOIS採択**、ハイパーグラフで薬剤推薦、DDI削減と精度向上を両立 |
+| [Negative Sampling Survey](papers/2603.18005) | **EACL Findings採択**、Dense IR負例サンプリング35論文統合サーベイ |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Nemotron-Cascade 2 (NVIDIA)](papers/2603.19220) | 30B MoE/3B活性化で**IMO金メダル・IOI・ICPC世界決勝**レベル、モデル＆データ公開 |
+| [F2LLM-v2](papers/2603.19223) | **MTEB 11ベンチマーク1位**、200言語対応、80M〜14Bの8サイズ展開、全コード公開 |
+| [DaPT](papers/2603.19097) | **ICASSP 2026採択**、多言語マルチホップQAのデュアルパスRAG、MuSiQue EM**+18.3%** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [SOL-ExecBench (NVIDIA)](papers/2603.19173) | **Blackwell GPU**向け235カーネル最適化問題、ハードウェア限界ベンチマーク |
+| [Ranking Feedback Online Learning](papers/2603.19221) | 数値フィードバック不要のオンライン学習、**LLMルーティング**応用を実証 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [VEGA-3D](papers/2603.19235) | ビデオ拡散モデルの暗黙的3D事前分布活用、**コード公開**、空間推論・実体操作でSOTA |
+| [Matryoshka Gaussian Splatting](papers/2603.19234) | 3DGSの**連続LoD**実現、フル解像度品質維持、アーキテクチャ変更不要 |
+| [DriveTok](papers/2603.19219) | 自動運転向け3Dトークナイザー、マルチビュー統一表現、**コード公開** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [OS-Themis](papers/2603.19191) | マルチエージェント批評家でGUI報酬設計、AndroidWorld RL**+10.3%**改善 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [VLA Mechanistic Study](papers/2603.19233) | **ICLR Workshop採択**、6モデル394K+エピソード分析、視覚経路の支配性を解明 |
+| [OmniVTA](papers/2603.19201) | **21,000軌跡・86タスク**の大規模視覚触覚データセット、60Hzリフレキシブ制御 |
+
+---
+
 ## 2026-03-21 注目論文：Spotify GLIDEポッドキャスト発見＆NVIDIA Nemotron-Cascade 2 IMO金メダル＆F2LLM-v2 MTEB 11部門1位＆CubiD/EffectErase CVPR採択＆OmniViTac大規模触覚データセット
 
 ### 📚 cs.IR（情報検索）

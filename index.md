@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-03-24 注目論文：Taobao AIGQ本番デプロイ＆JD.com GenFacet CTR+42%＆VideoSeek CVPR採択＆LumosX ICLR採択＆CRISP ICRA採択＆PIXAR CVPR Findings採択
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [AIGQ (Alibaba)](papers/2603.19710) | **Taobao本番デプロイ**、初のエンドツーエンド生成クエリ推薦、IL-SFT＆IL-GRPO |
+| [GenFacet (JD.com)](papers/2603.19665) | **JD.com本番デプロイ**、生成ファセット検索、CTR**+42%**・UCVR**+2%** |
+| [All-Mem](papers/2603.19595) | エージェント長期記憶、トポロジー進化でLOCOMO/LONGMEMEVAL改善 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Semantic Token Clustering](papers/2603.20161) | **EACL 2026採択**、単一生成でLLM不確実性定量化、補助モデル不要 |
+| [Measuring CoT Faithfulness](papers/2603.20172) | CoT忠実性は分類器依存、12モデル10K+トレースで系統的差異を実証 |
+| [Breaking Capability Ceiling](papers/2603.19987) | LLM post-trainingの構造的限界、**マルコフ状態再導入**で突破 |
+| [Dual Path Attribution](papers/2603.19742) | SwiGLU Transformer向け高効率アトリビューション、**O(1)時間複雑性** |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [SCRL](papers/2603.19880) | テスト時RLの負例擬似ラベリング、コンセンサス弱い場面でロバスト、**コード公開** |
+| [Var-JEPA](papers/2603.20111) | JEPAの変分定式化、単一ELBO最適化、予測的・生成的SSLを橋渡し |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [VideoSeek](papers/2603.20185) | **CVPR 2026採択**、GPT-5ベース長時間ビデオエージェント、93%フレーム削減 |
+| [LumosX](papers/2603.20192) | **ICLR 2026採択**、複数被写体パーソナライズド動画生成、**コード公開** |
+| [PIXAR](papers/2603.20193) | **CVPR 2026 Findings採択**、VLM画像改ざん検出の新分類法・ベンチマーク |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Dynamic Belief Graphs](papers/2603.20170) | Theory of Mind + LLM、動的信念グラフで災害避難行動予測 |
+| [Transformer Plan Verification](papers/2603.19954) | C*-RASP導入、Transformerのプラン検証能力を理論的分析 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [CRISP](papers/2603.20164) | **ICRA 2026採択**、VLM「内なる批評家」でロボット社会的行動を自己改善 |
+| [IndoorR2X](papers/2603.20182) | IoT+マルチロボット協調、LLM駆動タスク計画のベンチマーク（CMU） |
+
+---
+
 ## 2026-03-22 注目論文：NVIDIA Nemotron-Cascade 2 IMO金メダル＆F2LLM-v2 MTEB 11部門1位＆SOL-ExecBench GPUカーネル最適化＆VEGA-3D ビデオ事前分布3D理解＆VLA内部メカニズム解明
 
 ### 📚 cs.IR（情報検索）

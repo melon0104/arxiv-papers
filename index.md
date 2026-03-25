@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-03-26 注目論文：KARMA Taobao本番デプロイLLM検索＆VISOR CVPR採択視覚効率化＆ReVal Off-Policy RL＆VTAM触覚ロボ＆Bilevel Autoresearch自己最適化
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [KARMA](papers/2603.22779) | **Taobao本番デプロイ**、LLMのKnowledge-Action Gap解決、+0.5% Item Click |
+| [GEM-Rec](papers/2603.22231) | TIGER拡張、**広告入札を生成推薦に統合**、Allocation Monotonicity保証 |
+| [AgenticRec](papers/2603.21613) | ランキング指向推薦エージェント、**List-Wise GRPO**で軌跡全体を最適化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ReVal](papers/2603.23355) | **Off-Policy Value-Based RL** for LLM、GRPOより高速収束、AIME24+2.7% |
+| [SortedRL](papers/2603.23414) | LLM向けRL高速化、**長さ認識スケジューリング**でbubble ratio 50%削減 |
+| [SpecEyes](papers/2603.23483) | エージェント型MLLM**投機的高速化**、1.1-3.35x speedup、コード公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [ReVal](papers/2603.23355) | **Bellman-updateベース**価値学習、replay bufferでサンプル効率化 |
+| [SortedRL](papers/2603.23414) | rolloutボトルネック解決、**同一データ量で+3.9%〜+18.4%性能向上** |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [VISOR](papers/2603.23495) | **CVPR 2026採択**、視覚トークン削減せず**インタラクションのスパース化**で効率化 |
+| [OccAny](papers/2603.23502) | **CVPR 2026採択**、制約なし都市3D占有予測、コード公開 |
+| [UniGRPO](papers/2603.23500) | 推論駆動型画像生成、テキスト+画像の**統一RLフレームワーク** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Bilevel Autoresearch](papers/2603.23420) | **meta-autoresearch**、外側ループが内側を最適化、5x改善 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [VTAM](papers/2603.23481) | **Video-Tactile-Action Model**、触覚統合で接触リッチ操作90%成功率 |
+| [ABot-PhysWorld](papers/2603.23376) | 14B DiT、**物理整合性ワールドモデル**、Veo 3.1/Sora v2 Pro超え |
+
+---
+
 ## 2026-03-25 注目論文：GEM-Rec広告統合生成推薦＆DoRA高ランク適応メモリ効率化＆UniDex 50K軌跡8手形態＆UNITE LDM統一学習＆ThinkJEPA V-JEPA2+VLM＆MARCUS心臓診断マルチモーダル
 
 ### 📚 cs.IR（情報検索）

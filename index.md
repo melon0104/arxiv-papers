@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-03-27 注目論文：OneSearch-V2産業生成検索＆Claudini自律攻撃発見＆MARCHマルチエージェントRAG検証＆PP-OCRv5 5Mで巨大VLM超え＆AI-Supervisor研究自動化
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [OneSearch-V2](papers/2603.24422) | **産業規模デプロイ**、生成検索フレームワーク、潜在推論+自己蒸留で複雑クエリ対応 |
+| [RAG Policy QA](papers/2603.24580) | **検索改善≠回答改善**、AIガバナンスドメインでRAGの限界を実証 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [MARCH](papers/2603.24579) | **マルチエージェント強化学習**でRAGハルシネーション検証、確認バイアス問題を解決 |
+| [Self-Distillation Degradation](papers/2603.24472) | Self-distillationが推論能力を**劣化させる**原因を特定、epistemic verbalの抑制 |
+| [RAG Policy QA](papers/2603.24580) | ColBERTベースRAGの**ドメイン特化評価**、法的言語の課題を分析 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Claudini](papers/2603.24511) | **Claude Codeでautoresearch**、30+手法を超える敵対的攻撃アルゴリズムを自律発見 |
+| [UI-Voyager](papers/2603.24533) | 失敗から学ぶGUIエージェント、**RFT**でデータ・モデル共進化 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [PP-OCRv5](papers/2603.24373) | **5Mパラメータ**で十億級VLM超え、軽量OCRの極致 |
+| [LensWalk](papers/2603.24558) | **エージェント型動画理解**、推論進化に応じた能動的証拠収集 |
+| [OmniWeaving](papers/2603.24458) | 統一動画生成モデル、**自由形式構成+推論駆動** |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [AI-Supervisor](papers/2603.24402) | **AutoProf**、持続的研究世界モデルでAI研究監督を自動化 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Chameleon](papers/2603.24576) | **エピソード記憶**で長horizonロボット操作、細粒度知覚キューを保持 |
+| [3D-Mix for VLA](papers/2603.24393) | VLAモデルに**3D情報統合**、プラグアンドプレイモジュール |
+
+---
+
 ## 2026-03-26 注目論文：KARMA Taobao本番デプロイLLM検索＆VISOR CVPR採択視覚効率化＆ReVal Off-Policy RL＆VTAM触覚ロボ＆Bilevel Autoresearch自己最適化
 
 ### 📚 cs.IR（情報検索）

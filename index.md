@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-03-28 注目論文：WWW 2026 MCLMR因果推薦＆CVPR 2026 DMW個人化自動運転＆KlingAI ShotStreamリアルタイム動画＆S2D2 拡散LLM 4.7x高速化＆WriteBack-RAGで知識ベース学習
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [MCLMR](papers/2603.25126-mclmr) | **WWW 2026採択**、因果グラフ+MoEでマルチ行動推薦、GitHub公開 |
+| [AuthorityBench](papers/2603.25092-authoritybench) | RAGの情報**権威性認識**を評価するベンチマーク、権威フィルタリングで精度向上、ACL 2026投稿 |
+| [ColBERT-Att](papers/2603.25248-colbert-att) | Late Interaction＋アテンション統合、MS-MARCO/BEIR/LoTTEでrecall改善 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [S2D2](papers/2603.25702-s2d2) | 拡散LLMの**Training-free自己投機デコーディング**、最大4.7x高速化、GitHub公開 |
+| [LLM Self-Improvement Survey](papers/2603.25681-llm-self-improvement) | LLM自己改善の**統一フレームワーク**、4プロセス+自律評価層でライフサイクル整理 |
+| [NLAH](papers/2603.25723-nlah) | エージェントハーネスを**自然言語で記述・実行**、under review |
+| [Narrative Coherence](papers/2603.25537-narrative-coherence) | VLMと人間の物語一貫性を比較、系統的な差異を発見、GitHub公開 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Neural Scaling for Weather](papers/2603.25687-neural-scaling-weather) | **ICLR FM4Sci Workshop**、気象予測のスケーリング則、IsoFLOP曲線で計算最適化 |
+| [On-Policy Distillation Fixes](papers/2603.25562-on-policy-distillation) | OPDの3つの失敗モードを特定、truncated reverse-KLで改善 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [ShotStream](papers/2603.25746-shotstream) | **KlingAI Research**、ストリーミング動画生成で**16 FPSリアルタイム**、GitHub公開 |
+| [LGTM](papers/2603.25745-lgtm) | **4K Gaussian Splatting**をフィードフォワードで実現、少プリミティブで高品質 |
+| [MuRF](papers/2603.25744-murf) | Vision Foundation Modelの**マルチ解像度融合**、DINOv2/SigLIP2で有効、訓練不要 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [WriteBack-RAG](papers/2603.25737-writeback-rag) | 知識ベースを**学習可能コンポーネント**化、蒸留で+2.14%精度向上、任意のRAGに適用可 |
+| [WildASR](papers/2603.25727-wildasr) | 4言語ASRベンチマーク、環境劣化・人口統計・言語多様性で評価、**幻覚リスク**を指摘 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Drive My Way](papers/2603.25740-drive-my-way) | **CVPR 2026**、個人の運転習慣に適応するVLA、ユーザー埋め込み＋言語指示 |
+| [SoftMimicGen](papers/2603.25725-softmimicgen) | 変形可能物体操作のデータ自動生成、4ロボット形態（単腕・双腕・ヒューマノイド・手術）対応 |
+
+---
+
 ## 2026-03-27 注目論文：OneSearch-V2産業生成検索＆Claudini自律攻撃発見＆MARCHマルチエージェントRAG検証＆PP-OCRv5 5Mで巨大VLM超え＆AI-Supervisor研究自動化
 
 ### 📚 cs.IR（情報検索）

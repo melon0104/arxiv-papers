@@ -9,6 +9,51 @@ title: Home
 
 ---
 
+## 2026-04-06 注目論文：週末で新着なし（直近 2026-04-02 公開分）— MAVRSサーベイ／MoE解釈／SPAR高解像度セグ／CORAL自律進化
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [EU20 QA](papers/2604.01957-eu20-qa) | EU20翻訳ベンチを三段階で自動QA、品質指標と修正版を公開 |
+| [MAVRS Survey](papers/2604.02211-mavrs-survey) | 動画推薦のマルチエージェント化を体系化した最新サーベイ |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [VISTA](papers/2604.02217-vista) | バックプロパゲ不要のトークン重要度可視化、3行列で寄与分解、OSS |
+| [MoE Expert Interpretability](papers/2604.02178-moe-expert-interpretability) | MoEはexpert単位で単義性が高いことを示し、解釈手法を提供 |
+| [Stability Steering](papers/2604.02113-stability-steering) | 推論ステアリングの不安定境界を除去しMATH-500で+5.0向上 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [SKILL0](papers/2604.02268-skill0) | スキル文書を内在化するIn-Context RL、ゼロショット化を実現 |
+| [DDCD](papers/2604.02250-ddcd) | 拡散デノイズ目的で因果DAG学習を安定化、k-hop制約で高速化 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [SPAR](papers/2604.02252-spar) | 単発Any-Resolution ViTで高解像度セグ、+10.5 mIoU、GitHub |
+| [UAV-Track VLA](papers/2604.02241-uav-track-vla) | UAV追跡の89万フレームベンチ＋VLA改良、実時間性能向上 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [CORAL](papers/2604.01658-coral) | 自律マルチエージェント進化でSOTA、改善速度3–10倍 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [UniDriveVLA](papers/2604.02190-unidrivevla) | 認識/推論/計画をMoTで分離し自動運転VLAでSOTA |
+
+---
+
 ## 2026-03-28 注目論文：WWW 2026 MCLMR因果推薦＆CVPR 2026 DMW個人化自動運転＆KlingAI ShotStreamリアルタイム動画＆S2D2 拡散LLM 4.7x高速化＆WriteBack-RAGで知識ベース学習
 
 ### 📚 cs.IR（情報検索）

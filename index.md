@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-04-07 注目論文：昨日分の新着なし（直近 2026-04-03 公開分）— Prompt Compression／MBGR本番デプロイ／LogicPoison／RCL／VOSR／Chart-RL／DreamTIP
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Prompt Compression in the Wild](papers/2604.02985-prompt-compression) | **ECIR 2026**、圧縮の損益分岐を大規模測定、最大18%高速化 |
+| [MBGR](papers/2604.02684-mbgr) | **美団本番デプロイ**のマルチ事業生成推薦、BID+MBP+LDR |
+| [GTC](papers/2604.03014-gtc) | ユーザー条件拡散+Total CorrelationでMMR改善、NDCG@5最大+28.3%、GitHub |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Memorization Signature](papers/2604.03199-memorization-signature) | LT-MIAで記憶シグネチャを学習、Mamba/RWKVへ転移、GitHub |
+| [LogicPoison](papers/2604.02954-logicpoison) | GraphRAGの論理構造を毒化する攻撃、ステルス性高、GitHub |
+| [RAG Impracticality Benchmark](papers/2604.02640-rag-impracticality) | 企業RAG向け4軸診断ベンチ、**AAAI WS**採択 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [RCL](papers/2604.03189-rcl) | 文脈最適化を統一枠組み化、最適化プリミティブで改善、GitHub |
+| [Hierarchical Planning](papers/2604.03208-hierarchical-planning) | 潜在世界モデルを階層化し長期計画、実機70%成功 |
+| [Random vs APL](papers/2604.02766-random-vs-apl) | online DPOのActive選択はRandomに勝てず、能力崩壊を指摘、GitHub |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [VOSR](papers/2604.03225-vosr) | Vision-only SRでT2I不要、学習コスト1/10、**CVPR 2026**、GitHub |
+| [SD-FSMIS](papers/2604.03134-sd-fsmis) | Stable DiffusionをFew-shot医用セグに適応、**CVPR 2026** |
+| [GenSmoke-GS](papers/2604.03039-gensmoke-gs) | 煙劣化NVSで**NTIRE 3DRR優勝**、GitHub |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Chart-RL](papers/2604.03157-chart-rl) | ChartQAをRL最適化、精度向上&遅延31s→9s、**KDD 2026** |
+| [InfoSeeker](papers/2604.02971-infoseeker) | 階層並列エージェントで情報統合、3–5x高速、GitHub |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Offroad-Nav Stack](papers/2604.03096-offroad-nav) | LiDAR/単眼両対応のオフロード自律走行スタック、GitHub |
+| [DreamTIP](papers/2604.02911-dreamtip) | タスク不変特性で四足ロボ転移、**ICRA 2026**採択 |
+
+---
+
 ## 2026-04-06 注目論文：週末で新着なし（直近 2026-04-02 公開分）— MAVRSサーベイ／MoE解釈／SPAR高解像度セグ／CORAL自律進化
 
 ### 📚 cs.IR（情報検索）

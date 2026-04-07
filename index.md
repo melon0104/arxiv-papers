@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-04-08 注目論文：SIGIR 2026 2本／ACL 2026 2本／CVPR 2026 3本／エージェントプロトコルANX OSS／低コスト産業用bin picking
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Beyond Hard Negatives](papers/2604.04734-score-distribution-kd) | **SIGIR 2026 Main**、KDでスコア分布を保つ層別サンプリングを提案 |
+| [FAVE](papers/2604.04427-fave) | **SIGIR 2026採択**、拡散推薦を1-step生成にして桁違い高速化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [LiveFact](papers/2604.04815-livefact) | **ACL 2026 Main**、時間変化を扱う動的ファクトチェックベンチ |
+| [Beyond the Final Actor](papers/2604.04932-dual-roles-detector) | **ACL 2026採択**、生成者/編集者の二重役割を区別する検知 |
+| [PassiveQA](papers/2604.04565-passiveqa) | 不完全質問に「答える/確認/保留」3アクション、GitHub公開 |
+| [TriAttention](papers/2604.04921-triattention) | 三角関数KV圧縮で長文推論のメモリ問題を軽減、GitHub |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Prompt Selection Necessary?](papers/2604.04420-prompt-selection-ocl) | **CVPR Findings 2026**、単一プロンプトでも競合に近い性能、GitHub |
+| [Cog-DRIFT](papers/2604.04767-cog-drift) | 難問を学習可能に再構成してRLVRを改善、GitHub |
+| [Sampling Parallelism](papers/2604.04736-sampling-parallelism) | 実運用UQ向けにベイズ学習のサンプリングを並列化 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [PointTPA](papers/2604.04933-pointtpa) | **CVPR 2026**、点群理解の推論時パラメータ適応、GitHub |
+| [Delta Tokens](papers/2604.04913-delta-tokens) | **CVPR 2026**、世界モデルの生成を軽量化、コード/重み公開 |
+| [AvatarPointillist](papers/2604.04787-avatarpointillist) | **CVPR 2026**、単一画像から4D Gaussianアバター生成、PJページ |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [ANX Protocol](papers/2604.04820-anx-protocol) | エージェント連携をプロトコルファーストで設計、OSS公開 |
+| [SuperLocalMemory v3.3](papers/2604.04514-superlocalmemory-v33) | LLM非依存のローカル記憶基盤、GitHub公開 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Pickalo](papers/2604.04690-pickalo) | 低コスト機材で産業用bin pickingを実運用想定で実現 |
+
 ## 2026-04-07 注目論文：昨日分の新着なし（直近 2026-04-03 公開分）— Prompt Compression／MBGR本番デプロイ／LogicPoison／RCL／VOSR／Chart-RL／DreamTIP
 
 ### 📚 cs.IR（情報検索）

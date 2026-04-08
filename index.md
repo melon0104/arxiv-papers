@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-04-09 注目論文：ICLR 2026 OralのIn-Place TTT／ACL 2026 4本（RAG改写偏り・LLM集団社会力学）／CVPR Findings PoM／ICRA 2026 デバリングMPC
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Masking or Mitigating?](papers/2604.06097-masking-or-mitigating-deconstructing-the-impact-of-query-rewriting-on-retriever-) | **ACL 2026**、クエリ改写がRAG検索偏りに与える影響を体系化 |
+| [Data, Not Model](papers/2604.06163-data-not-model-explaining-bias-toward-llm-texts-in-neural-retrievers) | LLM文書優遇の原因はデータ監督にあると示し、埋め込み補正で軽減 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Paper Circle](papers/2604.06170-paper-circle-an-open-source-multi-agent-research-discovery-and-analysis-framewor) | **ACL 2026 Oral**、論文探索→知識グラフ化のマルチエージェント基盤、GitHub |
+| [The Model Agreed, But Didn't Learn](papers/2604.05995-the-model-agreed-but-didnt-learn-diagnosing-surface-compliance-in-large-language) | **ACL Findings**、知識編集のsurface compliance問題を診断、GitHub |
+| [Structure Snowballing](papers/2604.06066-from-hallucination-to-structure-snowballing-the-alignment-tax-of-constrained-dec) | 構造化反省が逆にフォーマット罠を誘発する「alignment tax」、GitHub |
+| [Social Dynamics in LLM Collectives](papers/2604.06091-social-dynamics-as-critical-vulnerabilities-that-undermine-objective-decision-ma) | **ACL 2026**、LLM集団の同調/権威/レトリック脆弱性を検証 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [In-Place Test-Time Training](papers/2604.06169-in-place-test-time-training) | **ICLR 2026 Oral**、MLP投影をfast weights化するTTT、GitHub |
+| [Target Policy Optimization](papers/2604.06159-target-policy-optimization) | 目標分布qに合わせるRLVR更新で疎報酬に強化、GitHub |
+| [Consistent World Models](papers/2604.06155-toward-consistent-world-models-with-multi-token-prediction-and-latent-semantic-e) | **ACL 2026**、LSE-MTPで構造的幻覚を抑制 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [PoM](papers/2604.06129-pom-a-linear-time-replacement-for-attention-with-the-polynomial-mixer) | **CVPR Findings 2026**、線形時間のAttention置換、GitHub |
+| [Graph-PiT](papers/2604.06074-graph-pit-enhancing-structural-coherence-in-part-based-image-synthesis-via-graph) | **ICME 2026**、部品関係グラフで構造整合な画像生成、GitHub |
+| [Extending ZACH-ViT](papers/2604.06099-extending-zach-vit-to-robust-medical-imaging-corruption-and-adversarial-stress-t) | **CVPR 2026 WS**、低データ医用画像の腐食/敵対耐性評価 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Claw-Eval](papers/2604.06132-claw-eval-toward-trustworthy-evaluation-of-autonomous-agents) | 300タスクの軌跡評価ベンチで安全/頑健性を可視化 |
+| [Epistemic Blinding](papers/2604.06013-epistemic-blinding-an-inference-time-protocol-for-auditing-prior-contamination-i) | LLMの事前知識混入を測る匿名化プロトコル、GitHub |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Learning-Guided Force-Feedback MPC](papers/2604.06133-learning-guided-force-feedback-model-predictive-control-with-obstacle-avoidance-) | **ICRA 2026**、拡散priors＋力フィードバックMPCで産業デバリング |
+
 ## 2026-04-08 注目論文：SIGIR 2026 2本／ACL 2026 2本／CVPR 2026 3本／エージェントプロトコルANX OSS／低コスト産業用bin picking
 
 ### 📚 cs.IR（情報検索）

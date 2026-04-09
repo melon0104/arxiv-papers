@@ -9,6 +9,52 @@ title: Home
 
 ---
 
+## 2026-04-10 注目論文：マルチモーダル推論検索HIVE/BRIDGE/MARVEL／推論データ選別ASLEC／AlignPrune／EVGeoQA／Genie Sim PanoRecon
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [HIVE](papers/2604.07220-hive-query-hypothesize-verify-an-llm-framework-for-multimodal-reasoning-intensiv.md) | HIVEが仮説生成→検証の反復推論でMM-BRIGHTのマルチモーダル検索精度を改善（GitHub） |
+| [BRIDGE](papers/2604.07201-bridge-multimodal-to-text-retrieval-via-reinforcement-learned-query-alignment.md) | BRIDGEがRLでクエリアラインメントを学習し画像＋テキスト検索を安定化（GitHub） |
+| [MARVEL](papers/2604.07079-marvel-multimodal-adaptive-reasoning-intensive-expand-rerank-and-retrieval.md) | MARVELが拡張・推論検索・再ランクを統合した推論強化検索パイプライン（GitHub） |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ClickGuard](papers/2604.07272-clickguard-a-trustworthy-adaptive-fusion-framework-for-clickbait-detection.md) | ClickGuardがBERT＋構造特徴の適応融合でクリックベイト検知を強化（GitHub） |
+| [Efficient Learned Data Compression](papers/2604.07239-efficient-learned-data-compression-via-dual-stream-feature-decoupling.md) | FADEがDual-Stream分離で学習型圧縮の遅延を抑制（GitHub） |
+| [ChunQiuTR](papers/2604.06997-chunqiutr-time-keyed-temporal-retrieval-in-classical-chinese-annals.md) | ChunQiuTRが在位月表現の時間整合を扱う古典中国史料検索を提案（GitHub） |
+| [Step Length Confounding](papers/2604.06834-on-the-step-length-confounding-in-llm-reasoning-data-selection.md) | ASLECがCoT長さバイアスを補正し推論データ選別を改善（GitHub） |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [How to sketch a learning algorithm](papers/2604.07328-how-to-sketch-a-learning-algorithm.md) | データ削除影響を高速近似する学習アルゴリズムのスケッチ法（GitHub） |
+| [ConceptTracer](papers/2604.07019-concepttracer-interactive-analysis-of-concept-saliency-and-selectivity-in-neural.md) | ConceptTracerが概念サリエンシーを対話可視化する解析ツール（GitHub） |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [AlignPrune](papers/2604.07306-beyond-loss-values-robust-dynamic-pruning-via-loss-trajectory-alignment.md) | AlignPruneが損失軌跡でノイズに強い動的プルーニングを実現（GitHub） |
+| [CAAP](papers/2604.06987-caap-capture-aware-adversarial-patch-attacks-on-palmprint-recognition-models.md) | CAAPが掌紋認証向けの撮像考慮パッチ攻撃を評価（GitHub） |
+| [CloudMamba](papers/2604.06844-cloudmamba-an-uncertainty-guided-dual-scale-mamba-network-for-cloud-detection-in.md) | CloudMambaが不確実性誘導の二段Mambaで雲検出を改善（GitHub） |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [EVGeoQA](papers/2604.07070-evgeoqa-benchmarking-llms-on-dynamic-multi-objective-geo-spatial-exploration.md) | EVGeoQAが動的制約下の地理探索を測るLLMベンチマーク（GitHub） |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Genie Sim PanoRecon](papers/2604.07105-genie-sim-panorecon-fast-immersive-scene-generation-from-single-view-panorama.md) | Genie Sim PanoReconが単一パノラマから高速3D生成を可能に（GitHub） |
+
 ## 2026-04-09 注目論文：ICLR 2026 OralのIn-Place TTT／ACL 2026 4本（RAG改写偏り・LLM集団社会力学）／CVPR Findings PoM／ICRA 2026 デバリングMPC
 
 ### 📚 cs.IR（情報検索）

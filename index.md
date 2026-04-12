@@ -9,6 +9,99 @@ title: Home
 
 ---
 
+## 2026-04-13 注目論文：4/12新着なしのため4/9公開分から選定
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Walmart Sponsored Search Retrieval](papers/2604.07930-unified-supervision-for-walmarts-sponsored-search-retrieval-via-joint-semantic-relevance-and-behavioral-engagement-modeling.md) | Walmartスポンサー検索で意味的関連性重視の統合監督、ABでNDCG改善 | 
+| [Trace-Level GUI-Agent Evaluation](papers/2604.07929-same-outcomes-different-journeys-a-trace-level-framework-for-comparing-human-and-gui-agent-behavior-in-production-search-systems.md) | 本番検索で人間とGUIエージェントの行動乖離をトレース評価 | 
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [PIArena](papers/2604.08499-piarena-a-platform-for-prompt-injection-evaluation.md) | プロンプトインジェクション評価基盤、動的攻撃で防御限界を可視化 | 
+| [TRB](papers/2604.07816-tool-retrieval-bridge-aligning-vague-instructions-with-retriever-preferences-via-bridge-model.md) | 曖昧指示を橋渡し変換してツール検索NDCGを大幅改善 | 
+| [The Art of (Mis)alignment](papers/2604.07754-the-art-of-mis-alignment-how-fine-tuning-methods-effectively-misalign-and-realign-llms-in-post-training.md) | SFT/PFTのmisalignment/realignment差を体系比較 | 
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [ResComp](papers/2604.07955-rethinking-residual-errors-in-compensation-based-llm-quantization.md) | 補償型量子化の残差再定義でGPTQ/GPTAQ性能を改善 | 
+| [Aerospace FL Quantization](papers/2604.08474-quantization-impact-on-the-accuracy-and-communication-efficiency-trade-off-in-federated-learning-for-aerospace-predictive-maintenance.md) | INT4で精度維持し通信量8x削減、非IID評価の重要性 | 
+| [Weather-GS](papers/2604.07928-generative-3d-gaussian-splatting-for-arbitrary-resolutionatmospheric-downscaling-and-forecasting.md) | 3D Gaussian splattingで任意解像度の気象予測/ダウンスケール | 
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [BLaDA](papers/2604.08410-blada-bridging-language-to-functional-dexterous-actions-within-3dgs-fields.md) | 言語→機能領域→把持を結ぶ可解釈なゼロショット操作 | 
+| [SyncBreaker](papers/2604.08405-syncbreaker-stage-aware-multimodal-adversarial-attacks-on-audio-driven-talking-head-generation.md) | 音声×画像摂動でtalking-head生成を強力に妨害 | 
+| [SciFigDetect](papers/2604.08211-scifigdetect-a-benchmark-for-ai-generated-scientific-figure-detection.md) | AI生成科学図表検出ベンチで既存検出器の弱さを示す | 
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Encrypted Traffic Reasoning Benchmark](papers/2604.08140-multimodal-reasoning-with-llm-for-encrypted-traffic-interpretation-a-benchmark.md) | 暗号化トラフィック解釈のBGTDベンチとmmTrafficを提案 | 
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Karma MAPF](papers/2604.07970-karma-mechanisms-for-decentralised-cooperative-multi-agent-path-finding.md) | 分散MAPFでKarma交渉を使い公平性と効率を両立 | 
+
+## 2026-04-12 注目論文：SIGIR/ACL/CVPR/自動運転ベンチ — （4/11新着なしのため4/9公開分から選定）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [ACGM](papers/2604.07863-task-adaptive-retrieval-over-agentic-multi-modal-web-histories-via-learned-graph-memory.md) | エージェント履歴をグラフ記憶で検索、SIGIR採択、GitHub | 
+| [ReRec](papers/2604.07851-rerec-reasoning-augmented-llm-based-recommendation-assistant-via-reinforcement-fine-tuning.md) | RFTで推論強化推薦、ACL 2026、GitHub | 
+| [KnowSA_CKP](papers/2604.07825-filling-the-gaps-selective-knowledge-augmentation-for-llm-recommenders.md) | 選択的知識注入でLLM推薦の効率改善、SIGIR 2026 | 
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [SeLaR](papers/2604.08299-selective-latent-reasoning-in-large-language-models.md) | 低信頼ステップのみ潜在推論、ACL 2026 | 
+| [DMLE](papers/2604.08284-distributed-multi-layer-editing-for-rule-level-knowledge-in-large-language-models.md) | ルール知識を分散編集、RuleEdit拡張、GitHub | 
+| [RRC Steganography](papers/2604.08052-efficient-provably-secure-linguistic-steganography-via-range-coding.md) | Range codingで高効率ステガノグラフィ、ACL 2026、GitHub | 
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [DMax](papers/2604.08302-aggressive-parallel-decoding-for-dllms.md) | 拡散LM並列デコードを自己精錬、TPS改善、GitHub | 
+| [brainCodec](papers/2604.08537-meta-learning-in-context-enables-training-free-cross-subject-brain-decoding.md) | fMRIクロスサブジェクトをtraining-free推定、CVPR 2026、GitHub | 
+| [GenCircuit](papers/2604.08192-measuring-generalization-in-vision-transformers-through-inner-workings.md) | 回路ベース汎化指標、CVPR 2026 Highlight、GitHub | 
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [NUMINA](papers/2604.08546-aligning-textual-numerals-and-visual-instances-in-text-to-video-diffusion-models.md) | T2Vの数指定を修正するtraining-free手法、CVPR 2026、GitHub | 
+| [ETCH-X](papers/2604.08548-robustify-expressive-body-fitting-to-clothed-humans-with-composable-datasets.md) | 衣服付き3D人体フィッティングをrobust化、GitHub | 
+| [ParseBench](papers/2604.08538-parsebench-a-document-parsing-benchmark-for-ai-agents.md) | エージェント向け文書解析ベンチ、HF+GitHub | 
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [SUPERNOVA](papers/2604.08477-supernova-eliciting-general-reasoning-in-llms-with-reinforcement-learning-on-natural-instructions.md) | 自然指示からRLVRデータ設計で汎用推論改善、GitHub | 
+| [Clinical World Model](papers/2604.08226-grounding-clinical-ai-competency-in-human-cognition-through-the-clinical-world-model-and-skill-mix-framework.md) | 臨床AI能力をSkill-Mix座標で定義、GitHub | 
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Fail2Drive](papers/2604.08535-fail2drive-benchmarking-closed-loop-driving-generalization.md) | 分布シフトpaired-routeベンチで自動運転汎化を測定、GitHub | 
+| [RoboAgent](papers/2604.07774-chaining-basic-capabilities-for-embodied-task-planning.md) | 能力チェーン型計画、CVPR 2026、GitHub | 
+
 ## 2026-04-10 注目論文：マルチモーダル推論検索HIVE/BRIDGE/MARVEL／推論データ選別ASLEC／AlignPrune／EVGeoQA／Genie Sim PanoRecon
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-04-14 注目論文：4/13新着なしのため4/10公開分から選定
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Beyond Relevance](papers/2604.08920-beyond-relevance-utility-centric-retrieval-in-the-llm-era.md) | SIGIR 2026採択、検索目的をutility最適化へ再定義 |
+| [BracketRank](papers/2604.08834-bracketrank-large-language-model-document-ranking-via-reasoning-based-competitive-elimination.md) | ACL 2026、推論型競争淘汰で順序感度を低減 |
+| [IAT](papers/2604.08933-iat-instance-as-token-compression-for-historical-user-sequence-modeling-in-industrial-recommender-systems.md) | 産業推薦の長期履歴をInstance-as-Tokenで圧縮 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [RecaLLM](papers/2604.09494-recallm-addressing-the-lost-in-thought-phenomenon-with-explicit-in-context-retrieval.md) | long-contextのlost-in-thoughtを明示的retrievalで抑制（GitHub） |
+| [Task-Aware LLM Routing](papers/2604.09377-task-aware-llm-routing-with-multi-level-task-profile-guided-data-synthesis-for-cold-start-scenarios.md) | ACL 2026、タスクプロファイルで冷スタートルーティング |
+| [EthicMind](papers/2604.09265-ethicmind-a-risk-aware-framework-for-ethical-emotional-alignment-in-multi-turn-dialogue.md) | ACL 2026、倫理×感情のリスク整合フレームワーク |
+| [SPASM](papers/2604.09212-spasm-stable-persona-driven-agent-simulation-for-multi-turn-dialogue-generation.md) | ACL Findings、ペルソナ一貫性を保つ対話生成（GitHub） |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [SafeAdapt](papers/2604.09452-safeadapt-provably-safe-policy-updates-in-deep-reinforcement-learning.md) | 安全RLの保証付き方策更新（GitHub） |
+| [U-Cast](papers/2604.09041-u-cast-a-surprisingly-simple-and-efficient-frontier-probabilistic-ai-weather-forecaster.md) | シンプル構成の確率的気象予測（GitHub） |
+| [Value-Aware SeqComm](papers/2604.08944-multi-agent-decision-focused-learning-via-value-aware-sequential-communication.md) | ICML 2026投稿、価値指向通信で協調性能向上（GitHub） |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Tango](papers/2604.09547-tango-taming-visual-signals-for-efficient-video-large-language-models.md) | Video LLMのトークン削減で高速化（GitHub） |
+| [VL-Calibration](papers/2604.09529-vl-calibration-decoupled-confidence-calibration-for-large-vision-language-models-reasoning.md) | ACL 2026、視覚/推論信頼度の分離で幻覚抑制（GitHub） |
+| [Envisioning the Future](papers/2604.09527-envisioning-the-future-one-step-at-a-time.md) | CVPR 2026、疎軌跡拡散で多様な未来予測 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [E3-TIR](papers/2604.09455-e3-tir-enhanced-experience-exploitation-for-tool-integrated-reasoning.md) | ACL 2026、ツール統合推論の経験活用RL |
+| [SPPO](papers/2604.08865-sppo-sequence-level-ppo-for-long-horizon-reasoning-tasks.md) | ACL 2026、sequence-level PPOで長文推論を安定化 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Adaptor](papers/2604.09462-adaptor-advancing-assistive-teleoperation-with-few-shot-learning-and-cross-operator-generalization.md) | ICRA 2026、少数ショットで操作者適応 |
+| [AssemLM](papers/2604.08983-assemlm-spatial-reasoning-multimodal-large-language-models-for-robotic-assembly.md) | 組立向け空間推論VLM（Project page） |
+
 ## 2026-04-13 注目論文：4/12新着なしのため4/9公開分から選定
 
 ### 📚 cs.IR（情報検索）

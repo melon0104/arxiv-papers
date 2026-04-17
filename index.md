@@ -9,6 +9,107 @@ title: Home
 
 ---
 
+## 2026-04-18 注目論文：4/16公開分（産業推薦・LLM評価・3DGS・ヒューマノイド中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [SAGER: Self-Evolving User Policy Skills for Recommendation Agent](papers/2604.14972-sager-self-evolving-user-policy-skills-recommendation-agent.md) | LLM推薦エージェントの推論ロジック自体をユーザーごとに自己進化させる新パラダイム |
+| [GenRec: Preference-Oriented Generative Framework for Large-Scale Recommendation](papers/2604.14878-genrec-preference-oriented-generative-recommendation.md) | 産業スケールのGenerative Retrievalを妨げる3課題（一貫性・エンコードコスト・嗜好整合）を解決 |
+| [Don't Retrieve, Navigate: Corpus2Skill for QA and RAG](papers/2604.14572-corpus2skill-dont-retrieve-navigate.md) | コーパスを階層的スキルディレクトリに蒸留しエージェントがナビゲーション、RAGの受動的限界を超える |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [SpecGuard: Verification-Aware Speculative Decoding](papers/2604.15244-specguard-verification-aware-speculative-decoding.md) | ステップレベル検証でSpeculative Decodingの誤り伝播を防止、外部報酬モデル不要 |
+| [K-Token Merging: Latent Space Compression for LLMs](papers/2604.15153-k-token-merging-latent-space-compression-llm.md) | トークン空間でなくlatent埋め込み空間でK個マージ、長文処理コストを大幅削減 |
+| [APEX-MEM: Agentic Semi-Structured Memory with Temporal Reasoning](papers/2604.14362-apex-mem-agentic-semi-structured-memory.md) | プロパティグラフ＋時間的推論で長期会話メモリを実現、矛盾解決と時系列クエリに対応 |
+| [Context Over Content: Exposing Evaluation Faking in LLM Judges](papers/2604.15224-context-over-content-evaluation-faking-llm-judge.md) | LLM-as-judgeに「判定が評価対象モデルの存続に影響」と伝えるだけで判定が歪むstakes signalingを発見 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [AdaSplash-2: Faster Differentiable Sparse Attention](papers/2604.15180-adasplash-2-faster-differentiable-sparse-attention.md) | ヒストグラムベース初期化でα-entmax sparse attentionをsoftmaxに迫る速度へ |
+| [Stability and Generalization in Looped Transformers](papers/2604.15259-stability-generalization-looped-transformers.md) | test-time compute scalingの要であるLooped Transformerの安定性・汎化境界を理論的に解明 |
+| [RL-STPA: System-Theoretic Hazard Analysis for Safety-Critical RL](papers/2604.15201-rl-stpa-safety-critical-reinforcement-learning.md) | 工業安全のSTPAをRLに適応、ブラックボックスRLエージェントの危険を体系的に特定 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [GlobalSplat: Efficient Feed-Forward 3DGS via Global Scene Tokens](papers/2604.15284-globalsplat-efficient-feed-forward-3dgs.md) | グローバルシーントークンで3DGSプリミティブを効率配置、速度×品質×コンパクト性を同時改善 |
+| [LeapAlign: Post-Training Flow Matching Models at Any Step](papers/2604.15311-leapalign-post-training-flow-matching-alignment.md) | 2ステップ軌跡構築で任意生成ステップからフローマッチングモデルをアライメント |
+| [R3D: Revisiting 3D Policy Learning](papers/2604.15281-r3d-revisiting-3d-policy-learning.md) | 3Dポリシー学習の不安定性・過学習の根本原因を特定し安定化設計原則を導出 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Meituan Merchant Business Diagnosis via Dual-Process User Simulation](papers/2604.15190-meituan-merchant-business-diagnosis-dual-process.md) | 美団が産業展開するデュアルプロセスユーザーシミュレーション、オンライン実験代替として加盟店診断 |
+| [CoopEval: LLM Agents in Social Dilemmas](papers/2604.15267-coopeval-benchmarking-cooperation-llm-agents-social-dilemmas.md) | 推論能力が高いLLMほど社会的ジレンマで裏切る傾向があることをベンチマークで実証 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Switch: Learning Agile Skills Switching for Humanoid Robots](papers/2604.14834-switch-agile-skills-switching-humanoid-robots.md) | ヒューマノイドのスキル間遷移をDRLで明示的に学習、アジャイルな複合動作を実現 |
+| [Abstract Sim2Real through Approximate Information States](papers/2604.15289-abstract-sim2real-approximate-information-states.md) | 高精度物理シミュレーター不要の情報理論的Sim2Real転移フレームワーク |
+
+---
+
+## 2026-04-16 注目論文：4/14公開分（SIGIR/ACL/ICLR/CVPR/ICRA中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Sparse Contrastive Learning for Content-Based Cold Item Recommendation](papers/2604.12990-sparse-contrastive-learning-cold-item-recommendation.md) | SIGIR 2026採択、コールドアイテム推薦を疎コントラスト学習で改善 |
+| [AdversarialCoT: Single-Document Retrieval Poisoning for LLM Reasoning](papers/2604.12201-adversarialcot-single-document-retrieval-poisoning.md) | SIGIR 2026 short、単一文書汚染でRAG推論を崩す攻撃を提示 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Toward Autonomous Long-Horizon Engineering for ML Research](papers/2604.13018-aiscientist-long-horizon-ml-research-engineering.md) | 長ホライズンML研究開発を自律化するAiScientist、コード公開 |
+| [Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](papers/2604.13016-rethinking-on-policy-distillation-of-large-language-models.md) | THUNLP、OPDの現象論と実践レシピを整理してコード公開 |
+| [Towards Excellent Comprehension of Public Policy for Large Language Models](papers/2604.12995-policyllm-public-policy-comprehension.md) | ACL 2026 Findings、公共政策読解に特化したPolicyBench/PolicyMoE |
+| [EvoSpark: Endogenous Interactive Agent Societies for Unified Long-Horizon Narrative Evolution](papers/2604.12776-evospark-agent-societies-long-horizon-narrative-evolution.md) | ACL 2026 Main、エージェント社会で長編物語を進化生成 |
+| [Generating Effective CoT Traces for Mitigating Causal Hallucination](papers/2604.12748-effective-cot-traces-mitigating-causal-hallucination.md) | ACL 2026、因果ハルシネーションを抑えるCoT trace生成 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [The Verification Tax: Fundamental Limits of AI Auditing in the Rare-Error Regime](papers/2604.12951-verification-tax-fundamental-limits-ai-auditing.md) | AI監査の“verification tax”を定式化、コード公開 |
+| [SpecBound: Adaptive Bounded Self-Speculation with Layer-wise Confidence Calibration](papers/2604.12247-specbound-adaptive-bounded-self-speculation.md) | ACL 2026 Findings、較正付きself-speculationで効率化 |
+| [LLM-Enhanced Log Anomaly Detection: A Comprehensive Benchmark of Large Language Models for Automated System Diagnostics](papers/2604.12218-llm-enhanced-log-anomaly-detection-benchmark.md) | ログ異常検知LLMベンチマークを公開 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Lyra 2.0: Explorable Generative 3D Worlds](papers/2604.13036-lyra-2-explorable-generative-3d-worlds.md) | NVIDIA、動画生成から探索可能3D世界を構築するLyra 2.0 |
+| [Don't Show Pixels, Show Cues: Unlocking Visual Tool Reasoning in Language Models via Perception Programs](papers/2604.12896-dont-show-pixels-show-cues-perception-programs.md) | CVPR 2026、Perception Programsで視覚ツール推論を強化 |
+| [Chain-of-Models Pre-Training: Rethinking Training Acceleration of Vision Foundation Models](papers/2604.12391-chain-of-models-pre-training-vision-foundation-models.md) | CVPR 2026、Chain-of-ModelsでVFM事前学習を加速 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [ROSE: An Intent-Centered Evaluation Metric for NL2SQL](papers/2604.12988-rose-intent-centered-evaluation-metric-for-nl2sql.md) | ACL 2026 Main、NL2SQLを意図中心に測るROSE |
+| [Latent Planning Emerges with Scale](papers/2604.12493-latent-planning-emerges-with-scale.md) | ICLR 2026、スケールでlatent planningが自然発現 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [GGD-SLAM: Monocular 3DGS SLAM Powered by Generalizable Motion Model for Dynamic Environments](papers/2604.12837-ggd-slam-generalizable-motion-model-dynamic-environments.md) | ICRA 2026、動的環境向け3DGS SLAMを改善 |
+| [Unveiling the Surprising Efficacy of Navigation Understanding in End-to-End Autonomous Driving](papers/2604.12208-navigation-understanding-end-to-end-autonomous-driving.md) | ICRA 2026、E2E自動運転でnavigation understandingの効き目を実証 |
+
+
 ## 2026-04-14 注目論文：4/13新着なしのため4/10公開分から選定
 
 ### 📚 cs.IR（情報検索）

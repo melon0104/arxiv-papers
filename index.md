@@ -9,6 +9,58 @@ title: Home
 
 ---
 
+## 2026-04-20 注目論文：4/16-17公開分（SIGIR/ACL/CVPR 2026採択・産業応用中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation](papers/2604.14878-genrec-preference-oriented-generative-recommendation.md) | SIGIR 2026・産業デプロイ済み：大規模Generative Retrievalの3課題（一貫性・エンコードコスト・嗜好アライメント）を同時解決 |
+| [Category-based and Popularity-guided Video Game Recommendation](papers/2604.14598-category-popularity-video-game-recommendation.md) | WWW 2024・GitHub公開：精度×多様性×人気バイアスをバランスするビデオゲーム推薦フレームワーク |
+| [Well Begun is Half Done: Training-Free User Representation Initialization for Multimodal Rec](papers/2604.14839-training-free-user-representation-initialization-multimodal-rec.md) | SIGIR 2026：既存マルチモーダル推薦が見落とすユーザー表現初期化問題を学習不要・モデル非依存で解決 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [MARS²: Scaling Multi-Agent Tree Search via RL for Code Generation](papers/2604.14564-mars2-multi-agent-tree-search-code-generation.md) | ACL 2026・GitHub公開：マルチエージェントツリー探索×RLでコード生成の多様性と性能上限を大幅向上 |
+| [RACER: Retrieval-Augmented Contextual Rapid Speculative Decoding](papers/2604.14885-racer-retrieval-augmented-speculative-decoding.md) | ACL 2026 Findings・GitHub公開：検索ベース×ロジットベースドラフトを相補的統合しLLM推論を高速化 |
+| [Modeling LLM Unlearning as an Asymmetric Two-Task Learning Problem](papers/2604.14808-llm-unlearning-asymmetric-two-task.md) | ACL 2026：LLM Machine Unlearningを保持主・忘却従の非対称二タスクに再定式化し保持優先勾配合成を提案 |
+| [XQ-MEval: Cross-lingual Parallel Quality Dataset for Translation Metrics](papers/2604.14934-xq-meval-crosslingual-translation-metrics.md) | ACL 2026 Findings・Meta FAIR：翻訳品質の言語間スコアバイアスを初の体系的研究、並列品質ベンチマーク構築 |
+| [Explain the Flag: Contextualizing Hate Speech Beyond Censorship](papers/2604.14970-explain-the-flag-hate-speech-contextualization.md) | ACL 2026 Findings：検閲を超えてヘイトスピーチを文脈化・説明するアプローチ、透明性と表現の自由を両立 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [MambaSL: Exploring Single-Layer Mamba for Time Series Classification](papers/2604.15174-mambasl-single-layer-mamba-time-series.md) | ICLR 2026：単一層Mambaを4仮説で再設計し時系列分類を包括評価、SSMの時系列応用を開拓 |
+| [Mean Flow Policy Optimization](papers/2604.14698-mean-flow-policy-optimization.md) | Google DeepMind・GitHub公開：MeanFlow（少ステップFlow）でポリシー表現し拡散ポリシーRLの推論コスト問題を解決 |
+| [LAMAE: Latent Attention MAE for Multi-View Echocardiography](papers/2604.15096-lamae-multi-view-echocardiography.md) | ICLR 2026 Workshop：潜在アテンションMAEでマルチビュー心エコー図の時空間構造を統合する医療AIモデル |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Bi-CMPStereo: Bidirectional Cross-Modal Prompting for Event-Frame Stereo](papers/2604.15312-bicmpstereo-event-frame-stereo.md) | CVPR 2026・GitHub公開：双方向クロスモーダルプロンプティングでEvent-Frameステレオのモダリティギャップを克服 |
+| [G-MIXER: Geodesic Mixup for Zero-Shot Composed Image Retrieval](papers/2604.14710-gmixer-geodesic-mixup-composed-image-retrieval.md) | CVPR 2026・GitHub公開：Geodesic Mixupで潜在空間補間しZS-CIRの暗黙的ビジュアル情報損失を解決 |
+| [Robustness of Vision Foundation Models to Common Perturbations](papers/2604.14973-robustness-vision-foundation-models-perturbations.md) | CVPR 2026 Workshop・Meta：CLIP/DINOv2等のFoundation Model埋め込みが一般的画像編集に対してどれだけ堅牢かを初の体系的研究 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Meituan Merchant Diagnosis via Policy-Guided Dual-Process User Simulation](papers/2604.15190-meituan-merchant-diagnosis-user-simulation.md) | SIGIR 2026 Industry Track・美団：二重プロセスユーザーシミュレーションでオンライン実験不要のマーチャント戦略評価 |
+| [Discovering Novel LLM Experts via Task-Capability Coevolution](papers/2604.14969-discovering-llm-experts-task-capability-coevolution.md) | ICLR 2026：タスクとモデル能力の共進化（coevolution）により単一runで新規スキルを持つLLMを自動発見 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [R3D: Revisiting 3D Policy Learning](papers/2604.15281-r3d-revisiting-3d-policy-learning.md) | GitHub公開：3Dポリシー学習の不安定性・過学習の根本原因（3D拡張なし・BN悪影響）を特定し安定化設計原則を提案 |
+| [Keep It CALM: Kilometer-Level SLAM with Visual Geometry Foundation Models](papers/2604.14795-calm-kilometer-slam-visual-geometry.md) | IEEE TPAMI投稿・GitHub公開：VGFMの非線形幾何歪みをAssistant Eyeで補正しキャリブレーション不要の長距離SLAMを実現 |
+
+---
+
 ## 2026-04-18 注目論文：4/16公開分（産業推薦・LLM評価・3DGS・ヒューマノイド中心）
 
 ### 📚 cs.IR（情報検索）

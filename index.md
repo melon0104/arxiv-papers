@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-04-22 注目論文：4/21公開分（SIGIR/ACL/ICRA/ICLR 2026採択・産業推薦・LLM効率化・ロボティクス中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [BACO: Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems](papers/2604.18351-baco-balanced-coclustering-embedding-compression.md) | SIGIR 2026：ユーザー/アイテム協調クラスタリングで埋め込みテーブルを75%圧縮、recall低下最大1.85%・最強ベースライン比346倍高速 |
+| [DocQAC: Adaptive Trie-Guided Decoding for In-Document Query Auto-Completion](papers/2604.18257-docqac-adaptive-trie-query-autocompletion.md) | GitHub公開：ドキュメント内検索専用QACのTrie誘導デコーディング、T5/BARTがLLaMA-3・Phi-3を凌駕 |
+| [MLTFR: Multi-LLM Token Filtering and Routing for Sequential Recommendation](papers/2604.18200-mltfr-multi-llm-token-filtering-routing-seqrec.md) | GitHub公開：テキスト入力なし・複数LLMのMoE統合でLLMトークン埋め込みを逐次推薦に安定活用 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [GSQ: Highly-Accurate Low-Precision Scalar Quantization for LLMs via Gumbel-Softmax](papers/2604.18556-gsq-gumbel-softmax-quantization-llm.md) | Gumbel-Softmax緩和でスカラー量子化をベクトル量子化レベルに引き上げ、Kimi-K2.5等の兆規模MoEにも適用可能 |
+| [StepPO: Step-Aligned Policy Optimization for Agentic Reinforcement Learning](papers/2604.18401-steppo-step-aligned-agentic-rl.md) | エージェントRLをトークンからステップレベルMDPへ昇格しツール使用・意思決定の粒度でクレジット割り当て |
+| [River-LLM: Seamless Early Exit via KV Share](papers/2604.18396-river-llm-early-exit-kv-share.md) | ACL 2026：KVキャッシュ欠如問題を共有リバーで解消しLLM推論を1.71〜2.16倍高速化（学習不要） |
+| [Dual Alignment: LLM Layers vs Human Sentence Processing](papers/2604.18563-dual-alignment-llm-layers-sentence-processing.md) | ACL 2026 Main：前半層≒自然読解、後半層≒統語的難文処理という二重アライメントを発見 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Sessa: Selective State Space Attention](papers/2604.18580-sessa-selective-state-space-attention.md) | GitHub公開：AttentionをフィードバックパスへFusion、長距離依存性をべき乗則メモリで保持しTransformer/Mambaを超える |
+| [BRRL: Bounded Ratio Reinforcement Learning](papers/2604.18578-brrl-bounded-ratio-reinforcement-learning.md) | PPOを信頼領域から理論再導出したBPO/GBPOを提案、MuJoCo・Humanoid・LLMファインチューニングでPPO/GRPO匹敵以上 |
+| [When Can LLMs Learn to Reason with Weak Supervision?](papers/2604.18574-when-llm-learn-reason-weak-supervision.md) | 報酬飽和ダイナミクスと推論忠実度がRLVR汎化を規定、SFTがRLVR汎化の必要条件と実証 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [T-REN: Text-Aligned Region Tokens for Dense Vision-Language Alignment](papers/2604.18573-t-ren-text-aligned-region-encoder.md) | GitHub公開：3.7%パラメータ追加でセグメンテーション+5.9 mIoU、動画トークン数187倍削減 |
+| [MUA: Mobile Ultra-detailed Animatable Avatars](papers/2604.18583-mua-mobile-ultra-detailed-animatable-avatars.md) | 高品質アバターを2000倍低コスト・10倍小モデルにモバイル蒸留、Meta Quest 3で24FPS達成 |
+| [Back into Plato's Cave: Cross-modal Representational Convergence at Scale](papers/2604.18572-back-into-platons-cave-cross-modal-convergence.md) | Platonic Representation Hypothesis の実証的証拠がスケールで消えることを示す批判的論文 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [MathNet: Global Multimodal Benchmark for Math Reasoning & Retrieval](papers/2604.18584-mathnet-multimodal-multilingual-math-benchmark.md) | ICLR 2026・MIT：47カ国17言語3万問のオリンピック数学ベンチマーク、数学問題検索の初評価基盤 |
+| [BLF: Agentic Forecasting via Bayesian Linguistic Beliefs](papers/2604.18576-blf-bayesian-linguistic-forecaster.md) | Google Research（Kevin Murphy）：ForecastBenchでGPT-5・Grok 4.20を超えるベイジアン予測エージェント |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [DAG-STL: Zero-Shot Trajectory Planning under Signal Temporal Logic](papers/2604.18343-dag-stl-hierarchical-trajectory-planning.md) | 未知ダイナミクス下でSTL制約のゼロショット長距離計画—論理分解×ウェイポイント割り当て×拡散生成の3段階 |
+| [SNOOPIE: Robot Quadruped Pacer Trainer for Interval Running](papers/2604.18331-snoopie-robot-quadruped-pacer-trainer.md) | ICRA 2026：Apple Watch比60.6%高いペース遵守率を達成した四足ロボットペーサートレーナー |
+
+---
+
 ## 2026-04-20 注目論文：4/16-17公開分（SIGIR/ACL/CVPR 2026採択・産業応用中心）
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-04-23 注目論文：4/21公開分（CTR産業スケーリング・LLMエージェント効率化・RL理論・4D顔再構成・ヒューマノイド基盤モデル中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [LoopCTR: Unlocking the Loop Scaling Power for Click-Through Rate Prediction](papers/2604.19550-loopctr-loop-scaling-ctr-prediction.md) | 産業制約下でのCTRモデルスケーリング：共有レイヤー再帰再利用で学習時計算↑・推論コスト固定 |
+| [CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation](papers/2604.19414-cast-complementary-sequential-recommendation.md) | 逐次推薦における真の補完アイテム関係を意味遷移モデリングで抽出、人気バイアス回避 |
+| [RARE: Redundancy-Aware Retrieval Evaluation Framework for High-Similarity Corpora](papers/2604.19047-rare-redundancy-aware-retrieval-evaluation.md) | 金融報告書・法律文書など高冗長コーパスでのRAG検索を公正評価するフレームワーク |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [EVPO: Explained Variance Policy Optimization for Adaptive Critic Utilization in LLM Post-Training](papers/2604.19485-evpo-explained-variance-policy-optimization-llm.md) | PPO vs GRPO問題に決着：説明分散でクリティック有効性を動的判定し両者を上回る |
+| [DASH-KV: Accelerating Long-Context LLM Inference via Asymmetric KV Cache Hashing](papers/2604.19351-dash-kv-asymmetric-kv-cache-long-context.md) | 非対称ハッシングでKVキャッシュ重要エントリを高速特定、長文脈推論を高速化 |
+| [A Self-Evolving Framework for Efficient Terminal Agents via Observational Context Compression](papers/2604.19572-self-evolving-terminal-agents-context-compression.md) | エージェント履歴の2乗コスト爆発を観測コンテキスト圧縮+自己進化で解消 |
+| [Are Large Language Models Economically Viable for Industry Deployment?](papers/2604.19342-llm-economic-viability-industry-deployment.md) | LLM産業デプロイの経済性を定量分析：エネルギー・レイテンシ・コストの統合評価フレームワーク |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [FASTER: Value-Guided Sampling for Fast RL](papers/2604.19730-faster-value-guided-sampling-rl.md) | Stanford Sadigh/Finn：拡散ポリシーのテスト時スケーリングを価値関数ガイドで大幅効率化 |
+| [Generalization at the Edge of Stability](papers/2604.19740-generalization-edge-of-stability.md) | 大学習率訓練（Edge of Stability）がなぜ汎化を改善するかをランダム動力系理論で解明 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [CityRAG: Stepping Into a City via Spatially-Grounded Video Generation](papers/2604.19741-cityrag-spatially-grounded-video-generation.md) | 地理参照画像RAGで実在都市の任意天候・構成をナビゲーブル3D動画として生成 |
+| [Face Anything: 4D Face Reconstruction from Any Image Sequence](papers/2604.19702-face-anything-4d-reconstruction.md) | TUM Nießner研究室：任意画像シーケンスからの高品質4D顔再構成を統一フレームワークで実現 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [An AI Agent Execution Environment to Safeguard User Data](papers/2604.19657-ai-agent-execution-environment-safeguard.md) | プロンプトインジェクション対策：AIエージェントの隔離実行環境でプライベートデータを保護 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [UniT: Toward a Unified Physical Language for Human-to-Humanoid Policy Learning and World Modeling](papers/2604.19734-unit-unified-physical-language-humanoid.md) | 視覚アンカーで人間↔ヒューマノイドの統一潜在行動言語を構築、エゴセントリックデータを活用 |
+| [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](papers/2604.19728-vla-foundry-unified-training-framework.md) | コード公開：LLM→VLM→VLAを単一コードベースで統合するオープンソース訓練フレームワーク |
+
+---
+
 ## 2026-04-22 注目論文：4/21公開分（SIGIR/ACL/ICRA/ICLR 2026採択・産業推薦・LLM効率化・ロボティクス中心）
 
 ### 📚 cs.IR（情報検索）

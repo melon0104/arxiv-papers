@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-04-24 注目論文：4/22公開分（RAG評価・LLM推薦最適化・RLVR高速化・マルチモーダル拡散・ロボット操作VLA中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Coverage, Not Averages: Semantic Stratification for Trustworthy Retrieval Evaluation](papers/2604.20763-coverage-semantic-stratification-retrieval-eval.md) | RAGの検索評価にカバレッジ視点を導入：意味的層別サンプリングで平均値に隠れたニッチ失敗を検出 |
+| [Break the Optimization Barrier of LLM-Enhanced Recommenders](papers/2604.20490-break-optimization-barrier-llm-enhanced-recommenders.md) | LLM強化推薦の「最適化バリア」を理論的に解明し実践フレームワークを提案 |
+| [HaS: Accelerating RAG through Homology-Aware Speculative Retrieval](papers/2604.20452-has-homology-aware-speculative-retrieval.md) | クエリ間のホモロジー構造を活用したSpeculative Retrievalで RAG検索レイテンシを削減 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Parallel-SFT: Improving Zero-Shot Cross-Programming-Language Transfer for Code RL](papers/2604.20835-parallel-sft-cross-programming-language-code-rl.md) | Amazon：RL学習中のSFT並列実行でコードLLMの多言語転移能力を維持・強化 |
+| [Convergent Evolution: How Different Language Models Learn Similar Number Representations](papers/2604.20817-convergent-evolution-language-models-number-representations.md) | USC/UCSD：異なるLLMが数値表現で収束進化──T=2,5,10の周期特徴が普遍的に出現 |
+| [Intersectional Fairness in Large Language Models](papers/2604.20677-intersectional-fairness-llm.md) | 単属性バイアス評価では見えない交差性バイアスをLLMで体系的に検証 |
+| [Knowledge Capsules: Structured Nonparametric Memory Units for LLMs](papers/2604.20487-knowledge-capsules-nonparametric-memory-llm.md) | 構造化カプセル単位での知識管理でRAGのチャンク境界・更新コスト問題を解消 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Near-Future Policy Optimization](papers/2604.20733-near-future-policy-optimization-rlvr.md) | RLVR収束加速：「近未来ポリシー」軌跡のオフポリシー活用でGRPO/PPOを上回る |
+| [Stream-CQSA: Avoiding Out-of-Memory in Attention Computation](papers/2604.20819-stream-cqsa-long-context-attention-oom.md) | 長文コンテキストLLMのAttention OOMをチャンクストリーミングで解決 |
+| [ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control](papers/2604.20816-paretoslider-diffusion-post-training-reward-control.md) | 複数報酬をParetoフロント上でスライダー制御──Diffusionモデルのマルチ目的ポストトレーニング |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [LLaDA2.0-Uni: Unifying Multimodal Understanding and Generation with Diffusion LLM](papers/2604.20796-llada2-uni-multimodal-diffusion-llm.md) | Inclusion AI（アリババ）：Discrete Diffusion LLMで理解+生成を単一フレームワークに統合 |
+| [DeVI: Physics-based Dexterous Human-Object Interaction via Synthetic Video Imitation](papers/2604.20841-devi-physics-dexterous-human-object-interaction.md) | 生成AI合成HOI動画を教師にPhysics-based模倣学習で巧みな物体操作を習得 |
+| [OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in LVLMs](papers/2604.20806-omibench-olympiad-multi-image-reasoning.md) | 複数画像横断推論のオリンピックレベルベンチマーク──現行LVLMの限界を明確化 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [SWE-chat: Coding Agent Interactions From Real Users in the Wild](papers/2604.20779-swe-chat-coding-agent-real-users.md) | 実ユーザー×AIコーディングエージェントの大規模利用データ分析──初の野生調査 |
+| [Learning to Evolve: Self-Improving Multi-Agent Systems via Textual Parameter Graph Optimization](papers/2604.20714-learning-evolve-multi-agent-textual-optimization.md) | テキストパラメータグラフ最適化でマルチエージェントシステムが自己改善 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [PokeVLA: Pocket-Sized VLA with Comprehensive World Knowledge Guidance](papers/2604.20834-pokevla-pocket-sized-vla-world-knowledge.md) | 小型VLAモデルにワールドナレッジを蒸留──エッジデプロイ可能なロボット操作モデル |
+| [FingerEye: Continuous and Unified Vision-Tactile Sensing for Dexterous Manipulation](papers/2604.20692-fingereye-vision-tactile-dexterous-manipulation.md) | 視触覚統合センシングで連続的な巧みな操作制御を実現 |
+
+---
+
 ## 2026-04-23 注目論文：4/21公開分（CTR産業スケーリング・LLMエージェント効率化・RL理論・4D顔再構成・ヒューマノイド基盤モデル中心）
 
 ### 📚 cs.IR（情報検索）

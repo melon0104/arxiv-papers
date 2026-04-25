@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-04-26 注目論文：4/23公開分（Eコマース遅延CV・SAEスパース検索・マルチターン攻撃・カメラGenAI真正性中心）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Counterfactual Multi-task Learning for Delayed Conversion in E-commerce](papers/2604.21675-counterfactual-multitask-delayed-conversion-ecommerce.md) | Eコマース本番環境：プロモーション時の遅延コンバージョンを反実仮想マルチタスク学習でモデル化 |
+| [From Tokens to Concepts: Leveraging SAE for SPLADE](papers/2604.21511-sae-splade-tokens-to-concepts.md) | SAE（スパースオートエンコーダ）でSPLADEをトークン→概念単位に変換し多義性問題を解消 |
+| [Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation](papers/2604.21536-llm-sequential-recommender-knowledge-distillation.md) | 推論時LLM不要の効率的知識蒸留でSequential Recommenderの意味理解を強化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [TingIS: Real-time Risk Event Discovery at Enterprise Scale](papers/2604.21889-tingis-realtime-risk-event-enterprise-v2.md) | ✅本番稼働：ノイジーな顧客インシデントからリスクをリアルタイム抽出するLLM AIOps（エンタープライズ規模） |
+| [MathDuels: Evaluating LLMs as Problem Posers and Solvers](papers/2604.21916-mathduels-llm-problem-posers-solvers-meta.md) | Meta：LLMが問題作成者と解答者の二役を担うセルフプレイ動的数学ベンチマーク |
+| [When Prompts Override Vision: Prompt-Induced Hallucinations in LVLMs](papers/2604.21911-prompt-induced-hallucinations-lvlm-vision-override.md) | テキストプロンプトが視覚入力を上書きするLVLMハルシネーション機序を系統的に解明 |
+| [Learning to Communicate: E2E Optimization of Multi-Agent Language Systems](papers/2604.21794-learning-to-communicate-multiagent-language-systems.md) | マルチエージェントLLMシステムのエージェント間通信をエンドツーエンドで最適化する新フレームワーク |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Low-Rank Adaptation Redux for Large Models](papers/2604.21905-lora-redux-large-models-peft.md) | LoRAを再定式化し大規模モデルへのスケーラビリティと理論的保証を強化した「LoRA Redux」 |
+| [Ramen: Robust Test-Time Adaptation of VLMs with Active Sample Selection](papers/2604.21728-ramen-robust-tta-vlm-uiuc.md) | UIUC：混合ドメイン環境でのVLMテスト時適応をアクティブサンプル選択で堅牢化 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [TEMA: Anchor the Image, Follow the Text for Multi-Modification CIR](papers/2604.21806-tema-multi-modification-composed-image-retrieval.md) | 複数属性同時修正CIRを「画像アンカー固定＋テキスト追従」設計で実現 |
+| [UniGenDet: Unified Generative-Discriminative Framework](papers/2604.21904-unigendet-generative-discriminative-image-detection.md) | 画像生成と生成画像検出を共進化させる統一フレームワーク |
+| [Addressing Image Authenticity When Cameras Use Generative AI](papers/2604.21879-image-authenticity-generative-ai-cameras-meta.md) | Meta：スマホカメラ内GenAI統合が「写真の真正性」に与える影響を体系分析 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Transient Turn Injection: Multi-Turn Vulnerabilities in LLMs](papers/2604.21860-transient-turn-injection-llm-multiturn-vulnerability.md) | GPT-4/Claude/Gemini/Llamaで実証：悪意をターン分散注入してモデレーションを回避する新攻撃手法 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [LoHo-Manip: Long-Horizon Manipulation via Trace-Conditioned VLA Planning](papers/2604.21924-loho-manip-long-horizon-vla-planning.md) | タスク管理VLMと実行VLAを階層分離したReceding-Horizonアーキテクチャで長期ロボット操作を実現 |
+| [VistaBot: View-Robust Robot Manipulation via Spatiotemporal-Aware View Synthesis](papers/2604.21914-vistabot-view-robust-robot-manipulation.md) | 時空間対応ビュー合成でカメラ視点変化に頑健なロボット操作モデルを実現 |
+
+---
+
 ## 2026-04-25 注目論文：4/23公開分（LLM安全性・VLA長期操作・マルチモーダル検索・本番AIOps中心）
 
 ### 📚 cs.IR（情報検索）

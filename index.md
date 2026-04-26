@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-04-27 注目論文：4/22-23公開分（カルーセルUI行動・LoRA理論再考・Sapiens2 Meta・MCPタクス・ロボットワールドモデル）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Following the Eye-Tracking Evidence: Web-Search Assumptions Fail in Carousel Interfaces](papers/2604.21019-carousel-eyetracking-web-search-behavior.md) | NetflixライクなカルーセルUIでF字型パターン等の従来検索行動仮説が成立しないことをアイトラッキングで実証 |
+| [HaS: Accelerating RAG through Homology-Aware Speculative Retrieval](papers/2604.20452-has-accelerating-rag-speculative-retrieval.md) | クエリ間の同相性（Homology）を利用した投機的検索でRAGの大規模KB検索コストを大幅削減 |
+| [Coverage, Not Averages: Semantic Stratification for Trustworthy Retrieval Evaluation](papers/2604.20763-coverage-semantic-stratification-retrieval-eval.md) | RAG評価のバイアスをセマンティック層別化で解消し、統計的推定問題として定式化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [TingIS: Real-time Risk Event Discovery at Enterprise Scale](papers/2604.21889-tingis-realtime-risk-enterprise-v3.md) | ✅本番稼働：ノイジーな顧客インシデントからリスクをリアルタイム抽出するLLM AIOps（エンタープライズ規模） |
+| [MathDuels: Evaluating LLMs as Problem Posers and Solvers](papers/2604.21916-mathduels-llm-problem-posers-solvers-v2.md) | 静的ベンチ飽和問題に対し「問題作成者＋解答者」セルフプレイ動的数学ベンチマークで解答 |
+| [Thinking with Reasoning Skills: Fewer Tokens, More Accuracy](papers/2604.21764-thinking-with-reasoning-skills-fewer-tokens.md) | 推論スキルを蒸留・再利用することでChain-of-Thoughtのトークン消費を削減しつつ精度向上 |
+| [DiffMAS: End-to-End Optimization of Multi-Agent Language Systems](papers/2604.21794-diffmas-multiagent-language-e2e-optimization.md) | エージェント間通信をKVキャッシュ潜在表現で行いマルチエージェントLLMシステムをE2E最適化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Low-Rank Adaptation Redux for Large Models](papers/2604.21905-lora-redux-large-models-peft-v2.md) | LoRAを再定式化・理論化し大規模モデルへのスケーラビリティと理論的保証を強化した「LoRA Redux」 |
+| [Ramen: Robust Test-Time Adaptation of VLMs with Active Sample Selection](papers/2604.21728-ramen-robust-tta-vlm-v2.md) | 混合ドメイン環境でのVLMテスト時適応をアクティブサンプル選択で堅牢化（CLIP対応） |
+| [Quotient-Space Diffusion Models](papers/2604.21809-quotient-space-diffusion-models.md) | 対称性を持つ科学タスク向けに商空間上で動作する拡散モデルを提案（分子生成等） |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Sapiens2（Meta FAIR）](papers/2604.21681-sapiens2-human-centric-vision-meta.md) | Meta：人間中心ビジョン0.4B〜5B高解像度モデルファミリー。ネイティブ1K、4K対応で初代Sapiensを全面超 |
+| [Context Unrolling in Omni Models](papers/2604.21921-context-unrolling-omni-models-multimodal.md) | テキスト・画像・動画・3D・隠れ表現を統合学習したOmniモデルで「Context Unrolling」現象を発見 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Tool Attention Is All You Need: Dynamic Tool Gating for MCP Tax Elimination](papers/2604.21816-tool-attention-mcp-dynamic-gating.md) | MCPの毎ターン全スキーマ注入「MCPタクス（10K〜60Kトークン）」を動的ゲーティングで解消 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Hi-WM: Human-in-the-World-Model for Scalable Robot Post-Training](papers/2604.21741-hi-wm-human-in-world-model-robot-posttraining.md) | 物理実行不要：ワールドモデル内で人間が修正フィードバックを提供しロボットポリシーをスケーラブルに事後学習 |
+
+---
+
 ## 2026-04-26 注目論文：4/23公開分（Eコマース遅延CV・SAEスパース検索・マルチターン攻撃・カメラGenAI真正性中心）
 
 ### 📚 cs.IR（情報検索）

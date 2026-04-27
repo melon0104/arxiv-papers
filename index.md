@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-04-28 注目論文：4/24公開分（UAE RAG蒸留・ResRank E2Eリランク・QuantClaw・ACoT潜在推論・SS3D・RedVLA安全）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [UAE: Aligning Dense Retrievers with LLM Utility via Distillation](papers/2604.22722-uae-dense-retriever-llm-utility.md) | LLMリランキング信号をDense Retrieverに蒸留しRAGの精度とコスト効率を同時改善 |
+| [Can QPP Choose the Right Query Variant? (Google/Zaharia)](papers/2604.22661-qpp-query-variant-rag.md) | RAGの複数クエリ変形からQPPで最良バリアントを事前選択しパイプラインコスト削減 |
+| [ResRank: E2E Retrieval + Listwise Reranking with Residual Compression](papers/2604.22180-resrank-e2e-retrieval-reranking.md) | 残差パッセージ圧縮でlost-in-the-middleを解消しretrieval+rerankingをE2E統合 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [QuantClaw: Precision Where It Matters for OpenClaw](papers/2604.22577-quantclaw-agent-quantization.md) | エージェントシステム専用の選択的量子化フレームワーク、長コンテキスト推論コストを削減 |
+| [Thinking Without Words: Abstract Chain-of-Thought](papers/2604.22709-thinking-without-words-latent-cot.md) | 潜在空間での非言語推論（ACoT）で明示CoTと同等性能を短生成長で達成 |
+| [Context-Fidelity Boosting: Watermark-Inspired Decoding](papers/2604.22335-context-fidelity-boosting-hallucination.md) | ウォーターマーキング着想のデコーディングでfaithfulness hallucinationを学習不要で削減 |
+| [Measuring Persona Distortions from AI Writing (Oxford・DeepMind)](papers/2604.22503-ai-writing-persona-distortion.md) | 2,939人実験でAIライティング支援が書き手の信念・性格を歪めるリスクを定量化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Spend Less, Fit Better: Budget-Efficient Scaling Law Fitting](papers/2604.22753-scaling-law-budget-efficient.md) | 能動学習でスケーリング則フィッティングのパイロット実験コストを大幅削減 |
+| [CLVAE: Long-Term Customer Revenue Forecasting](papers/2604.22636-clvae-customer-revenue-forecasting.md) | VAEで確率的CLVモデルとML柔軟性を統合し顧客生涯価値の長期予測精度を改善 |
+| [Data-Free FL Contribution via Gradient von Neumann Entropy (MBZUAI)](papers/2604.22562-federated-learning-gradient-entropy.md) | 勾配のvon Neumann Entropyを使う検証データ不要の連合学習クライアント貢献度推定 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Long-tail Internet Photo Reconstruction (Cornell・Google)](papers/2604.22714-longtail-internet-photo-3d.md) | スパース・ノイズ多い長尾インターネット写真からの堅牢な3D再構成（Cornell/Google） |
+| [SS3D: End2End Self-Supervised 3D from Web Videos](papers/2604.22686-ss3d-self-supervised-3d-web-video.md) | ウェブ動画からE2E自己教師あり学習で深度・姿勢・内部パラメータを同時推定 |
+| [FlowAnchor: Stabilizing Editing Signal for Inversion-Free Video Editing](papers/2604.22586-flowanchor-video-editing.md) | Optical Flowをアンカーに使い学習不要でInversion-free動画編集の時間的一貫性を確保 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Agentic World Modeling: Foundations, Capabilities, Laws](papers/2604.22748-agentic-world-modeling.md) | エージェントAIに必要なワールドモデリングの基礎・能力・スケーリング則を包括サーベイ |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [GazeVLA: Learning Human Intention via Gaze for Robotic Manipulation](papers/2604.22615-gazevla-robot-manipulation-gaze.md) | 視線情報で人間意図をVLAに統合しロボットデモ依存を削減しながら操作精度向上 |
+| [RedVLA: Physical Red Teaming for VLA Models](papers/2604.22591-redvla-vla-safety-red-teaming.md) | VLAモデル向け初の物理的レッドチーミングフレームワークで展開前安全リスクを体系的検出 |
+
+---
+
 ## 2026-04-27 注目論文：4/22-23公開分（カルーセルUI行動・LoRA理論再考・Sapiens2 Meta・MCPタクス・ロボットワールドモデル）
 
 ### 📚 cs.IR（情報検索）

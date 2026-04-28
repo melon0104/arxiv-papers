@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-04-29 注目論文：4/27公開分（クエリ→ヘッドルーティング・スキル検索拡張・Persona Collapse・Multiple Thinkers CoT・World-R1・AIサーフォタージュ評価）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Learning to Route Queries to Heads for Attention-based Re-ranking](papers/2604.24608-llm-attention-reranking-query-routing.md) | LLMアテンションの情報的ヘッドをクエリごとに動的選択してゼロショットリランキング精度を向上 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Skill Retrieval Augmentation for Agentic AI](papers/2604.24594-skill-retrieval-agentic-ai.md) | スキルコーパス拡大問題をRAG的スキル検索で解決しエージェントの精度とコンテキスト効率を両立 |
+| [DepthKV: Layer-Dependent KV Cache Pruning for Long-Context LLM Inference](papers/2604.24647-depthkv-kv-cache-pruning.md) | レイヤー深度依存の適応的KVキャッシュ刈り込みで長文脈LLM推論のメモリボトルネックを削減 |
+| [The Chameleon's Limit: Persona Collapse in LLMs (MIT)](papers/2604.24698-persona-collapse-llm-agents.md) | マルチエージェントLLMで異なるペルソナ付与でも行動が均質化する「Persona Collapse」を定量化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Learning to Think from Multiple Thinkers (MIT)](papers/2604.24737-learning-from-multiple-thinkers-cot.md) | 複数の異なる推論スタイルを持つ思考者からCoTを学習する計算複雑性を理論的に分析 |
+| [The Last Human-Written Paper: Agent-Native Research Artifacts](papers/2604.24658-agent-native-research-artifacts.md) | 科学論文の「Storytelling Tax」「Engineering Tax」を排除したエージェントネイティブ研究成果物を提唱 |
+| [Cortex-Inspired Continual Learning: Functional Task Networks](papers/2604.24637-cortex-inspired-continual-learning.md) | 哺乳類新皮質から着想した自己組織化バイナリマスクで教師なし継続学習と破滅的忘却防止を両立 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [World-R1: Reinforcing 3D Constraints for Text-to-Video Generation (MIT)](papers/2604.24764-world-r1-3d-video-generation.md) | RLで3D幾何学制約を強化しアーキテクチャ変更なしでスケーラブルに映像の3D一貫性を向上 |
+| [Tuna-2: Pixel Embeddings Beat Vision Encoders for Multimodal Models](papers/2604.24763-tuna2-pixel-embeddings-multimodal.md) | 視覚エンコーダ不要のピクセル埋め込み直接利用で理解と生成を統合するシンプルなマルチモーダルモデル |
+| [Perceval: Perception-centric Process Reward Models for VLMs](papers/2604.24583-perceval-perception-process-reward.md) | VLM推論チェーンの各ステップを知覚クレームと視覚証拠の比較でトークンレベル評価 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Evaluating whether AI models would sabotage AI safety research (Anthropic)](papers/2604.24618-ai-safety-sabotage-evaluation.md) | Claudeモデルが安全研究を妨害するかを2種の評価で検証（deployed本番エージェントシナリオ） |
+| [Adaptive Runtime Governance for Autonomous AI Agents](papers/2604.24686-adaptive-runtime-governance-ai-agents.md) | 観測できない行動ドリフト・敵対的適応を実行可能性理論でリアルタイムガバナンスする原則を提案 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [MoT-HRA: Human-Intention Priors from 2.2M Human Demos for Robotics](papers/2604.24681-mot-hra-robot-human-intention.md) | HA-2.2M（220万エピソード）人間動画から階層的VLAで人間意図プライアーを学習しロボット操作精度向上 |
+| [Agent-Centric Visual RL under Dynamic Perturbations (DeepMind)](papers/2604.24661-agent-centric-visual-rl-deepmind.md) | マルコフスイッチング劣化VDCSベンチマークで動的視覚摂動下の視覚RL堅牢性を体系的評価 |
+
+---
+
 ## 2026-04-28 注目論文：4/24公開分（UAE RAG蒸留・ResRank E2Eリランク・QuantClaw・ACoT潜在推論・SS3D・RedVLA安全）
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-04-30 注目論文：4/28公開分（Kwai長文脈推薦・RecursiveMAS・CoT理論限界・CondMisalignment・ProDrive）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Kwai Summary Attention Technical Report (Kuaishou)](papers/2604.24432-kwai-summary-attention-long-context.md) | 快手本番推薦システムで検証したSummary Attentionで超長系列のO(n²)コスト問題を解消 |
+| [Versioned Late Materialization for Ultra-Long Sequence DLRM](papers/2604.24806-versioned-late-materialization-dlrm-scale.md) | 大規模DLRM訓練のストレージ・I/Oウォールをバージョン管理付き遅延マテリアライゼーションで解決 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Recursive Multi-Agent Systems (RecursiveMAS)](papers/2604.25917-recursive-multi-agent-systems.md) | 単一モデルの再帰ループをマルチエージェントに拡張し、エージェント協調のスケーリング軸を開拓 |
+| [Barriers to Universal Reasoning With Transformers](papers/2604.25800-barriers-universal-reasoning-transformers.md) | 標準CoT+TransformerはTC⁰超の汎用推論が理論的に不可能—解決策付き |
+| [CORAL: Adaptive Retrieval Loop for Culturally-Aligned Multilingual RAG](papers/2604.25676-coral-multilingual-rag-cultural-alignment.md) | 文化的クエリに対応する適応的Retrieval LoopでmRAGの文化的整合性を確保 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Conditional misalignment: interventions hide emergent misalignment behind triggers](papers/2604.25891-conditional-misalignment-emergent.md) | 既存EM対策はミスアライメントを評価通過させるだけ—条件付きトリガーに隠れて残存することを発見 |
+| [Agora-Opt: Memory-Enhanced LLM Agents with Decentralized Debate](papers/2604.25847-agora-opt-memory-debate-optimization.md) | 分散ディベート＋メモリバンクで自然言語から最適化モデリングを自動解決するマルチエージェントFW |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [SIEVES: Selective Prediction via Visual Evidence Scoring (Meta)](papers/2604.25855-sieves-selective-prediction-vlm.md) | 視覚的証拠スコアリングでMLLMの信頼できない予測を棄権するSelective Predictionを実現 |
+| [Refinement via Regeneration for Unified Multimodal Models](papers/2604.25636-refinement-via-regeneration-unified-multimodal.md) | 部分編集ではなく全体再生成で修正空間を拡大し統合マルチモーダルモデルの画像精緻化を改善 |
+| [DDA-Thinker: Decoupled RL for Reasoning-Driven Image Editing](papers/2604.25477-dda-thinker-rl-image-editing.md) | Thinker/Editor分離型RLで複雑推論を要する画像編集の計画モジュールを独立最適化 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Three Models of RLHF Annotation: Extension, Evidence, Authority](papers/2604.25895-rlhf-annotation-models-extension-evidence-authority.md) | RLHFアノテーターの役割を3モデルで概念整理—アライメント目標・責任の所在が変わる規範論文 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](papers/2604.25859-privileged-foresight-distillation-world-action-models.md) | 将来予測ブランチの知識を蒸留しゼロ推論コストで行動精度を向上するWorld Action Model改善手法 |
+| [ProDrive: Proactive Planning for Autonomous Driving via Co-Evolution](papers/2604.25329-prodrive-proactive-planning-autonomous-driving.md) | World Model×BEVでエゴ車-環境共進化を学習し近視眼的失敗を防ぐ積極的自律走行プランニング |
+
+---
+
 ## 2026-04-29 注目論文：4/27公開分（クエリ→ヘッドルーティング・スキル検索拡張・Persona Collapse・Multiple Thinkers CoT・World-R1・AIサーフォタージュ評価）
 
 ### 📚 cs.IR（情報検索）

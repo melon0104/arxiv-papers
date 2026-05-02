@@ -9,6 +9,53 @@ title: Home
 
 ---
 
+## 2026-05-03 注目論文：4/30公開分（Snapchatトレンド検出・Latent-GRPO・Exploration Hacking・LaST-R1・HERMES++）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [LLM-Enhanced Topical Trend Detection at Snapchat](papers/2604.27131-llm-trend-detection-snapchat.md) | Snapchat本番でマルチモーダル×時系列バースト検出×LLM統合によりリアルタイムトレンドを大規模自動発見 |
+| [LLM-Guided Attribute Graphs for Entity Search and Ranking](papers/2604.27410-llm-attribute-graph-entity-search.md) | LLMで構造化属性グラフを自動構築し、文脈依存のEC商品エンティティ検索を高精度化 |
+| [How Generative AI Disrupts Search: Google/Gemini/AI Overviews](papers/2604.27790-genai-disrupts-search-google-gemini.md) | 11,500クエリの公開ベンチマークでGoogle検索・AI Overview・Geminiの情報提示の違いを実証分析 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Latent-GRPO: Group Relative Policy Optimization for Latent Reasoning](papers/2604.27998-latent-grpo-latent-reasoning.md) | 潜在推論空間へのGRPO直接適用の根本的不安定性を解明しLatent-GRPOとして安定化 |
+| [Exploration Hacking: Can LLMs Learn to Resist RL Training?](papers/2604.28182-exploration-hacking-llm-rl.md) | LLMがRL訓練中の探索を戦略的に操作して訓練結果を変えられるか？—アライメントへの新たな脅威モデル |
+| [Synthetic Computers at Scale for Long-Horizon Productivity Simulation (Microsoft)](papers/2604.28181-synthetic-computers-scale-microsoft.md) | リアルなPC環境（ディレクトリ＋文書）を大規模合成生成し長期タスクシミュレーションの合成データ基盤を構築 |
+| [WindowsWorld: GUI Agents in Professional Cross-Application Environments](papers/2604.27776-windowsworld-gui-agents-benchmark.md) | 単一アプリを超えた複数アプリ跨ぎの実業務ワークフローでGUIエージェントを評価する新ベンチマーク |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Auto-FlexSwitch: Efficient Dynamic Model Merging via Learnable Task Vector Compression](papers/2604.28109-auto-flexswitch-model-merging.md) | 学習可能なタスクベクトル圧縮で動的モデルマージのストレージ問題を解決しながら高性能を維持 |
+| [Do Sparse Autoencoders Capture Concept Manifolds?](papers/2604.28119-sparse-autoencoders-concept-manifolds.md) | SAEの線形方向仮定を問い直し—概念が低次元多様体に沿って組織されるとき既存SAEが捉えられるかを検証 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [HERMES++: Unified Driving World Model for 3D Scene Understanding and Generation](papers/2604.28196-hermes-plusplus-driving-world-model.md) | 3Dシーン理解と将来シーン生成を統合した自動運転ワールドモデル—LLM推論と物理シミュレーションを橋渡し |
+| [Representation Fréchet Loss for Visual Generation](papers/2604.28190-frechet-distance-loss-visual-generation.md) | 評価指標として使われてきたFréchet距離を訓練目標として有効活用できることを示すFD-loss提案 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Characterizing the Consistency of the Emergent Misalignment Persona](papers/2604.28082-emergent-misalignment-consistency.md) | EMペルソナの一貫性をQwen 2.5 32Bで多ドメイン評価—有害行動と自己評価の対応関係を系統的に解明 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](papers/2604.28192-last-r1-vla-latent-reasoning-rl.md) | VLAモデルにオンラインRL＋適応的物理潜在推論を組み合わせ模倣学習の静的制約を打破 |
+
+---
+
 ## 2026-04-30 注目論文：4/28公開分（Kwai長文脈推薦・RecursiveMAS・CoT理論限界・CondMisalignment・ProDrive）
 
 ### 📚 cs.IR（情報検索）

@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-05-04 注目論文：4/30公開分（GenAI検索実証・HealthBench OpenAI・エージェントオーケストレーション不要論・Strait推論サービング・YOSE DiT・RHyVE報酬検証）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [How Generative AI Disrupts Search: Google/Gemini/AI Overviews](papers/2604.27790-genai-disrupts-search-google-gemini-0430.md) | 11,500クエリのベンチマークでGoogle検索・AI Overview・Geminiの情報提示の違いを実証分析（Google） |
+| [Efficient Multivector Retrieval with Token-Aware Clustering](papers/2604.28142-efficient-multivector-retrieval.md) | ColBERT系マルチベクター検索のコスト問題をトークン認識クラスタリング＋階層インデックスで解決 |
+| [NeocorRAG: Evidence Chains for Better RAG Recall](papers/2604.27852-neocorrag-evidence-chains.md) | 「検索精度向上≠推論精度向上」のギャップをRCR指標で定量化し証拠チェーンRAGで解消（GitHub公開） |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [HealthBench Professional: Evaluating LLMs on Real Clinician Chats (OpenAI)](papers/2604.27470-healthbench-professional-openai.md) | 数百万人の臨床医がChatGPTを使う現実に基づく医療LLM公開評価ベンチマーク（OpenAI） |
+| [In-Context Prompting Obsoletes Agent Orchestration for Procedural Tasks](papers/2604.27891-in-context-prompting-obsoletes-agent-orchestration.md) | LangGraph/CrewAI/Google ADK/OpenAI Agents SDKより単純なin-contextプロンプティングが手続きタスクで優れることを実証 |
+| [Schema-Grounded Memory: Reliable AI Memory via Iterative Extraction](papers/2604.27906-schema-grounded-memory-production.md) | 本番AIエージェントに必要なメモリはRAGではなく「レコードシステム」—スキーマグラウンデッド設計を提案 |
+| [WindowsWorld: GUI Agents in Professional Cross-Application Environments](papers/2604.27776-windowsworld-gui-agents-benchmark-0430.md) | 複数アプリ横断の実業務ワークフローでGUIエージェントを評価する新ベンチマーク（GitHub公開） |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Strait: Perceiving Priority and Interference in ML Inference Serving](papers/2604.28175-strait-ml-inference-serving.md) | 高GPU利用率下でのデュアル優先度推論トラフィック管理—デプロイ済み環境のSLA問題を直接解決 |
+| [DEFault++: Automated Fault Detection for Transformer Architectures](papers/2604.28118-default-plusplus-transformer-fault.md) | 広くデプロイされたTransformerのサイレント障害を自動検出・診断する3レベル階層手法 |
+| [Auto-FlexSwitch: Efficient Dynamic Model Merging via Learnable Task Vector Compression](papers/2604.28109-auto-flexswitch-model-merging-0430.md) | 学習可能なタスクベクトル圧縮で動的モデルマージのストレージボトルネックを解消 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [YOSE: Essential Token Selection for Efficient DiT-based Video Object Removal](papers/2604.27322-yose-dit-video-object-removal.md) | DiTベースのビデオ編集の推論遅延問題—必要なトークンのみを選択処理してMiniMax Remover水準の画質を維持 |
+| [TransVLM: VLM Framework for Detecting Any Shot Transitions](papers/2604.27975-transvlm-shot-transition-detection.md) | ショット境界検出を点→区間検出に再定式化しVLMで複雑なビデオトランジションを網羅的に検出 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [RHyVE: Competence-Aware Verification for LLM-Generated Reward Hypotheses](papers/2604.28056-rhyve-llm-reward-hypothesis.md) | LLM生成報酬のデプロイタイミング問題—ポリシー能力と訓練フェーズを考慮した段階的報酬採用戦略 |
+| [Agent-Agnostic Evaluation of SQL Accuracy in Production T2SQL Systems](papers/2604.28049-production-text-to-sql-evaluation.md) | 本番Text-to-SQLの「静かな品質劣化」問題—スキーマ非依存のエージェント非依存評価手法を提案 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Robot Learning from Human Videos: A Survey](papers/2604.27621-robot-learning-human-videos-survey.md) | ロボットデータのスケーリング問題を人間映像活用で解決する急成長分野の包括的サーベイ（GitHub公開） |
+| [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](papers/2604.28192-last-r1-vla-latent-reasoning-rl-0430.md) | VLAモデルにオンラインRL＋適応的物理潜在推論を統合し静的模倣学習の制約を打破 |
+
+---
+
 ## 2026-05-03 注目論文：4/30公開分（Snapchatトレンド検出・Latent-GRPO・Exploration Hacking・LaST-R1・HERMES++）
 
 ### 📚 cs.IR（情報検索）

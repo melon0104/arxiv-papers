@@ -9,6 +9,54 @@ title: Home
 
 ---
 
+## 2026-05-07 注目論文：5/5公開分（推論集約型検索・思考トレースRAG・OpenSeeker-v2検索エージェント・アクティベーションステアリング・臨床RCT・実行器グラウンデッド報酬・SOAR倉庫ロボット・FUS3DMaps・Agentic-imodels）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Rethinking Reasoning-Intensive Retrieval: Agentic Search Systems](papers/2605.04018-reasoning-intensive-retrieval-agentic-search.md) | エージェント検索における「推論集約型検索」の評価・改善—BRIGHTの限界を示し次世代ベンチマークと訓練手法を提案 |
+| [RAG over Thinking Traces Can Improve Reasoning Tasks](papers/2605.03344-rag-over-thinking-traces-reasoning.md) | RAGは文書でなく「思考トレース」を検索すれば数学・コード推論タスクも改善できると実証—通説を覆す重要研究 |
+| [Revisiting General Map Search via Generative Point-of-Interest Retrieval](papers/2605.03397-generative-poi-retrieval-map-search.md) | マップ検索の不明確クエリ問題に生成的POI検索で対応—地図サービスの文脈依存・パーソナライズ検索を実用化 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [OpenSeeker-v2: Pushing the Limits of Search Agents](papers/2605.04036-openseeker-v2-search-agents.md) | 産業大手パイプライン不要—情報量が多く難度の高いトレジェクトリのSFTだけで検索エージェントSOTAに迫る |
+| [Steer Like the LLM: Activation Steering that Mimics Prompting](papers/2605.03907-activation-steering-mimics-prompting.md) | プロンプト操作とアクティベーション操作を統一定式化—既存ステアリング手法がプロンプトに負ける理由を解明 |
+| [Atomic Fact-Checking Increases Clinician Trust in LLM Recommendations (RCT)](papers/2605.03916-atomic-factchecking-clinician-trust-rct.md) | 356名臨床家RCTで実証—アトミックファクトチェックがLLM治療推薦への信頼を26.9%→66.5%に引き上げ |
+| [Correct Is Not Enough: Executor-Grounded Rewards for Reasoning Planners](papers/2605.03862-tracelift-executor-grounded-rewards.md) | 「正答だけの報酬」が不忠実な推論を強化する問題を特定—実行器グラウンデッドなTraceLiftで推論品質を向上 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [PALACE: Certified Adaptive-Landmark Kernel for Point-Cloud Classification](papers/2605.04046-palace-certified-point-cloud-classification.md) | トポロジカルデータ分析ベースの認証保証付き点群・グラフ分類カーネル—安全性要求AI応用に直結 |
+| [Conditional Diffusion Sampling](papers/2605.04013-conditional-diffusion-sampling.md) | 正規化なし多峰性分布からの条件付き拡散サンプリング—ベイズ推論・物質科学・タンパク質設計への汎用基盤 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Unified Multimodal Visual Tracking with Dual Mixture-of-Experts](papers/2605.03716-unified-multimodal-tracking-moe.md) | RGB/深度/赤外線など複数モダリティ追跡を単一デュアルMoEモデルで統合（Meta参加） |
+| [Raising the Ceiling: Better Empirical Fixation Densities for Saliency Benchmarking](papers/2605.03885-fixation-density-saliency-benchmarking.md) | 注視密度品質がsaliencyベンチマーク結論を左右することを実証—評価天井を引き上げる改善手法 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Agentic-imodels: Evolving Interpretability Tools via Autoresearch](papers/2605.03808-agentic-imodels-autoresearch.md) | エージェント向け解釈可能性ツールを自動研究ループで進化—人間向けとは別の「エージェント向け解釈可能性」を確立 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [SOAR: Real-Time Joint Optimization of Order Allocation and Robot Scheduling (RMFS)](papers/2605.03842-soar-robot-order-allocation-scheduling.md) | 倉庫ロボットシステムの注文割り当て×スケジューリング連立リアルタイム最適化—本番環境対応・GitHub公開 |
+| [FUS3DMaps: Scalable Open-Vocabulary Semantic Mapping](papers/2605.03669-fus3dmaps-openvocabulary-semantic-mapping.md) | ボクセル×インスタンスの3D融合でスケーラブルかつ高精度なオープンボキャブラリーセマンティックマッピング—GitHub公開 |
+
+---
+
 ## 2026-05-04 注目論文：4/30公開分（GenAI検索実証・HealthBench OpenAI・エージェントオーケストレーション不要論・Strait推論サービング・YOSE DiT・RHyVE報酬検証）
 
 ### 📚 cs.IR（情報検索）

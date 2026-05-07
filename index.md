@@ -9,6 +9,56 @@ title: Home
 
 ---
 
+## 2026-05-08 注目論文：5/7公開分（生成推薦CAPSID・StageCF・ハルシネーション検出・LLM心理測定ピノキオ軸・コンセプトフィールド・多言語極性検出・MLPテールリスク・ICL非線形理論・Transformer時系列解釈・DiT外れ値トークン・D-OPSD蒸留・Syn4D・LongSeeker検索エージェント・Q2RL・CBF安全フィルタ）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [CAPSID+SEMANTICBPE: Soft-Routed Variable-Length Semantic IDs](papers/2605.05096-capsid-semanticbpe-generative-recommendation.md) | カプセルルーティングで残差量子化を改良し産業規模35Mアイテムで推薦Recall@10を平均9.6%改善・推論レイテンシ51%に削減 |
+| [StageCF: Interests Burn-down Diffusion for CF](papers/2605.05165-interests-burndown-diffusion-collaborative-filtering.md) | ユーザー興味の「減衰→回復」を拡散過程としてモデル化するCF特化の新拡散スキームStageCFを提案 |
+| [AllSERP: Per-Element Eye-Tracking SERP Dataset](papers/2605.04949-allserp-serp-eye-tracking-dataset.md) | AI Overviews以前のGoogle SERP上でのアイトラッキングデータに有機要素レベルのbbox・意味分類を追加しオープン公開 |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [The First Token Knows: Single-Decode Confidence for Hallucination](papers/2605.05166-single-decode-confidence-hallucination.md) | 最初のトークンのエントロピーだけでセマンティック自己一貫性を超えるハルシネーション検出AUROC 0.820を単一デコードで達成 |
+| [Pinocchio Axis: LLM Psychometric Primary Axis](papers/2605.05080-llm-psychometric-pinocchio-axis.md) | 50 LLMに45質問票を実施し「現象的経験への自己表象スタンス（ピノキオ軸）」がモデル間差異の47.1%を説明すると発見 |
+| [Concept Fields: Black-Box Hallucination & Novelty](papers/2605.05103-concept-field-hallucination-novelty.md) | テキストコーパスをドリフト場として定式化するブラックボックスハルシネーション検出手法—CFR法令・Project Gutenbergで検証 |
+| [SemEval-2026: Multilingual Polarization Detection (2nd)](papers/2605.05159-semeval2026-multilingual-polarization-gemma.md) | 22言語偏極検出タスクでGemma 3アンサンブル+LoRA+合成データで2位（平均Macro-F1 0.811）、3言語で1位 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [MLP Cumulant Propagation: Faster Tail-Risk Estimation](papers/2605.05179-mlp-cumulant-propagation-rare-events.md) | Alignment Research Centerからの成果—キュムラント伝播でMLPの期待出力をMCサンプリングより少ないFLOPsで推定・稀事象に特に有効 |
+| [Superposition Not Necessary: Transformer Time Series Interpretability](papers/2605.05151-transformer-timeseries-no-superposition.md) | PatchTSTのFFN表現にSAEを適用し時系列予測ではスーパーポジション不要と実証—線形モデルDLinearの競争力を機械的に説明 |
+| [ICL Nonlinear Regression: Attention as Featurizer](papers/2605.05176-icl-nonlinear-regression-attention-featurizer.md) | アテンションが多項式・スプライン非線形特徴を実現することを理論的に構築しICL非線形回帰の汎化誤差境界を導出 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Taming Outlier Tokens in DiTs: Dual-Stage Registers](papers/2605.05206-taming-outlier-tokens-diffusion-transformers.md) | DiT生成モデルの外れ値トークン問題をDual-Stage Registersで解決—ImageNet+大規模テキスト→画像生成で品質向上 |
+| [D-OPSD: On-Policy Self-Distillation for Step-Distilled Diffusion](papers/2605.05204-d-opsd-step-distilled-diffusion-finetuning.md) | FLUX.2-kleinなど少ステップ蒸留モデルを少ステップ能力を失わずに微調整可能にするオンポリシー自己蒸留パラダイム |
+| [Syn4D: Multiview Synthetic 4D Dataset](papers/2605.05207-syn4d-multiview-synthetic-4d-dataset.md) | Andrea Vedaldaら参加—任意ピクセルを任意時刻・任意カメラに3Dアンプロジェクト可能な4D動的シーン理解用合成データセット |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Context-ReAct & LongSeeker: Elastic Context Orchestration](papers/2605.05191-context-react-longseeker-search-agent.md) | BrowseComp 61.5%でTongyi DeepResearch 43.2%を大幅上回る長期間検索エージェント—5つのコンテキスト操作で作業記憶を弾力的管理 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [Q2RL: Behavior Cloning → Online RL for Robots](papers/2605.05172-q2rl-behavior-cloning-to-online-rl.md) | BCからQ関数を抽出しRLに橋渡し—実機ロボットで1〜2時間の学習で精密操作タスクを成功率最大100%まで改善（コード公開） |
+| [Dual-Barrier CBF Safety Filter for Robot Navigation](papers/2605.05182-dual-barrier-cbf-safety-robot-navigation.md) | 増分構築地図上でRaspberry Pi実行可能な閉形式デュアルバリア安全フィルタ—クアッドロータ実機実験でゼロ衝突達成 |
+
+---
+
 ## 2026-05-07 注目論文：5/5公開分（推論集約型検索・思考トレースRAG・OpenSeeker-v2検索エージェント・アクティベーションステアリング・臨床RCT・実行器グラウンデッド報酬・SOAR倉庫ロボット・FUS3DMaps・Agentic-imodels）
 
 ### 📚 cs.IR（情報検索）

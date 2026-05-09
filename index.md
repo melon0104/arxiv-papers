@@ -9,6 +9,58 @@ title: Home
 
 ---
 
+## 2026-05-10 注目論文：5/7公開分（Superintelligent RAG・Semantic ID限界・産業広告生成推薦・EMO-MoE・StraTA・SkillOS・RL長期推論・MASPO・UniPool・リーダーボード誤解・Optimizer一貫性・ActCam・MedHorizon・Sparkle・AI Co-Mathematician・RAO・ReActor・OA-WAM）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Superintelligent Retrieval Agent](papers/2605.06647-superintelligent-retrieval-agent.md) | RAGエージェントが専門家のように検索システムを事前知識でナビゲートする次世代アーキテクチャを提唱 |
+| [Expressiveness Limits of Autoregressive Semantic ID](papers/2605.06331-expressiveness-limits-semantic-id-generative-rec.md) | 自己回帰セマンティックID生成が誘導する構造化デコーディング空間が生成推薦の表現力を制約することを理論的に解明 |
+| [Unified Value Alignment for Generative Rec in Industrial Ads](papers/2605.05803-unified-value-alignment-generative-rec-ads.md) | 産業広告GRでユーザー興味と商業価値を統一整合・実環境で既存ベースラインを上回る |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [EMO: Pretraining MoE for Emergent Modularity](papers/2605.06663-emo-pretraining-mixture-of-experts-emergent-modularity.md) | 事前学習段階でモジュール性を誘導しエキスパートサブセットのみでの推論性能劣化を解消—メモリ制約デプロイに貢献 |
+| [StraTA: Agentic RL with Strategic Trajectory Abstraction](papers/2605.06642-strata-agentic-rl-strategic-trajectory-abstraction.md) | 軌跡レベルの戦略抽象化をRL探索に組み込み長期ホライズン意思決定エージェントの探索効率とクレジット割り当てを改善 |
+| [SkillOS: Learning Skill Curation for Self-Evolving Agents](papers/2605.06614-skillos-skill-curation-self-evolving-agents.md) | デプロイ済みLLMエージェントが経験からスキルを蓄積・精製し自己進化するフレームワーク |
+| [Can RL Teach Long-Horizon Reasoning? Expressiveness Is Key](papers/2605.06638-can-rl-teach-long-horizon-reasoning-llm.md) | ScaleLogicで制御検証—モデルの表現力不足ではRLを使っても長期推論は習得不可 |
+| [MASPO: Joint Prompt Optimization for Multi-Agent Systems](papers/2605.06623-maspo-joint-prompt-optimization-multi-agent.md) | LLMベースMASの全エージェントプロンプトを同時最適化—エージェント間依存関係を考慮しシステム全体性能を最大化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [UniPool: Globally Shared Expert Pool for MoE](papers/2605.06665-unipool-globally-shared-expert-pool-moe.md) | 深いレイヤーのランダムルーティングでも精度差1〜1.6ptという知見からグローバル共有エキスパートプールを設計しパラメータ効率を大幅改善 |
+| [Why Global LLM Leaderboards Are Misleading](papers/2605.06656-global-llm-leaderboards-misleading-small-portfolios.md) | Arena 89K比較を分析—上位50モデルは統計的に区別不可能（最大勝率0.53）でグローバルBTランキングは誤解を招く |
+| [Optimizer-Model Consistency: Same Optimizer = Forgets Less](papers/2605.06654-optimizer-model-consistency-finetuning-forgets-less.md) | SFTで事前学習と同じオプティマイザを使うとLoRAより優れた学習-忘却トレードオフを達成するという実用的知見 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [ActCam: Zero-Shot Camera + Motion Control for Video Gen](papers/2605.06667-actcam-zero-shot-camera-motion-video-generation.md) | 追加学習不要でキャラクターモーション転送とカメラパラメータ制御を同時実現するゼロショットビデオ生成 |
+| [MedHorizon: Long-context Medical Video Understanding](papers/2605.06537-medhorizon-long-context-medical-video-understanding.md) | 冗長解剖ビューの中に決定的証拠が数フレームに凝縮する医療長尺ビデオ理解の初大規模ベンチマーク |
+| [Sparkle: Instruction-Guided Video Background Replacement](papers/2605.06535-sparkle-video-background-replacement-decoupled-guidance.md) | Decoupled Guidanceで前景一貫性を保ちながら自然言語指示に従うvivid背景置換をproductionレベルで実現 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [AI Co-Mathematician: Accelerating Mathematicians with Agentic AI](papers/2605.06651-ai-co-mathematician-agentic-ai.md) | DeepMind系—アイデア生成から定理証明まで数学研究全フェーズをカバーするステートフル非同期ワークベンチ |
+| [Recursive Agent Optimization (RAO)](papers/2605.06639-recursive-agent-optimization.md) | エージェントが自分自身を再帰的に呼び出してサブタスクを委任するRLフレームワーク—推論時スケーリングの自然な実装 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [ReActor: RL for Physics-Aware Motion Retargeting](papers/2605.06593-reactor-rl-physics-aware-motion-retargeting.md) | 二段階最適化RLでフットスライディング・自己衝突・動力学不整合を解消した物理整合モーションリターゲティング |
+| [OA-WAM: Object-Addressable World Action Model](papers/2605.06481-oa-wam-object-addressable-world-action-model.md) | オブジェクトアドレス可能な世界表現でアクションデコーダがオブジェクト固有情報を直接参照できるWAM改良 |
+
+---
+
 ## 2026-05-08 注目論文：5/7公開分（生成推薦CAPSID・StageCF・ハルシネーション検出・LLM心理測定ピノキオ軸・コンセプトフィールド・多言語極性検出・MLPテールリスク・ICL非線形理論・Transformer時系列解釈・DiT外れ値トークン・D-OPSD蒸留・Syn4D・LongSeeker検索エージェント・Q2RL・CBF安全フィルタ）
 
 ### 📚 cs.IR（情報検索）

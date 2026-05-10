@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-05-11 注目論文：5/8〜5/9公開分（Elastic Feature Fading・Multimodal Rec・LLM-Oriented IR・Position-Aware Drafting・Reasoning-Intensive Retrieval・EvoLM・Visual Latents・Bolek分子・LLM Visual Generation・UniCorrn・iWorld-Bench・OpenSeeker-v2・SOAR・VLA-GSE・When to Trust Imagination）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Intelligent Elastic Feature Fading](papers/2605.00324-intelligent-elastic-feature-fading-production.md) | モデル再学習なしで特徴効率化ロールアウトを産業スケールで実現—特徴廃止の3〜6ヶ月サイクルをゼロに近づける |
+| [Robust Multimodal Rec via Graph Retrieval](papers/2605.00670-robust-multimodal-rec-graph-retrieval-modality-completion.md) | グラフ検索でモダリティ欠損を補完するロバストなマルチモーダル推薦—センサー故障・アノテーション不足が多い実世界環境に対応 |
+| [LLM-Oriented IR: A Denoising-First Perspective](papers/2605.00505-llm-oriented-ir-denoising-first.md) | LLMが検索結果を消費することを前提とした「デノイジングファースト」な情報検索設計—RAGパイプラインのアテンション効率を根本から見直す |
+| [Position-Aware Drafting for LLM Listwise Rec](papers/2604.27747-position-aware-drafting-llm-listwise-rec.md) | LLMベースリストワイズ推薦の逐次デコードをPosition-Aware投機的デコードで高速化—分布を保ちながら推論レイテンシを削減（Xiangnan He/USTC） |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [Rethinking Reasoning-Intensive Retrieval](papers/2605.04018-reasoning-intensive-retrieval-agentic-search.md) | エージェント検索の反復推論をサポートする「推論集約的検索」を再定義—単なるトピックマッチングを超えた証拠検索の評価・改善フレームワーク（Arman Cohan/Yale） |
+| [EvoLM: Self-Evolving LM via Co-Evolved Rubrics](papers/2605.03871-evolm-self-evolving-llm-discriminative-rubrics.md) | LLMが評価基準ごと共進化する自己進化フレームワーク—人間アノテーションや独自報酬モデルへの依存から脱却し能力上限を突破 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Visual Latents Know More: Unsilencing Latent Reasoning](papers/2605.02735-visual-latents-unsilencing-latent-reasoning-mllm.md) | MLLMの視覚潜在変数は出力よりはるかに多くを「知っている」—潜在推論を「沈黙解除」してテキスト出力への情報転達を改善する新視点 |
+| [Bolek: Multimodal LM for Molecular Reasoning](papers/2605.02745-bolek-multimodal-lm-molecular-reasoning.md) | 分子構造に根拠付けた推論ができるコンパクトなマルチモーダルLM—創薬予測の「なぜ」を説明できる初のコンパクトモデル |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [LLMs as Universal Reasoners for Visual Generation](papers/2605.04040-llm-universal-reasoners-visual-generation.md) | LLMが視覚生成の「推論器」として機能する統合アーキテクチャ—プロンプトへの不忠実アライメント問題を推論統合で根本解決（Alan Yuille/JHU） |
+| [UniCorrn: Unified Correspondence Transformer 2D&3D](papers/2605.04044-unicorrn-unified-correspondence-transformer-2d-3d.md) | 2D-2D・2D-3D・3D-3D すべての視覚対応問題を統一Transformerで解決—タスク固有モデルの乱立を終わらせる統合アーキテクチャ |
+| [iWorld-Bench: Interactive World Models Benchmark](papers/2605.03941-iworld-bench-interactive-world-models.md) | インタラクティブ世界モデルの初統一ベンチマーク—物理的推論・行動予測の評価標準を確立しAGI研究を加速 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [OpenSeeker-v2: Pushing Search Agent Limits](papers/2605.04036-openseeker-v2-search-agents-hard-trajectory.md) | 大手企業独占の検索エージェント研究をオープンソース化—高難度・高情報量軌跡でLLM検索エージェントの限界を民主的に押し広げる |
+| [SOAR: Joint Order Allocation + Robot Scheduling](papers/2605.03842-soar-joint-order-robot-scheduling-fulfillment.md) | 倉庫RMFSの注文割り当て×ロボットスケジューリングをリアルタイム統合最適化—厳しい時間制約の中で倉庫効率を最大化 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [VLA-GSE: PEFT with Generalized+Specialized Experts](papers/2605.06175-vla-gse-peft-generalized-specialized-experts.md) | VLAの汎化・専門化エキスパートで破滅的忘却なしにロボット制御適応を実現—事前学習VL能力を活かしたPEFTの新設計 |
+| [When to Trust Imagination: Adaptive WAM Execution](papers/2605.06222-when-trust-imagination-adaptive-action-wam.md) | World Action Modelが「いつ自分の想像を信頼すべきか」を学習—予測不確実性に適応したアクション実行でWAMの実用安全性を向上 |
+
+---
+
 ## 2026-05-10 注目論文：5/7公開分（Superintelligent RAG・Semantic ID限界・産業広告生成推薦・EMO-MoE・StraTA・SkillOS・RL長期推論・MASPO・UniPool・リーダーボード誤解・Optimizer一貫性・ActCam・MedHorizon・Sparkle・AI Co-Mathematician・RAO・ReActor・OA-WAM）
 
 ### 📚 cs.IR（情報検索）

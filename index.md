@@ -9,6 +9,59 @@ title: Home
 
 ---
 
+## 2026-05-12 注目論文：5/8公開分（InterLV-Search・DCGL・DiffRetriever・Generative Rec Limits・AutoTTS・Memory Curse・Fast BLT・CoCoReviewBench・MatryoshkaLoRA・GraphDPO・DR-ME・ADD-PINN・Proxy3D・SCOPE・HFRU・Memory Curse AI・Reason to Play・123D・TAVIS）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [InterLV-Search](papers/2605.07510-interlv-search-multimodal-agentic-benchmark.md) | テキスト・視覚証拠が交互に絡み合うエージェント検索を評価する新ベンチマーク—2,061サンプル・3難易度レベルで次世代マルチモーダル検索エージェントを評価 |
+| [DCGL: Dual-Channel Graph LLM Rec](papers/2605.07314-dcgl-dual-channel-graph-llm-recommendation.md) | KG+LLMの単一チャネル融合によるシグナル干渉問題をデュアルチャネルアーキテクチャで解決—知識認識型推薦の精度を向上（GitHub公開）|
+| [DiffRetriever: 拡散LMによる並列トークン検索](papers/2605.07210-diffretriever-diffusion-lm-retrieval.md) | 拡散言語モデルで代表トークンを並列生成し検索を高速化—逐次生成のボトルネックを解消してマルチトークンRAG検索を実現（ACL・GitHub）|
+| [生成推薦の自己回帰表現力限界](papers/2605.06331-expressiveness-limits-autoregressive-semantic-id-generative-rec.md) | Semantic IDが誘導するデコーディングツリー構造がGRモデルの表現力に根本的制限を生じさせることを理論・実験で初めて体系的に解明（GitHub）|
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [AutoTTS: LLMがTTS戦略を自動発見](papers/2605.08083-autotts-agentic-discovery-test-time-scaling.md) | 研究者が設計するものを「TTSヒューリスティック」から「戦略が自動発見される環境」へ転換—LLMが別LLMの推論戦略を自律的に探索・最適化（GitHub）|
+| [The Memory Curse: 記憶拡張がLLM協調を壊す](papers/2605.08060-memory-curse-llm-agents-cooperation.md) | 7LLM×4ゲーム×500ラウンドで実証—コンテキスト拡大が28設定中18設定で協調を低下させる「記憶の呪い」の発見と機序解析（37.8万推論トレース分析）|
+| [Fast Byte Latent Transformer](papers/2605.08044-fast-byte-latent-transformer.md) | BLTに拡散目標を追加して複数バイトを並列デコード—トークナイザー不要な高速バイトレベルLMの生成速度ボトルネックを解消 |
+| [CoCoReviewBench: AIレビュアー評価基準を刷新](papers/2605.07905-cocoreviewbench-ai-reviewer-benchmark.md) | 完全性・正確性に特化したAIレビュアーベンチマーク—NeurIPS・ICLR実データ活用でレビュアー評価の信頼性を根本から改善（Meta・GitHub）|
+| [MatryoshkaLoRA: 階層的低ランク表現のファインチューニング](papers/2605.07850-matryoshkalora-hierarchical-lora-finetuning.md) | マトリョーシカ設計でLoRAのランク選択問題を解決—階層的学習で勾配一貫性を保ちながら精度と効率を両立（GitHub）|
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [GraphDPO: 選好グラフ最適化でDPOを超える](papers/2605.08037-graphdpo-preference-graph-optimization.md) | 実はDPOは選好グラフを無意識に最適化していた—複数ロールアウトのリッチな選好構造をグラフとして直接活用しアライメントを改善（ACL関連）|
+| [DR-ME: 解釈可能な分布的処置効果の半パラメトリック検定](papers/2605.08034-dr-me-distributional-treatment-effects.md) | 平均では見えない因果的差異を「どこで」起きているかを特定—大域的棄却でなく因果的不一致座標を返す初の半パラメトリック効率的検定 |
+| [ADD-PINN: 交通状態推定のための適応的ドメイン分解PINN](papers/2605.08028-add-pinn-traffic-state-estimation.md) | PINNの交通ショックウェーブ過剰平滑化問題を残差誘導ドメイン分解で解決—スパースセンサーから高精度な速度場を再構成 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Proxy3D: VLM向け効率的3D表現](papers/2605.08064-proxy3d-vlm-3d-representations.md) | セマンティッククラスタリングでコンパクトな3Dプロキシ表現を構築—2Dパイプライン依存のVLMが3D空間を効率的に理解できる新設計 |
+| [SCOPE: 複雑な画像生成のスキルオーケストレーション](papers/2605.08043-scope-structured-image-generation.md) | セマンティックコミットメントのライフサイクル断絶（Conceptual Rift）を定式化し構造化スキル管理で解決—複雑なプロンプトへの忠実な画像生成を実現 |
+| [HFRU: 幻覚なしの強化学習アンラーニングVLM](papers/2605.08031-hfru-hallucination-free-reinforcement-unlearning-vlm.md) | 言語デコーダでなく視覚エンコーダを対象とした深層忘却でオブジェクト幻覚を防止—GRPO最適化によるプライバシー対応VLMのMachine Unlearning（GitHub）|
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [The Memory Curse（cs.AI）](papers/2605.08060-memory-curse-llm-agents-cooperation.md) | ↑cs.CLも参照—マルチエージェント社会的ジレンマでのコンテキスト拡大の逆効果を大規模実験で実証 |
+| [Reason to Play: LRMと人間の脳・行動アライメント](papers/2605.08019-reason-to-play-llm-brain-alignment.md) | fMRI付きゲームプレイデータでフロンティアLRMの行動・神経科学的整合性を評価—「AIは人間のように学習・計画するか」をゲームで測定（GitHub）|
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [123D: 自動運転マルチモーダルデータの統一](papers/2605.08084-123d-autonomous-driving-multimodal-data.md) | カメラ・LiDAR・HDマップなど異種フォーマットの自動運転データセットを単一開発環境で統一—データサイロ解消で大規模汎化学習を加速（GitHub）|
+| [TAVIS: 自我中心能動視覚の模倣学習ベンチマーク](papers/2605.07943-tavis-egocentric-active-vision-benchmark.md) | 操作中にポリシーが自らの視点を制御する「能動的視覚」の初統一ベンチマーク—Head/Hands 8タスクで視覚制御ポリシーを標準評価（GitHub）|
+
+---
+
 ## 2026-05-11 注目論文：5/8〜5/9公開分（Elastic Feature Fading・Multimodal Rec・LLM-Oriented IR・Position-Aware Drafting・Reasoning-Intensive Retrieval・EvoLM・Visual Latents・Bolek分子・LLM Visual Generation・UniCorrn・iWorld-Bench・OpenSeeker-v2・SOAR・VLA-GSE・When to Trust Imagination）
 
 ### 📚 cs.IR（情報検索）

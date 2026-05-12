@@ -9,6 +9,57 @@ title: Home
 
 ---
 
+## 2026-05-13 注目論文：5/11公開分（Pi-Serini・UniRank・Personalized Deep Research・ELF・WildClawBench・RubricEM・Multimodal Deep Search・LoKA・DECO・Dynamic Skill Lifecycle・Personal VCL・Power RL T2I・Pixal3D・Shepherd・Agent Memory Rate-Distortion・HarmoWAM・PriorVLA）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [Pi-Serini: Agentic SearchにBM25は十分か](papers/2026-05-13-pi-serini-agentic-search-lexical.md) | LLMが強力になればBM25でDeep Researchは成立するか？Jimmy Lin率いるWaterloo大がBM25+フロンティアLLMで実証—差は縮まるが限界も明確 |
+| [UniRank: 信頼度順デノイジングによるリストワイズ再ランキング](papers/2026-05-13-unirank-listwise-reranking-denoising.md) | AR（誤差伝播）とNAR（依存性無視）の欠点を統合するAmazon発の統一リランキングフレームワーク—信頼度スコアで高確信度から構築 |
+| [Personalized Deep Research: ユーザー中心知識発見](papers/2026-05-13-personalized-deep-research-framework.md) | 「one-size-fits-all」からの脱却—ユーザーの専門性・興味に応じて探索の深さと広さを適応調整するAmazon発のPersonalized Deep Research |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [ELF: 埋め込み空間でのLanguage Flow](papers/2026-05-13-elf-embedded-language-flows.md) | 連続拡散言語モデルは最小限の適応で機能する—フロー学習を埋め込み空間に適用し離散DLMの限界を克服する新パラダイム |
+| [WildClawBench: リアルワールド長期エージェント評価](papers/2026-05-13-wildclaw-bench-long-horizon-agent.md) | 合成サンドボックスを捨て実際のCLI環境で—60個の人間作成バイリンガル・マルチモーダルタスクで現行エージェントを評価 |
+| [RubricEM: 検証可能報酬を超えたMeta-RL（Meta AI）](papers/2026-05-13-rubricem-meta-rl-rubric-guided.md) | Deep Researchエージェントのような非検証可能報酬タスクにルーブリック分解でRLを適用—Meta AIが失敗軌跡の再利用まで実現 |
+| [Visual-Native Multimodal Deep Search: On-Policy進化](papers/2026-05-13-multimodal-deep-search-on-policy-evolution.md) | 検索中の中間視覚証拠を後続ツールで再消費できない問題を解決—視覚ネイティブ処理+On-Policy訓練データ進化でマルチモーダル検索を強化 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [LoKA: 大規模推薦モデルへのFP8適用（産業研究）](papers/2026-05-13-loka-fp8-recommendation-models.md) | LLMで普及したFP8を推薦モデルへ—数値感度・小行列GEMM・分散訓練という3大障壁を突破して訓練コストを大幅削減 |
+| [DECO: エッジデバイス向けSparse MoE（清華大）](papers/2026-05-13-deco-sparse-moe-end-side.md) | 同一総パラメータでDense相当の性能を達成—ストレージ・メモリアクセスのボトルネックを解消してエッジMoE展開を実現 |
+| [Dynamic Skill Lifecycle: エージェントRLのスキル管理](papers/2026-05-13-dynamic-skill-lifecycle-agentic-rl.md) | スキル蓄積か内在化かの2択を超えて—ライフサイクル管理で限られたパラメータ容量を最適活用するエージェント強化学習フレームワーク |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [Personal VCL: ウェアラブル向けLMM視覚個人化](papers/2026-05-13-personal-visual-context-learning-lmm.md) | スマートグラス時代のLMMへ—ユーザー固有の視覚コンテキストで個人化クエリを解決するPersonal Visual Context Learningを形式化 |
+| [Power RL: T2IモデルのGRPO後訓練改善](papers/2026-05-13-power-rl-text-to-image-grpo.md) | 報酬ハッキングの根本原因（正規化の誤較正）を特定—Super-Linear Advantage Shapingで真の性能向上を実現するT2I後訓練手法 |
+| [Pixal3D: ピクセルアライメント3D生成](papers/2026-05-13-pixal3d-pixel-aligned-3d-generation.md) | 画像→3D生成の忠実度ボトルネックを解決—2D-3D対応を明示的に保持するPixal3Dで入力画像へのピクセルレベル忠実度を達成 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [Shepherd: Meta Agentの形式化実行トレース（Meta AI）](papers/2026-05-13-shepherd-meta-agent-runtime.md) | Dockerより5倍高速なagent fork・95%+プロンプトキャッシュ再利用—Meta AIがメタエージェント動作をGit風トレースで形式化 |
+| [Agent Memory: レート歪み理論でメモリを最適化](papers/2026-05-13-agent-memory-rate-distortion.md) | 「記述」でなく「意思決定」を保存せよ—情報理論のレート歪みフレームワークで長期ホライゾンエージェントのメモリを最適圧縮 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [HarmoWAM: 汎化と精度を調和するWorld Action Models](papers/2026-05-13-harmowam-world-action-models-robot.md) | Imagine-then-ExecuteとJoint Modelingの根本トレードオフを実証・適応的調和メカニズムで解決—ロボットマニピュレーションの汎用基盤へ |
+| [PriorVLA: 事前知識を保ちながらVLAを適応](papers/2026-05-13-priorvla-prior-preserving-adaptation.md) | フルファインチューニングで崩れる事前学習知識を保護—凍結Prior Expert×学習可能Task Expertで汎化と精度を両立するVLA適応 |
+
+---
+
 ## 2026-05-12 注目論文：5/8公開分（InterLV-Search・DCGL・DiffRetriever・Generative Rec Limits・AutoTTS・Memory Curse・Fast BLT・CoCoReviewBench・MatryoshkaLoRA・GraphDPO・DR-ME・ADD-PINN・Proxy3D・SCOPE・HFRU・Memory Curse AI・Reason to Play・123D・TAVIS）
 
 ### 📚 cs.IR（情報検索）

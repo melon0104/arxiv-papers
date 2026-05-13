@@ -9,6 +9,55 @@ title: Home
 
 ---
 
+## 2026-05-14 注目論文：5/12公開分（ZipRerank・RecRM-Bench・AgentDisCo・PRISM・LongMemEval-V2・Task-Adaptive Embedding・ORBIT・Learning Fast&Slow・GRPO Sparse-to-Dense・SMoE Geometry・SenseNova-U1・VECA・RAW-D・GuidedVLA・SkillGraph）
+
+### 📚 cs.IR（情報検索）
+
+| 論文 | 一言 |
+|------|------|
+| [ZipRerank: 効率的なリストワイズマルチモーダルリランキング](papers/2026-05-14-ziprerank-listwise-multimodal-reranking.md) | VLMリランカーの計算コスト問題を2段階で解決—クエリ-画像軽量スコアリングで入力削減＋直接分類でデコード効率化、M-RAGの実用化を促進 |
+| [RecRM-Bench: エージェント推薦の多次元報酬モデリング評価](papers/2026-05-14-recrmb-multidimensional-reward-modeling-recsys.md) | CTR1次元では見えない中間能力（意図理解・指示追従）を評価—LLMエージェント×推薦の次世代評価基盤を構築 |
+| [AgentDisCo: Deep ResearchをCritic/Generator二エージェントで分離](papers/2026-05-14-agentdisco-deep-research-disentanglement.md) | 探索と活用を敵対的最適化で分離—Critic AgentがクエリをリファインしGenerator Agentが結果を更新する反復アーキテクチャ |
+
+### 🗣️ cs.CL（自然言語処理・LLM）
+
+| 論文 | 一言 |
+|------|------|
+| [PRISM: 長期エージェント向けPareto効率メモリ検索](papers/2026-05-14-prism-pareto-retrieval-structured-memory.md) | コンテキスト溢れを起こさず精度とコストを最適化—Intent-Aware構造化メモリでPareto効率的な長期エージェント記憶管理 |
+| [LongMemEval-V2: 「経験豊富な同僚」レベルのエージェント記憶評価](papers/2026-05-14-longmemeval-v2-agent-memory-benchmark.md) | 既存評価が見逃す環境固有知識の内在化を直接測定—専門ウェブ環境でのエージェント長期記憶ベンチマーク |
+| [Task-Adaptive Embedding: テスト時LLMガイドによる埋め込み改良](papers/2026-05-14-task-adaptive-embedding-refinement-llm.md) | ゼロショット検索・分類に埋め込みをリアルタイム適応—少数ドキュメントへのLLMフィードバックで一貫した性能向上を実証 |
+| [ORBIT: GenRetrievalで言語能力を保護するモデルマージ](papers/2026-05-14-orbit-genretrieval-foundational-capabilities.md) | LLMをGenerative Retrievalにファインチューニングすると急速な能力忘却が発生—パラメータ距離で忘却を予測しOrigin-Regulated Mergingで保護 |
+| [SkillGraph: 依存関係グラフで進化するエージェントスキルライブラリ](papers/2026-05-14-skillgraph-skill-augmented-rl-agents.md) | 孤立エントリーのスキルライブラリでは複合タスクの依存関係が捉えられない—進化するスキルグラフで構造化管理を実現 |
+
+### 🧠 cs.LG（機械学習）
+
+| 論文 | 一言 |
+|------|------|
+| [Learning Fast and Slow: LLMの継続的適応](papers/2026-05-14-learning-fast-slow-llm-continual-adaptation.md) | パラメータ更新（遅い学習）とICL（速い学習）の二律背反を認知科学の二重プロセス理論で統合—実運用LLMの継続的能力向上 |
+| [Sparse-to-Dense Reward: GRPOを超える報酬原則](papers/2026-05-14-beyond-grpo-sparse-dense-reward.md) | 探索にはGRPO、圧縮には蒸留—報酬密度に応じた分業原則で同じ検証データから大幅性能向上 |
+| [SMoE Geometry: ルーターとエキスパートの幾何的結合](papers/2026-05-14-routers-geometry-experts-smoe.md) | ルーター崩壊の根本原因をメカニスティックに解明—マッチしたルーター/エキスパートペアは同一方向の勾配を受け自然に整合した表現空間を形成 |
+
+### 👁️ cs.CV（コンピュータビジョン）
+
+| 論文 | 一言 |
+|------|------|
+| [SenseNova-U1: 理解と生成を統合するNEO-unifyアーキテクチャ](papers/2026-05-14-sensenova-u1-unified-multimodal.md) | 理解と生成の二分法というVLMの構造的限界を解消—NEO-unifyで両者を単一プロセスの相乗的視点として統合 |
+| [VECA: パッチ間インタラクション不要なスケーラブルViT](papers/2026-05-14-veca-elastic-attention-vision-transformer.md) | ViTの全対全注意が必要という仮定を覆す—直接パッチ間インタラクションなしでも豊かな視覚表現が学習可能 |
+
+### 🤖 cs.AI（AI全般）
+
+| 論文 | 一言 |
+|------|------|
+| [RAW-D: タスク非依存ワールドモデルでVLAを強化](papers/2026-05-14-raw-d-vla-task-agnostic-world-models.md) | タスク固有ファインチューニング依存を排除—転移可能な物理的事前知識をワールドモデルに組み込み未見タスクへのゼロショット対応を実現 |
+
+### 🦾 cs.RO（ロボティクス）
+
+| 論文 | 一言 |
+|------|------|
+| [GuidedVLA: プラグアンドプレイAction Attention Steeringで汎化](papers/2026-05-14-guidedvla-task-relevant-action-attention.md) | 視覚ショートカットへの過学習という根本問題を解決—タスク関連要因の明示的指定でVLMの強力な事前知識を汎化に活用 |
+
+---
+
 ## 2026-05-13 注目論文：5/11公開分（Pi-Serini・UniRank・Personalized Deep Research・ELF・WildClawBench・RubricEM・Multimodal Deep Search・LoKA・DECO・Dynamic Skill Lifecycle・Personal VCL・Power RL T2I・Pixal3D・Shepherd・Agent Memory Rate-Distortion・HarmoWAM・PriorVLA）
 
 ### 📚 cs.IR（情報検索）
